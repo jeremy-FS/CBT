@@ -1,0 +1,632 @@
+[
+  {
+    "id": 1,
+    "question": "Which statement best describes cybersecurity?",
+    "options": ["It is a framework for security policy development", "It is an ongoing effort to protect internet-connected systems and data from unauthorized use or harm", "It is the same as information technology", "It only focuses on protecting physical devices"],
+    "answer": "It is an ongoing effort to protect internet-connected systems and data from unauthorized use or harm"
+  },
+  {
+    "id": 2,
+    "question": "What are the three components of the CIA triad?",
+    "options": ["Confidentiality, Integrity, Availability", "Confidentiality, Integrity, Authentication", "Control, Integrity, Availability", "Confidentiality, Intrusion, Availability"],
+    "answer": "Confidentiality, Integrity, Availability"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following methods is primarily used to check the integrity of data?",
+    "options": ["Encryption", "Backup", "Hashes or checksums", "Authentication"],
+    "answer": "Hashes or checksums"
+  },
+  {
+    "id": 4,
+    "question": "What is another name for confidentiality of information?",
+    "options": ["Trustworthiness", "Privacy", "Accuracy", "Consistency"],
+    "answer": "Privacy"
+  },
+  {
+    "id": 5,
+    "question": "Which statement describes cyberwarfare?",
+    "options": ["An attack carried out by script kiddies", "The use of digital attacks by nation-states to damage or disrupt another nation", "A type of malware", "A firewall configuration"],
+    "answer": "The use of digital attacks by nation-states to damage or disrupt another nation"
+  },
+  {
+    "id": 6,
+    "question": "What is an example of personal data?",
+    "options": ["A public website URL", "Social security number", "Browser type", "Operating system version"],
+    "answer": "Social security number"
+  },
+  {
+    "id": 7,
+    "question": "Your neighbor says they have no online identity because they don’t use social media. Is this true?",
+    "options": ["Yes, because they don’t post anything", "No, because using the internet creates an online identity", "Only if they use email", "Yes, if they use incognito mode"],
+    "answer": "No, because using the internet creates an online identity"
+  },
+  {
+    "id": 8,
+    "question": "What is the main purpose of ensuring data integrity?",
+    "options": ["To make data available all the time", "To ensure data is unaltered during transit or storage", "To encrypt all data", "To speed up network performance"],
+    "answer": "To ensure data is unaltered during transit or storage"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is an example of a strong username practice?",
+    "options": ["Using your full name and birth year", "Using your company name and job title", "Using a combination that does not reveal personal information", "Using the same username for all accounts"],
+    "answer": "Using a combination that does not reveal personal information"
+  },
+  {
+    "id": 10,
+    "question": "What does availability in the CIA triad refer to?",
+    "options": ["Data is kept secret", "Data is accurate and unaltered", "Authorized users can access systems when needed", "Data is encrypted"],
+    "answer": "Authorized users can access systems when needed"
+  },
+  {
+    "id": 11,
+    "question": "A multi-phase, long-term, stealthy cyber operation against a specific target is known as:",
+    "options": ["Phishing", "Advanced Persistent Threat (APT)", "Denial of Service", "Malware injection"],
+    "answer": "Advanced Persistent Threat (APT)"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is considered a social engineering attack?",
+    "options": ["SQL injection", "Phishing email", "Buffer overflow", "DDoS attack"],
+    "answer": "Phishing email"
+  },
+  {
+    "id": 13,
+    "question": "What is the primary goal of a Denial of Service (DoS) attack?",
+    "options": ["Steal data", "Make a service unavailable", "Install malware", "Gain administrative access"],
+    "answer": "Make a service unavailable"
+  },
+  {
+    "id": 14,
+    "question": "What type of malware encrypts files and demands ransom?",
+    "options": ["Virus", "Trojan", "Ransomware", "Worm"],
+    "answer": "Ransomware"
+  },
+  {
+    "id": 15,
+    "question": "Which tool is designed to detect and alert on suspicious network activity?",
+    "options": ["Firewall", "Intrusion Detection System (IDS)", "Antivirus", "Router"],
+    "answer": "Intrusion Detection System (IDS)"
+  },
+  {
+    "id": 16,
+    "question": "A firewall primarily helps with:",
+    "options": ["Detecting viruses", "Controlling traffic between networks", "Encrypting emails", "Backing up data"],
+    "answer": "Controlling traffic between networks"
+  },
+  {
+    "id": 17,
+    "question": "What is two-factor authentication (2FA)?",
+    "options": ["Using two different passwords", "Something you know and something you have", "Logging in from two devices", "Using biometric and password"],
+    "answer": "Something you know and something you have"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is the strongest password practice?",
+    "options": ["Using 'password123'", "Reusing the same password everywhere", "Using a unique passphrase with numbers and symbols", "Using only your birthday"],
+    "answer": "Using a unique passphrase with numbers and symbols"
+  },
+  {
+    "id": 19,
+    "question": "What is the main purpose of encryption?",
+    "options": ["Speed up data transfer", "Ensure data confidentiality", "Reduce storage space", "Improve website loading time"],
+    "answer": "Ensure data confidentiality"
+  },
+  {
+    "id": 20,
+    "question": "Who typically performs ethical hacking?",
+    "options": ["Black hat hackers", "Script kiddies", "White hat or penetration testers", "Nation-state actors"],
+    "answer": "White hat or penetration testers"
+  },
+  {
+    "id": 21,
+    "question": "What is a common characteristic of a worm?",
+    "options": ["It needs human interaction to spread", "It replicates itself across networks automatically", "It hides inside legitimate programs", "It only affects mobile devices"],
+    "answer": "It replicates itself across networks automatically"
+  },
+  {
+    "id": 22,
+    "question": "Which attack exploits human psychology rather than technical vulnerabilities?",
+    "options": ["Zero-day exploit", "Social engineering", "Brute force attack", "SQL injection"],
+    "answer": "Social engineering"
+  },
+  {
+    "id": 23,
+    "question": "What does a VPN primarily provide?",
+    "options": ["Faster internet speed", "Secure encrypted tunnel for data", "Free access to all websites", "Virus removal"],
+    "answer": "Secure encrypted tunnel for data"
+  },
+  {
+    "id": 24,
+    "question": "Which of the following best protects against phishing?",
+    "options": ["Installing more RAM", "Being cautious with unsolicited emails and links", "Using only HTTP websites", "Disabling your firewall"],
+    "answer": "Being cautious with unsolicited emails and links"
+  },
+  {
+    "id": 25,
+    "question": "What is the purpose of a backup?",
+    "options": ["To improve performance", "To restore data after loss or corruption", "To encrypt files", "To block network traffic"],
+    "answer": "To restore data after loss or corruption"
+  },
+  {
+    "id": 26,
+    "question": "What is a zero-day vulnerability?",
+    "options": ["A vulnerability known for zero days", "A vulnerability unknown to the vendor and unpatched", "A vulnerability fixed immediately", "A vulnerability that only affects old systems"],
+    "answer": "A vulnerability unknown to the vendor and unpatched"
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is an example of multi-factor authentication?",
+    "options": ["Password only", "Password + security question", "Password + one-time code sent to phone", "Username only"],
+    "answer": "Password + one-time code sent to phone"
+  },
+  {
+    "id": 28,
+    "question": "What is the best way to protect your online identity?",
+    "options": ["Share personal details freely", "Use strong, unique passwords and enable 2FA", "Use the same password for all sites", "Disable all security features"],
+    "answer": "Use strong, unique passwords and enable 2FA"
+  },
+  {
+    "id": 29,
+    "question": "What does the term 'botnet' refer to?",
+    "options": ["A group of compromised devices controlled by an attacker", "A type of antivirus software", "A secure network protocol", "A legal hacking group"],
+    "answer": "A group of compromised devices controlled by an attacker"
+  },
+  {
+    "id": 30,
+    "question": "Which Cisco approach emphasizes people, processes, and technology in cybersecurity?",
+    "options": ["The Cisco Security Wheel", "Defense in Depth", "The Cisco Cybersecurity Framework", "All of the above principles"],
+    "answer": "Defense in Depth"
+  },
+  {
+    "id": 31,
+    "question": "What is the main risk of public Wi-Fi?",
+    "options": ["Slower speed", "Eavesdropping and man-in-the-middle attacks", "Higher data costs", "Automatic updates"],
+    "answer": "Eavesdropping and man-in-the-middle attacks"
+  },
+  {
+    "id": 32,
+    "question": "What is the purpose of an Intrusion Prevention System (IPS)?",
+    "options": ["Only detect threats", "Detect and actively block threats", "Only encrypt data", "Manage user passwords"],
+    "answer": "Detect and actively block threats"
+  },
+  {
+    "id": 33,
+    "question": "A Trojan horse malware typically:",
+    "options": ["Spreads via email attachments without user knowledge", "Appears legitimate but performs malicious actions", "Only steals banking information", "Cannot be removed"],
+    "answer": "Appears legitimate but performs malicious actions"
+  },
+  {
+    "id": 34,
+    "question": "Which of the following helps maintain data availability?",
+    "options": ["Strong encryption", "Redundancy and backups", "Hiding IP addresses", "Using weak passwords"],
+    "answer": "Redundancy and backups"
+  },
+  {
+    "id": 35,
+    "question": "What is spear phishing?",
+    "options": ["Mass email phishing", "Targeted phishing aimed at specific individuals", "Phishing via phone calls", "Phishing using fake websites only"],
+    "answer": "Targeted phishing aimed at specific individuals"
+  },
+  {
+    "id": 36,
+    "question": "What should you do if you receive a suspicious email asking for your password?",
+    "options": ["Reply immediately", "Click the link to verify", "Do not click links or provide information and report it", "Forward it to all contacts"],
+    "answer": "Do not click links or provide information and report it"
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is a physical security control?",
+    "options": ["Firewall", "Biometric door lock", "Antivirus software", "Encryption"],
+    "answer": "Biometric door lock"
+  },
+  {
+    "id": 38,
+    "question": "What is the purpose of a sandbox in cybersecurity?",
+    "options": ["To run untrusted programs safely", "To store backups", "To encrypt hard drives", "To block all network traffic"],
+    "answer": "To run untrusted programs safely"
+  },
+  {
+    "id": 39,
+    "question": "Which attack involves guessing passwords systematically?",
+    "options": ["Phishing", "Brute force attack", "SQL injection", "Cross-site scripting"],
+    "answer": "Brute force attack"
+  },
+  {
+    "id": 40,
+    "question": "What is the recommended way to dispose of old hard drives?",
+    "options": ["Throw them in the trash", "Properly wipe or physically destroy them", "Format them once", "Sell them online"],
+    "answer": "Properly wipe or physically destroy them"
+  },
+  {
+    "id": 41,
+    "question": "Which of the following firewalls hides or masquerades the private addresses of network hosts?",
+    "options": ["Reverse proxy firewall", "Host-based firewall", "Network address translation firewall", "Proxy server"],
+    "answer": "Network address translation firewall"
+  },
+  {
+    "id": 42,
+    "question": "Carrying out a multi-phase, long-term, stealthy and advanced operation against a specific target is often referred to as what?",
+    "options": ["Network sniffing", "Advanced persistent threat", "Social engineering", "Rainbow tables"],
+    "answer": "Advanced persistent threat"
+  },
+  {
+    "id": 43,
+    "question": "You are configuring access settings to require employees in your organization to authenticate first before accessing certain web pages. Which requirement of information security is addressed through this configuration?",
+    "options": ["Scalability", "Availability", "Integrity", "Confidentiality"],
+    "answer": "Confidentiality"
+  },
+  {
+    "id": 44,
+    "question": "An organization is experiencing overwhelming visits to a main web server. You are developing a plan to add a couple of more web servers for load balancing and redundancy. Which requirement of information security is addressed by implementing the plan?",
+    "options": ["Scalability", "Availability", "Integrity", "Confidentiality"],
+    "answer": "Availability"
+  },
+  {
+    "id": 45,
+    "question": "Improper management of physical access to a resource, such as a file, can lead to what type of security vulnerability?",
+    "options": ["Weaknesses in security practices", "Access control problems", "Race conditions", "Non-validated input"],
+    "answer": "Access control problems"
+  },
+  {
+    "id": 46,
+    "question": "A medical office employee sends emails to patients about their recent visits to the facility. What information would put the privacy of the patients at risk if it was included in the email?",
+    "options": ["Contact information", "Patient records", "Next appointment", "First and last name"],
+    "answer": "Patient records"
+  },
+  {
+    "id": 47,
+    "question": "What is the best way to avoid getting spyware on a machine?",
+    "options": ["Install the latest antivirus updates", "Install the latest web browser updates", "Install software only from trusted websites", "Install the latest operating system updates"],
+    "answer": "Install software only from trusted websites"
+  },
+  {
+    "id": 48,
+    "question": "What is the main function of the Cisco Security Incident Response Team?",
+    "options": ["To design next generation routers and switches that are less prone to cyber attacks", "To design polymorphic malware", "To ensure company, system and data preservation", "To provide standards for new encryption techniques"],
+    "answer": "To ensure company, system and data preservation"
+  },
+  {
+    "id": 49,
+    "question": "Which of the following firewalls are placed in front of web services to protect, hide, offload and distribute access to web servers?",
+    "options": ["Proxy server", "Transport layer firewall", "Reverse proxy server", "Network layer firewall"],
+    "answer": "Reverse proxy server"
+  },
+  {
+    "id": 50,
+    "question": "One of your colleagues has lost her identification badge. She is in a hurry to get to a meeting and does not have time to visit Human Resources to get a temporary badge. You lend her your identification badge until she can obtain a replacement. Is this behavior ethical or unethical?",
+    "options": ["Ethical", "Unethical", "None of the above", "All of the above"],
+    "answer": "Unethical"
+  },
+  {
+    "id": 51,
+    "question": "What is the main purpose of cyberwarfare?",
+    "options": ["To develop advanced network devices", "To gain advantage over adversaries", "To protect cloud-based data centers", "To simulate possible war scenarios among nations"],
+    "answer": "To gain advantage over adversaries"
+  },
+  {
+    "id": 52,
+    "question": "What vulnerability occurs when the output of an event depends on ordered or timed outputs?",
+    "options": ["Weaknesses in security practices", "Race conditions", "Buffer overflow", "Non-validated input"],
+    "answer": "Race conditions"
+  },
+  {
+    "id": 53,
+    "question": "If developers attempt to create their own security algorithms, it will likely introduce what type of vulnerabilities?",
+    "options": ["Buffer overflow", "Weaknesses in security practices", "Race conditions", "Access control problems"],
+    "answer": "Weaknesses in security practices"
+  },
+  {
+    "id": 54,
+    "question": "Which technology creates a security token that allows a user to log in to a desired web application using credentials from a social media website?",
+    "options": ["Open authorization", "VPN service", "Password manager", "In-private browsing mode3"],
+    "answer": "Open authorization"
+  },
+  {
+    "id": 55,
+    "question": "Which of the following security implementations use biometrics?",
+    "options": ["Phone", "Credit card", "Voice recognition", "Fob"],
+    "answer": "Voice recognition"
+  },
+  {
+    "id": 56,
+    "question": "Which of the following firewalls filters traffic based on source and destination IP addresses?",
+    "options": ["Proxy server", "Network layer firewall", "Application layer firewall", "Transport layer firewall"],
+    "answer": "Network layer firewall"
+  },
+  {
+    "id": 57,
+    "question": "During a meeting with the Marketing department, a representative from IT discusses features of an upcoming product that will be released next year. Is this employee’s behavior ethical or unethical?",
+    "options": ["Unethical", "Ethical", "All of the above", "None of the above"],
+    "answer": "Something you know and something you have"
+  },
+  {
+    "id": 58,
+    "question": "Cybersecurity certifications are a way for you to verify your skills and knowledge and can also boost your career.’ Is this statement true or false?",
+    "options": ["True", "False", "Maybe", "Not sure"],
+    "answer": "True"
+  },
+  {
+    "id": 59,
+    "question": "When describing malware, what is a difference between a virus and a worm?",
+    "options": ["A virus focuses on gaining privileged access to a device, whereas a worm does not.", "A virus replicates itself by attaching to another file, whereas a worm can replicate itself independently.", "A virus can be used to launch a DoS attack (but not a DDoS), but a worm can be used to launch both DoS and DDoS attacks.", "A virus can be used to deliver advertisements without user consent, whereas a worm cannot."],
+    "answer": "A virus replicates itself by attaching to another file, whereas a worm can replicate itself independently."
+  },
+  {
+    "id": 60,
+    "question": "An organization’s IT department reports that their web server is receiving an abnormally high number of web page requests from different locations simultaneously. What type of security attack is occurring?",
+    "options": ["Phishing", "Social engineering", "DDoS", "Nation-state actors"],
+    "answer": "DDoS"
+  },
+  {
+    "id": 61,
+    "question": "What is a common characteristic of a worm?",
+    "options": ["It needs human interaction to spread", "It replicates itself across networks automatically", "It hides inside legitimate programs", "It only affects mobile devices"],
+    "answer": "It replicates itself across networks automatically"
+  },
+  {
+    "id": 62,
+    "question": "What action will an IDS take upon detection of malicious traffic??",
+    "options": ["Block or deny all traffic", "Create a network alert and log the detection", "Drop only packets identified as malicious", "Reroute malicious traffic to a honeypot"],
+    "answer": "Create a network alert and log the detection"
+  },
+  {
+    "id": 63,
+    "question": "Which of the following statements best describes cybersecurity?",
+    "options": ["It is the name of a comprehensive security application for end users to protect workstations from being attacked", "It is an ongoing effort to protect Internet-connected systems and the data associated with those systems from unauthorized use or harm", "It is a framework for security policy development", "It is a standard-based model for developing firewall technologies to fight against cybercrime"],
+    "answer": "It is an ongoing effort to protect Internet-connected systems and the data associated with those systems from unauthorized use or harm"
+  },
+  {
+    "id": 64,
+    "question": "After a data breach, it’s important to educate employees, partners and customers on how to prevent future breaches.’ Is this statement true or false?",
+    "options": ["True", "False", "Not really", "Not sure"],
+    "answer": "True"
+  },
+  {
+    "id": 65,
+    "question": "What name is given to a group of bots, connected through the Internet, with the ability to be controlled by a malicious individual or group?",
+    "options": ["Hacker network", "Crime syndicate", "Zombie", "Botnet"],
+    "answer": "Botnet"
+  },
+  {
+    "id": 66,
+    "question": "What tool is used to lure an attacker so that an administrator can capture, log and analyze the behavior of the attack?",
+    "options": ["NetFlow", "Honeypot", "IDS", "Nmap"],
+    "answer": "Honeypot"
+  },
+  {
+    "id": 67,
+    "question": "What is the purpose of a backdoor?",
+    "options": ["To enable software vendors to update software", "For government access", "To gain unauthorized access to a system without normal authentication procedures", "To allow developers to debug software"],
+    "answer": "To gain unauthorized access to a system without normal authentication procedures"
+  },
+  {
+    "id": 68,
+    "question": "Which stage of the kill chain used by attackers focuses on the identification and selection of targets?",
+    "options": ["delivery", "reconnaissance", "exploitation", "weaponization"],
+    "answer": "reconnaissance"
+  },
+  {
+    "id": 69,
+    "question": "Which term describes the private browser mode for Google Chrome?",
+    "options": ["Incognito", "Private tab", "Private browsing", "InPrivate"],
+    "answer": "Incognito"
+  },
+  {
+    "id": 70,
+    "question": "A web server administrator is configuring access settings to require users to authenticate first before accessing certain web pages. Which requirement of information security is addressed through the configuration?",
+    "options": ["availability", "confidentiality", "integrity", "scalability"],
+    "answer": "confidentiality"
+  },
+  {
+    "id": 71,
+    "question": "You have stored your data on a local hard disk. Which method would secure this data from unauthorized access?",
+    "options": ["Two factor authentication", "Data encryption", "Duplication of the hard drive", "Deletion of sensitive files"],
+    "answer": "Data encryption"
+  },
+  {
+    "id": 72,
+    "question": "How can you keep your personal browsing history hidden from other users on a shared computer?",
+    "options": ["Use only an encrypted connection to access websites", "Operate the web browser in private browser mode", "Reboot the computer after closing the web browser", "Move any downloaded files to the recycle bin"],
+    "answer": "Operate the web browser in private browser mode"
+  },
+  {
+    "id": 73,
+    "question": "Which type of technology can prevent malicious software from monitoring user activities, collecting personal information and producing unwanted pop-up ads on a user computer?",
+    "options": ["Password manager", "Antispyware", "Antispyware", "Firewall"],
+    "answer": "Antispyware"
+  },
+  {
+    "id": 74,
+    "question": "Why do IoT devices pose a greater security risk than other computing devices on a network?",
+    "options": ["IoT devices require unencrypted wireless connections", "Most IoT devices do not receive frequent software updates", "Most IoT devices do not require an Internet connection and are unable to receive new updates", "IoT devices cannot function on an isolated network with only an Internet connection"],
+    "answer": "Most IoT devices do not receive frequent software updates"
+  },
+  {
+    "id": 75,
+    "question": "What should you do in order to make sure that people you live with do not have access to your secure data?",
+    "options": ["Turn on a firewall", "Set up password protection", "Increase the privacy settings on your browser", "Install antivirus software"],
+    "answer": "Set up password protection"
+  },
+  {
+    "id": 76,
+    "question": "Which of the following is an example of two factor authentication?",
+    "options": ["Your answer to a general knowledge question and your password", "Your password and your username", "Your fingerprint and your password", "Your account number and your name"],
+    "answer": "Your fingerprint and your password"
+  },
+  {
+    "id": 77,
+    "question": "You are having difficulty remembering passwords for all of your online accounts. What should you do?",
+    "options": ["Write the passwords down and keep them out of sight", "Share the passwords with a network administrator or computer technician", "Save the passwords in a centralized password manager program", "Create a single strong password to be used across all online accounts"],
+    "answer": "Save the passwords in a centralized password manager program"
+  },
+  {
+    "id": 78,
+    "question": "Which of the following is a requirement of a strong password?",
+    "options": ["Use special characters such as ! @ or $", "Use at least six characters", "Use a dictionary word or a common statement that you’ll remember", "Inclution of space character"],
+    "answer": "Use special characters such as ! @ or $"
+  },
+  {
+    "id": 79,
+    "question": "Which of the following passwords would most likely take the longest for an attacker to guess or break?",
+    "options": ["drninjaphd", "super3secret2password1", "mk$$cittykat104#", "10characters"],
+    "answer": "mk$$cittykat104#"
+  },
+  {
+    "id": 80,
+    "question": "How can you prevent others from eavesdropping on network traffic when operating a PC on a public Wi-Fi hotspot?",
+    "options": ["Create unique and strong passwords", "Connect with a VPN service", "Use WPA2 encryption", "Disable Bluetooth"],
+    "answer": "Connect with a VPN service"
+  },
+  {
+    "id": 81,
+    "question": "Which technology removes direct equipment and maintenance costs from the user for data backups?",
+    "options": ["A cloud service", "Network attached storage", "An external hard drive", "A tape"],
+    "answer": "A cloud service"
+  },
+  {
+    "id": 82,
+    "question": "What is the only way of ensuring that deleted files on your computer are irrecoverable?",
+    "options": ["Emptying your computer’s recycle bin", "Physically destroying your computer’s hard drive", "Using a software program such as SDelete or Secure Empty Trash", "Using special tools for deletion"],
+    "answer": "Physically destroying your computer’s hard drive"
+  },
+  {
+    "id": 83,
+    "question": "Which of the following examples illustrates how malware might be concealed?",
+    "options": ["A botnet of zombies carry personal information back to the hacker", "A hacker uses techniques to improve the ranking of a website so that users are redirected to a malicious site", "An attack is launched against the public website of an online retailer with the objective of blocking its response to visitors", "An email is sent to the employees of an organization with an attachment that looks like an antivirus update, but the attachment actually consists of spyware"],
+    "answer": "An email is sent to the employees of an organization with an attachment that looks like an antivirus update, but the attachment actually consists of spyware"
+  },
+  {
+    "id": 84,
+    "question": "What is the purpose of a rootkit?",
+    "options": ["To masquerade as a legitimate program", "To deliver advertisements without user consent", "To replicate itself independently of any other programs", "To gain privileged access to a device while concealing itself"],
+    "answer": "To gain privileged access to a device while concealing itself"
+  },
+  {
+    "id": 85,
+    "question": "What type of attack allows an attacker to use a brute-force approach?",
+    "options": ["Denial of service", "Packet sniffing", "Social engineering", "Password cracking"],
+    "answer": "Password cracking"
+  },
+  {
+    "id": 86,
+    "question": "What do you call a program written to take advantage of a known security vulnerability?",
+    "options": ["An exploit", "Virus", "A firewall", "Malware"],
+    "answer": "An exploit"
+  },
+  {
+    "id": 87,
+    "question": "Which of the following security vulnerabilities could result in the receipt of malicious information that could force a program to behave in an unintended way?",
+    "options": ["Buffer overflow", "Non-validated input", "Race condition", "Access control problem"],
+    "answer": "Non-validated input"
+  },
+  {
+    "id": 88,
+    "question": "A set of changes done to any program or application with the aim of updating, fixing or improving it is often referred to as what?",
+    "options": ["A hack", "A patch", "An install", "A fix"],
+    "answer": "A patch"
+  },
+  {
+    "id": 89,
+    "question": "Which of the following should be carried out to address known software vulnerabilities of a specific application?",
+    "options": ["Change the hardware", "Change the software", "Install a security patch", "Remove the application"],
+    "answer": "Install a security patch"
+  },
+  {
+    "id": 90,
+    "question": "Securing physical access to target equipment is an organization’s best defense against a cyber attack.’ Is this true or false?",
+    "options": ["No", "True", "False", "None of the above"],
+    "answer": "True"
+  },
+  {
+    "id": 100,
+    "question": "What does 'least privilege' principle mean?",
+    "options": ["Give users maximum access", "Give users only the access they need", "Give all users admin rights", "Never change permissions"],
+    "answer": "Give users only the access they need"
+  },
+  {
+    "id": 101,
+    "question": "Which of the following is a good cybersecurity habit?",
+    "options": ["Keeping software and OS updated", "Ignoring update notifications", "Using public Wi-Fi without VPN", "Clicking unknown links"],
+    "answer": "Keeping software and OS updated"
+  },
+  {
+    "id": 102,
+    "question": "What is the role of antivirus software?",
+    "options": ["Only speed up the computer", "Detect and remove known malware", "Replace the need for a firewall", "Manage email"],
+    "answer": "Detect and remove known malware"
+  },
+  {
+    "id": 103,
+    "question": "What is a common sign of a compromised account?",
+    "options": ["Faster internet", "Unusual login locations or activities", "Brighter screen", "Automatic updates"],
+    "answer": "Unusual login locations or activities"
+  },
+  {
+    "id": 104,
+    "question": "What is the benefit of using HTTPS websites?",
+    "options": ["Faster loading", "Encrypted communication between browser and server", "Free internet access", "Automatic virus scanning"],
+    "answer": "Encrypted communication between browser and server"
+  },
+  {
+    "id": 105,
+    "question": "Which type of hacker works to improve security legally?",
+    "options": ["Black hat", "White hat", "Grey hat", "Script kiddie"],
+    "answer": "White hat"
+  },
+  {
+    "id": 106,
+    "question": "What is the best practice for handling sensitive information?",
+    "options": ["Share it on social media", "Encrypt and limit access", "Store it in plain text", "Send via unsecured email"],
+    "answer": "Encrypt and limit access"
+  },
+  {
+    "id": 107,
+    "question": "What does a man-in-the-middle attack involve?",
+    "options": ["Intercepting communication between two parties", "Attacking only one computer", "Stealing physical devices", "Crashing servers"],
+    "answer": "Intercepting communication between two parties"
+  },
+  {
+    "id": 108,
+    "question": "Why is cybersecurity important for organizations?",
+    "options": ["Only to comply with laws", "To protect reputation, data, and operations from financial and operational loss", "Only for large companies", "To make websites look better"],
+    "answer": "To protect reputation, data, and operations from financial and operational loss"
+  },
+  {
+    "id": 109,
+    "question": "What is one of the best ways to stay safe online according to Cisco?",
+    "options": ["Never use the internet", "Be vigilant, use strong security practices, and stay informed", "Only use company computers", "Disable all security software"],
+    "answer": "Be vigilant, use strong security practices, and stay informed"
+  },
+  {
+    "id": 110,
+    "question": "Today, there are single security appliances that will solve all the network security needs of an organization.’ Is this statement true or false?",
+    "options": ["True", "False"],
+    "answer": "Encrypted communication between browser and server"
+  },
+  {
+    "id": 111,
+    "question": "What name is given to a device that controls or filters traffic going in or out of the network?",
+    "options": ["Router", "VPN", "Firewall", "IPS"],
+    "answer": "Firewall"
+  },
+  {
+    "id": 112,
+    "question": "What is the last stage of a pen test?",
+    "options": ["Scanning", "Analysis and reporting", "Gathering target information", "Maintaining access"],
+    "answer": "Analysis and reporting"
+  },
+  {
+    "id": 113,
+    "question": "‘With careful planning and consideration, some risks can be completely eliminated.’ Is this statement true or false?",
+    "options": ["False", "True", "I'm not sure", "Maybe"],
+    "answer": "False"
+  },
+  {
+    "id": 114,
+    "question": "What is a security playbook?",
+    "options": ["A collection of security alerts, logs and historical data from the network", "A collection of repeatable queries or reports that outline a standardized process for incident detection and response", "A step-by-step guide on how to carry out IT-related procedures", "An algorithm to follow in sight of security breach"],
+    "answer": "A collection of repeatable queries or reports that outline a standardized process for incident detection and response"
+  }
+]

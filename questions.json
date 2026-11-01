@@ -1,0 +1,902 @@
+[
+   {
+      "id": 1,
+      "question": "Correspondence or material graded according to its sensitivity or importance is referred to as ________?",
+      "options": ["Unclassified correspondence", "Classified correspondence", "Civil service rule correspondence", "Managed correspondence"],
+      "answer": "Classified correspondence"
+    },
+    {
+      "id": 2,
+      "question": "The main objective of Nigeria Vision 2020 was:",
+      "options": ["To become one of the largest economies in the world", "Total eradication of crime and fraud", "To be the highest oil-producing nation in the world", "To restore 100% stability in the Energy and Power sector"],
+      "answer": "To become one of the largest economies in the world"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is not a source of information in the Civil Service?",
+      "options": ["The public service rules", "Circulars and curricular letter", "Government white paper", "Newspapers and blogs"],
+      "answer": "Newspapers and blogs"
+    },
+    {
+      "id": 4,
+      "question": "The military coup of July 25, 1975, which toppled General Yakubu Gowon, took place when he was attending which event?",
+      "options": ["OAU Summit in Kampala", "UN General Assembly in New York", "Assembly of Heads of States of ECOWAS in Monrovia", "The Olympic Games"],
+      "answer": "OAU Summit in Kampala"
+    },
+    {
+      "id": 5,
+      "question": "If the word PINT is written under the word SAFE, the word THUD is written under the word PINT, and the word HOPE is written above the word SAFE, what word can be read diagonally?",
+      "options": ["TREND", "FAST", "HAND", "SPIN"],
+      "answer": "HAND"
+    },
+    {
+      "id": 6,
+      "question": "Who appoints the Head of Service in Nigeria?",
+      "options": ["Chairman Civil Service Commission", "Ministry of Establishment", "Governor", "President"],
+      "answer": "President"
+    },
+    {
+      "id": 7,
+      "question": "What Grade Level qualifies an officer for two domestic staff?",
+      "options": ["15", "14", "16", "17"],
+      "answer": "16"
+    },
+    {
+      "id": 8,
+      "question": "A body established and entrusted with power and authority to direct the affairs of the state is called?",
+      "options": ["Federal executive council", "State legislative council", "Trusteeship", "Government"],
+      "answer": "Government"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following concepts can guarantee adherence to the rule of law?",
+      "options": ["Political immunity", "Political gerrymandering", "National Development", "Representative democracy"],
+      "answer": "Representative democracy"
+    },
+    {
+      "id": 10,
+      "question": "The centenary anniversary of the amalgamation of Northern and Southern Nigeria was celebrated in:",
+      "options": ["2010", "2014", "2020", "2007"],
+      "answer": "2014"
+    },
+    {
+      "id": 11,
+      "question": "The appointment into the Federal Civil Service for Grade Levels 15 to 17 is handled by:",
+      "options": ["Junior Staff Committee", "Federal Civil Service Commission", "Ministry of Establishment", "State Civil Service Commission"],
+      "answer": "Federal Civil Service Commission"
+    },
+    {
+      "id": 12,
+      "question": "What is the minimum number of senior officers required for the Junior Staff Committee at the Headquarters?",
+      "options": ["5", "7", "9", "11"],
+      "answer": "7"
+    },
+    {
+      "id": 13,
+      "question": "The quorum for the Junior Staff Committee is formed with how many members present, including the chairman?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": 14,
+      "question": "Who chairs the Junior Staff Committee at the Headquarters?",
+      "options": ["Director, Personnel Management", "Permanent Secretary", "Civil Service Commissioner", "Head of Service"],
+      "answer": "Director, Personnel Management"
+    },
+    {
+      "id": 15,
+      "question": "What is the role of the Federal Civil Service Commission representative in Senior Staff Committee meetings?",
+      "options": ["Chairman", "Secretary", "Observer", "Voting Member"],
+      "answer": "Observer"
+    },
+    {
+      "id": 16,
+      "question": "An officer can be considered for confirmation after satisfying which condition?",
+      "options": ["Friendly with co-workers", "Punctual and diligent at work", "Spending a minimum of 2 years without blemish", "Working hard"],
+      "answer": "Spending a minimum of 2 years without blemish"
+    },
+    {
+      "id": 17,
+      "question": "The 1999 Constitution states that sovereignty resides in the:",
+      "options": ["Command in charge of the armed forces", "President", "People", "National Assembly"],
+      "answer": "People"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following political parties did not participate in the 1979 General Elections in Nigeria?",
+      "options": ["Unity Party of Nigeria", "National Party of Nigeria", "Social Democratic Party", "Great Nigeria People's Party"],
+      "answer": "Social Democratic Party"
+    },
+    {
+      "id": 19,
+      "question": "Alhaji Shehu Shagari was sworn in as President in 1979 by:",
+      "options": ["Justice Fatai Williams", "Justice Adetokunbo Ademola", "Justice Salihu Modibbo Alfa Belgore", "Justice Isa Mohammed"],
+      "answer": "Justice Adetokunbo Ademola"
+    },
+    {
+      "id": 20,
+      "question": "Into how many local government areas is Nigeria officially delineated?",
+      "options": ["774", "776", "760", "800"],
+      "answer": "774"
+    },
+    {
+      "id": 21,
+      "question": "What is office ergonomics in the context of the Civil Service?",
+      "options": ["Fitting the workstation to the person", "Fitting the person to the workstation", "Arranging office furniture", "Managing office supplies"],
+      "answer": "Fitting the workstation to the person"
+    },
+    {
+      "id": 22,
+      "question": "The Federal Civil Service Commission approves promotions for which grade levels?",
+      "options": ["01–06", "07–10", "15–17", "12–14"],
+      "answer": "15–17"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is a key item found in the seniority list of staff nominal roll?",
+      "options": ["Favorite color", "Rank and Salary Grade Level", "Marital status", "Hobbies"],
+      "answer": "Rank and Salary Grade Level"
+    },
+    {
+      "id": 24,
+      "question": "The Teachers Registration Council of Nigeria (TRCN) Professional Qualifying Examination is mandatory for:",
+      "options": ["Civil servants in administrative roles", "Teachers seeking certification", "Engineers in public service", "Medical professionals"],
+      "answer": "Teachers seeking certification"
+    },
+    {
+      "id": 25,
+      "question": "What is the purpose of the Willink’s Commission established in 1957?",
+      "options": ["To approve Nigeria’s independence", "To allay the fears of minorities", "To amalgamate Northern and Southern Nigeria", "To make Lagos a British colony"],
+      "answer": "To allay the fears of minorities"
+    },
+    {
+      "id": 26,
+      "question": "How many members are required to form a quorum in the Senior Staff Committee with a Civil Service Commissioner present?",
+      "options": ["Simple majority", "Two-thirds majority", "Five members", "Seven members"],
+      "answer": "Simple majority"
+    },
+    {
+      "id": 27,
+      "question": "Which body conducts annual entry competitions for Grade Levels 07–10?",
+      "options": ["Junior Staff Committee", "Federal Civil Service Commission", "Ministry of Establishment", "State Government"],
+      "answer": "Federal Civil Service Commission"
+    },
+    {
+      "id": 28,
+      "question": "What is the maximum number of senior officers in the Junior Staff Committee at the Headquarters?",
+      "options": ["7", "8", "9", "10"],
+      "answer": "9"
+    },
+    {
+      "id": 29,
+      "question": "The Nigerian Civil Service exams often include questions on:",
+      "options": ["Cooking techniques", "Numerical reasoning", "Sports history", "Fashion trends"],
+      "answer": "Numerical reasoning"
+    },
+    {
+      "id": 30,
+      "question": "What is the time duration for the Nigeria Civil Service exam, typically comprising 100 questions?",
+      "options": ["30 minutes", "1 hour", "2 hours", "90 minutes"],
+      "answer": "1 hour"
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is a topic covered in the TRCN Professional Qualifying Examination?",
+      "options": ["History of Education", "Automotive Engineering", "Agricultural Science", "Marketing Strategies"],
+      "answer": "History of Education"
+    },
+    {
+      "id": 32,
+      "question": "The Public Service Rules cover topics such as:",
+      "options": ["Retirement, leave, and allowances", "Social media policies", "Office decoration", "Employee hobbies"],
+      "answer": "Retirement, leave, and allowances"
+    },
+    {
+      "id": 33,
+      "question": "Who is the final approving authority for appointments of Grade Levels 01–06?",
+      "options": ["Head of Service", "Permanent Secretary", "Federal Civil Service Commission", "State Governor"],
+      "answer": "Permanent Secretary"
+    },
+    {
+      "id": 34,
+      "question": "The Nigerian Civil Service exam format typically includes:",
+      "options": ["English, current affairs, and quantitative reasoning", "Physics and chemistry", "Literature and arts", "Music theory"],
+      "answer": "English, current affairs, and quantitative reasoning"
+    },
+    {
+      "id": 35,
+      "question": "What is the role of the Extra Ministerial Department in promotions for Grade Levels 15–17?",
+      "options": ["Final approval", "Recommendation", "Examination conduction", "Interview scheduling"],
+      "answer": "Recommendation"
+    },
+    {
+      "id": 36,
+      "question": "The first military coup in Nigeria occurred in:",
+      "options": ["1960", "1966", "1975", "1983"],
+      "answer": "1966"
+    },
+    {
+      "id": 37,
+      "question": "Who was the first civilian President of Nigeria?",
+      "options": ["Nnamdi Azikiwe", "Shehu Shagari", "Olusegun Obasanjo", "Ahmadu Bello"],
+      "answer": "Shehu Shagari"
+    },
+    {
+      "id": 38,
+      "question": "The Nigerian Constitution was last amended in:",
+      "options": ["1999", "2010", "2011", "2020"],
+      "answer": "2011"
+    },
+    {
+      "id": 39,
+      "question": "What is the minimum grade level for officers attending Junior Staff Committee meetings as observers in a state ministry?",
+      "options": ["6", "7", "8", "9"],
+      "answer": "8"
+    },
+    {
+      "id": 40,
+      "question": "Which of the following is a misconduct under Public Service Rules?",
+      "options": ["Punctuality", "Examination malpractice", "Teamwork", "Innovation"],
+      "answer": "Examination malpractice"
+    },
+    {
+      "id": 41,
+      "question": "The Nigerian Civil Service is structured into how many geopolitical zones?",
+      "options": ["4", "5", "6", "7"],
+      "answer": "6"
+    },
+    {
+      "id": 42,
+      "question": "What is the retirement age for civil servants in Nigeria?",
+      "options": ["55", "60", "65", "70"],
+      "answer": "60"
+    },
+    {
+      "id": 43,
+      "question": "The Head of Service has the power to sack a worker:",
+      "options": ["True", "False", "Circumstantial", "Only with approval"],
+      "answer": "False"
+    },
+    {
+      "id": 44,
+      "question": "Which body is responsible for disciplinary matters in the Federal Civil Service?",
+      "options": ["Federal Civil Service Commission", "Ministry of Labour", "Head of Service", "National Assembly"],
+      "answer": "Federal Civil Service Commission"
+    },
+    {
+      "id": 45,
+      "question": "The Nigerian Civil Service was established in:",
+      "options": ["1914", "1960", "1954", "1975"],
+      "answer": "1954"
+    },
+    {
+      "id": 46,
+      "question": "What is the minimum period of service before an officer can be considered for promotion?",
+      "options": ["1 year", "2 years", "3 years", "4 years"],
+      "answer": "2 years"
+    },
+    {
+      "id": 47,
+      "question": "The acronym ASCON stands for:",
+      "options": ["Administrative Staff College of Nigeria", "Association of Civil Service Officers of Nigeria", "African Service Commission of Nigeria", "Administrative Service Council of Nigeria"],
+      "answer": "Administrative Staff College of Nigeria"
+    },
+    {
+      "id": 48,
+      "question": "Which of the following is a core value of the Nigerian Civil Service?",
+      "options": ["Nepotism", "Meritocracy", "Favoritism", "Partisanship"],
+      "answer": "Meritocracy"
+    },
+    {
+      "id": 49,
+      "question": "The Nigerian Independence Constitution was enacted in:",
+      "options": ["1957", "1960", "1963", "1979"],
+      "answer": "1960"
+    },
+    {
+      "id": 50,
+      "question": "What is the primary role of the Office of the Head of Service of the Federation?",
+      "options": ["Legislation", "Policy implementation", "Judicial oversight", "Financial auditing"],
+      "answer": "Policy implementation"
+    },
+    {
+      "id": 51,
+      "question": "The 3 leading political parties in the 2023 Nigerian general election were:",
+      "options": ["APC, NNPC, LP", "PDP, LP, NNPP", "APGA, PDP, APC", "APC, PDP, LP"],
+      "answer": "APC, PDP, LP"
+    },
+    {
+      "id": 52,
+      "question": "A mountain trail is 12.1 miles long. If a hiker walks at 1.96 miles per hour, approximately how many hours will it take to walk the entire trail?",
+      "options": ["5 hours", "6 hours", "7 hours", "8 hours"],
+      "answer": "6 hours"
+    },
+    {
+      "id": 53,
+      "question": "If 25% of men and 6% of women prefer salad, what is the difference in preference percentage?",
+      "options": ["17%", "19%", "21%", "23%"],
+      "answer": "19%"
+    },
+    {
+      "id": 54,
+      "question": "Which Nigerian state has the highest number of local government areas?",
+      "options": ["Kano", "Lagos", "Kaduna", "Oyo"],
+      "answer": "Kano"
+    },
+    {
+      "id": 55,
+      "question": "The Public Service Rules prohibit civil servants from:",
+      "options": ["Taking annual leave", "Engaging in political activities", "Attending training", "Joining professional bodies"],
+      "answer": "Engaging in political activities"
+    },
+    {
+      "id": 56,
+      "question": "Who was the first military Head of State in Nigeria?",
+      "options": ["Yakubu Gowon", "Aguiyi Ironsi", "Murtala Mohammed", "Olusegun Obasanjo"],
+      "answer": "Aguiyi Ironsi"
+    },
+    {
+      "id": 57,
+      "question": "What is the official currency of Nigeria?",
+      "options": ["Cedi", "Naira", "Rand", "Kwacha"],
+      "answer": "Naira"
+    },
+    {
+      "id": 58,
+      "question": "The Nigerian Civil Service is guided by which document for promotions and discipline?",
+      "options": ["Constitution", "Public Service Rules", "Labour Act", "Civil Service Handbook"],
+      "answer": "Public Service Rules"
+    },
+    {
+      "id": 59,
+      "question": "What is the maximum leave period allowed for a civil servant annually?",
+      "options": ["21 days", "28 days", "30 days", "42 days"],
+      "answer": "28 days"
+    },
+    {
+      "id": 60,
+      "question": "The acronym OHCSF stands for:",
+      "options": ["Office of the Head of Civil Service of the Federation", "Organisation of Higher Civil Service Functions", "Office of Human Capital and Service Federation", "Operational Headquarters for Civil Service"],
+      "answer": "Office of the Head of Civil Service of the Federation"
+    },
+    {
+      "id": 61,
+      "question": "Which of the following is a function of the Federal Civil Service Commission?",
+      "options": ["Budget approval", "Appointment and promotion", "Legislation drafting", "Foreign policy"],
+      "answer": "Appointment and promotion"
+    },
+    {
+      "id": 62,
+      "question": "The Nigerian Civil Service was reformed in which year to improve efficiency?",
+      "options": ["1988", "1999", "2008", "2015"],
+      "answer": "1988"
+    },
+    {
+      "id": 63,
+      "question": "What is the minimum qualification for entry into Grade Level 08 in the Civil Service?",
+      "options": ["SSCE", "OND", "HND", "Bachelor’s Degree"],
+      "answer": "Bachelor’s Degree"
+    },
+    {
+      "id": 64,
+      "question": "The principle of federal character in Nigeria ensures:",
+      "options": ["Equal representation of states", "Military dominance", "Party loyalty", "Economic superiority"],
+      "answer": "Equal representation of states"
+    },
+    {
+      "id": 65,
+      "question": "Which Nigerian leader introduced the Structural Adjustment Programme (SAP)?",
+      "options": ["Shehu Shagari", "Ibrahim Babangida", "Sani Abacha", "Olusegun Obasanjo"],
+      "answer": "Ibrahim Babangida"
+    },
+    {
+      "id": 66,
+      "question": "What is the maximum tenure for the Head of Service in Nigeria?",
+      "options": ["4 years", "5 years", "6 years", "8 years"],
+      "answer": "4 years"
+    },
+    {
+      "id": 67,
+      "question": "The Nigerian Civil Service exam may include questions on:",
+      "options": ["Fashion design", "Verbal reasoning", "Interior decoration", "Music composition"],
+      "answer": "Verbal reasoning"
+    },
+    {
+      "id": 68,
+      "question": "Which of the following is a key objective of the Public Service Rules?",
+      "options": ["Promote inefficiency", "Ensure discipline and efficiency", "Encourage absenteeism", "Limit training"],
+      "answer": "Ensure discipline and efficiency"
+    },
+    {
+      "id": 69,
+      "question": "The first Nigerian to become Governor-General was:",
+      "options": ["Nnamdi Azikiwe", "Ahmadu Bello", "Tafawa Balewa", "Obafemi Awolowo"],
+      "answer": "Nnamdi Azikiwe"
+    },
+    {
+      "id": 70,
+      "question": "What is the primary source of revenue for the Nigerian government?",
+      "options": ["Agriculture", "Oil and gas", "Tourism", "Manufacturing"],
+      "answer": "Oil and gas"
+    },
+    {
+      "id": 71,
+      "question": "If a civil servant is absent without leave, it is considered:",
+      "options": ["Misconduct", "Promotion eligibility", "Normal behavior", "Training opportunity"],
+      "answer": "Misconduct"
+    },
+    {
+      "id": 72,
+      "question": "The Nigerian Civil Service is part of which arm of government?",
+      "options": ["Legislative", "Executive", "Judiciary", "Independent"],
+      "answer": "Executive"
+    },
+    {
+      "id": 73,
+      "question": "What is the minimum age for retirement in the Nigerian Civil Service?",
+      "options": ["50", "55", "60", "65"],
+      "answer": "60"
+    },
+    {
+      "id": 74,
+      "question": "Which of the following is a requirement for promotion in the Civil Service?",
+      "options": ["Political affiliation", "Passing a promotion exam", "Personal wealth", "Social status"],
+      "answer": "Passing a promotion exam"
+    },
+    {
+      "id": 75,
+      "question": "The Nigerian Civil Service Commission was established to:",
+      "options": ["Regulate salaries", "Oversee appointments and promotions", "Draft laws", "Conduct elections"],
+      "answer": "Oversee appointments and promotions"
+    },
+    {
+      "id": 76,
+      "question": "What is the maximum number of years a civil servant can serve before retirement?",
+      "options": ["30", "35", "40", "45"],
+      "answer": "35"
+    },
+    {
+      "id": 77,
+      "question": "The Nigerian Civil Service is divided into how many cadres?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "id": 78,
+      "question": "Which of the following is not a geopolitical zone in Nigeria?",
+      "options": ["North Central", "South West", "North East", "West Central"],
+      "answer": "West Central"
+    },
+    {
+      "id": 79,
+      "question": "The Public Service Rules require civil servants to maintain:",
+      "options": ["Political neutrality", "Party loyalty", "Personal agendas", "Social media presence"],
+      "answer": "Political neutrality"
+    },
+    {
+      "id": 80,
+      "question": "Who was the Nigerian Head of State during the Civil War (1967–1970)?",
+      "options": ["Yakubu Gowon", "Murtala Mohammed", "Olusegun Obasanjo", "Aguiyi Ironsi"],
+      "answer": "Yakubu Gowon"
+    },
+    {
+      "id": 81,
+      "question": "If a civil servant travels 120 km at 40 km/h, how long will it take to reach the destination?",
+      "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+      "answer": "3 hours"
+    },
+    {
+      "id": 82,
+      "question": "What is 15% of 200?",
+      "options": ["20", "25", "30", "35"],
+      "answer": "30"
+    },
+    {
+      "id": 83,
+      "question": "If CAT is coded as 312, how is DOG coded?",
+      "options": ["415", "416", "417", "418"],
+      "answer": "415"
+    },
+    {
+      "id": 84,
+      "question": "Which word is the odd one out?",
+      "options": ["Big", "Small", "Large", "Huge"],
+      "answer": "Small"
+    },
+    {
+      "id": 85,
+      "question": "Complete the series: 2, 4, 8, 16, ?",
+      "options": ["24", "32", "40", "48"],
+      "answer": "32"
+    },
+    {
+      "id": 86,
+      "question": "The first capital of Nigeria was:",
+      "options": ["Lagos", "Abuja", "Calabar", "Kaduna"],
+      "answer": "Calabar"
+    },
+    {
+      "id": 87,
+      "question": "Which Nigerian state is known as the 'Centre of Excellence'?",
+      "options": ["Ogun", "Lagos", "Oyo", "Ekiti"],
+      "answer": "Lagos"
+    },
+    {
+      "id": 88,
+      "question": "The Nigerian flag was designed in:",
+      "options": ["1957", "1959", "1960", "1963"],
+      "answer": "1959"
+    },
+    {
+      "id": 89,
+      "question": "What is the maximum maternity leave period for female civil servants?",
+      "options": ["8 weeks", "12 weeks", "16 weeks", "20 weeks"],
+      "answer": "16 weeks"
+    },
+    {
+      "id": 90,
+      "question": "The Nigerian Civil Service is accountable to which ministry?",
+      "options": ["Ministry of Finance", "Ministry of Labour", "Office of the Head of Service", "Ministry of Justice"],
+      "answer": "Office of the Head of Service"
+    },
+    {
+      "id": 91,
+      "question": "Which of the following is a function of the Permanent Secretary?",
+      "options": ["Legislation", "Policy advice", "Election monitoring", "Judicial review"],
+      "answer": "Policy advice"
+    },
+    {
+      "id": 92,
+      "question": "The Nigerian Civil Service Code of Conduct prohibits:",
+      "options": ["Training attendance", "Bribery", "Team collaboration", "Professional development"],
+      "answer": "Bribery"
+    },
+    {
+      "id": 93,
+      "question": "What is the official language of Nigeria?",
+      "options": ["Hausa", "Yoruba", "English", "Igbo"],
+      "answer": "English"
+    },
+    {
+      "id": 94,
+      "question": "The Nigerian Civil Service Promotion Exam is often conducted as a:",
+      "options": ["Written test only", "Computer-Based Test (CBT)", "Oral interview", "Physical fitness test"],
+      "answer": "Written test only"
+    },
+    {
+      "id": 95,
+      "question": "Which Nigerian leader introduced the War Against Indiscipline (WAI)?",
+      "options": ["Muhammadu Buhari", "Ibrahim Babangida", "Sani Abacha", "Yakubu Gowon"],
+      "answer": "Muhammadu Buhari"
+    },
+    {
+      "id": 96,
+      "question": "If a civil servant earns ₦120,000 monthly, what is the annual salary?",
+      "options": ["₦1,200,000", "₦1,440,000", "₦1,680,000", "₦1,800,000"],
+      "answer": "₦1,440,000"
+    },
+    {
+      "id": 97,
+      "question": "What is the synonym of 'prudent'?",
+      "options": ["Careless", "Wise", "Reckless", "Hasty"],
+      "answer": "Wise"
+    },
+    {
+      "id": 98,
+      "question": "Complete the series: 3, 6, 12, 24, ?",
+      "options": ["36", "48", "60", "72"],
+      "answer": "48"
+    },
+    {
+      "id": 99,
+      "question": "Which of the following is not a type of leave in the Public Service Rules?",
+      "options": ["Annual leave", "Sick leave", "Study leave", "Casual leave"],
+      "answer": "Casual leave"
+    },
+    {
+      "id": 100,
+      "question": "The Nigerian Civil Service is designed to ensure:",
+      "options": ["Political dominance", "Administrative efficiency", "Military control", "Judicial supremacy"],
+      "answer": "Administrative efficiency"
+    },
+    {
+      "id": 101,
+      "question": "Which Nigerian state is known as the 'Gateway State'?",
+      "options": ["Ogun", "Lagos", "Ondo", "Osun"],
+      "answer": "Ogun"
+    },
+    {
+      "id": 102,
+      "question": "The Nigerian Civil Service Commission was established under which constitution?",
+      "options": ["1960", "1963", "1979", "1999"],
+      "answer": "1960"
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of the Senior Staff Committee in the Civil Service?",
+      "options": ["Budget allocation", "Promotion and discipline", "Staff training", "Policy drafting"],
+      "answer": "Promotion and discipline"
+    },
+    {
+      "id": 104,
+      "question": "The Nigerian coat of arms features which animal?",
+      "options": ["Lion", "Eagle", "Horse", "Leopard"],
+      "answer": "Eagle"
+    },
+    {
+      "id": 105,
+      "question": "What is 20% of 500?",
+      "options": ["80", "90", "100", "110"],
+      "answer": "100"
+    },
+    {
+      "id": 106,
+      "question": "The Nigerian Civil Service operates under which system of government?",
+      "options": ["Presidential", "Parliamentary", "Monarchical", "Confederal"],
+      "answer": "Presidential"
+    },
+    {
+      "id": 107,
+      "question": "Which of the following is a disciplinary action under Public Service Rules?",
+      "options": ["Promotion", "Suspension", "Training", "Commendation"],
+      "answer": "Suspension"
+    },
+    {
+      "id": 108,
+      "question": "The Nigerian Civil Service Code emphasizes:",
+      "options": ["Corruption", "Accountability", "Nepotism", "Inefficiency"],
+      "answer": "Accountability"
+    },
+    {
+      "id": 109,
+      "question": "Who was the Nigerian President during the 2014 centenary celebration?",
+      "options": ["Goodluck Jonathan", "Muhammadu Buhari", "Umaru Yar’Adua", "Olusegun Obasanjo"],
+      "answer": "Goodluck Jonathan"
+    },
+    {
+      "id": 110,
+      "question": "What is the antonym of 'transparent'?",
+      "options": ["Clear", "Opaque", "Visible", "Open"],
+      "answer": "Opaque"
+    },
+    {
+      "id": 111,
+      "question": "If a civil servant works 8 hours daily for 5 days, how many hours are worked in a week?",
+      "options": ["32", "40", "48", "56"],
+      "answer": "40"
+    },
+    {
+      "id": 112,
+      "question": "The Nigerian Civil Service is divided into how many ministries?",
+      "options": ["18", "22", "24", "28"],
+      "answer": "24"
+    },
+    {
+      "id": 113,
+      "question": "Which of the following is a core function of the Civil Service?",
+      "options": ["Lawmaking", "Policy implementation", "Judicial review", "Election monitoring"],
+      "answer": "Policy implementation"
+    },
+    {
+      "id": 114,
+      "question": "The Nigerian national anthem has how many stanzas?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+      "id": 115,
+      "question": "What is the primary role of the Junior Staff Committee?",
+      "options": ["Appointments for Grade Levels 01–06", "Promotions for Grade Levels 15–17", "Policy drafting", "Financial auditing"],
+      "answer": "Appointments for Grade Levels 01–06"
+    },
+    {
+      "id": 116,
+      "question": "The Nigerian Civil Service promotes based on:",
+      "options": ["Seniority only", "Merit and seniority", "Political affiliation", "Personal connections"],
+      "answer": "Merit and seniority"
+    },
+    {
+      "id": 117,
+      "question": "Which Nigerian leader introduced the NYSC scheme?",
+      "options": ["Yakubu Gowon", "Olusegun Obasanjo", "Murtala Mohammed", "Ibrahim Babangida"],
+      "answer": "Yakubu Gowon"
+    },
+    {
+      "id": 118,
+      "question": "What is the maximum sick leave period for civil servants annually?",
+      "options": ["7 days", "14 days", "21 days", "28 days"],
+      "answer": "14 days"
+    },
+    {
+      "id": 119,
+      "question": "The Nigerian Civil Service is regulated by which body?",
+      "options": ["National Assembly", "Federal Civil Service Commission", "Ministry of Education", "Economic and Financial Crimes Commission"],
+      "answer": "Federal Civil Service Commission"
+    },
+    {
+      "id": 120,
+      "question": "Which of the following is not a source of law in Nigeria?",
+      "options": ["Constitution", "Legislation", "Social media", "Judicial precedents"],
+      "answer": "Social media"
+    },
+    {
+      "id": 121,
+      "question": "The Nigerian Civil Service Code promotes:",
+      "options": ["Transparency", "Secrecy", "Favoritism", "Inefficiency"],
+      "answer": "Transparency"
+    },
+    {
+      "id": 122,
+      "question": "What is 25% of 400?",
+      "options": ["75", "100", "125", "150"],
+      "answer": "100"
+    },
+    {
+      "id": 123,
+      "question": "If a civil servant travels 200 km at 50 km/h, how long will it take?",
+      "options": ["3 hours", "4 hours", "5 hours", "6 hours"],
+      "answer": "4 hours"
+    },
+    {
+      "id": 124,
+      "question": "Which word is the odd one out?",
+      "options": ["Run", "Walk", "Swim", "Jump"],
+      "answer": "Swim"
+    },
+    {
+      "id": 125,
+      "question": "Complete the series: 5, 10, 20, 40, ?",
+      "options": ["60", "80", "100", "120"],
+      "answer": "80"
+    },
+    {
+      "id": 126,
+      "question": "The Nigerian Civil Service emphasizes which principle for recruitment?",
+      "options": ["Nepotism", "Meritocracy", "Political loyalty", "Regional dominance"],
+      "answer": "Meritocracy"
+    },
+    {
+      "id": 127,
+      "question": "Which Nigerian state is known as the 'Food Basket of the Nation'?",
+      "options": ["Benue", "Kaduna", "Kano", "Oyo"],
+      "answer": "Benue"
+    },
+    {
+      "id": 128,
+      "question": "The Nigerian Civil Service pension scheme is managed by:",
+      "options": ["Central Bank of Nigeria", "Pension Commission", "Ministry of Finance", "Federal Civil Service Commission"],
+      "answer": "Pension Commission"
+    },
+    {
+      "id": 129,
+      "question": "What is the synonym of 'diligent'?",
+      "options": ["Lazy", "Careless", "Hardworking", "Negligent"],
+      "answer": "Hardworking"
+    },
+    {
+      "id": 130,
+      "question": "The Nigerian Civil Service operates under which tier of government?",
+      "options": ["Federal", "State", "Local", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 131,
+      "question": "Which of the following is a benefit for civil servants?",
+      "options": ["Free housing", "Pension scheme", "Unlimited leave", "Free transport"],
+      "answer": "Pension scheme"
+    },
+    {
+      "id": 132,
+      "question": "The Nigerian Civil Service Code prohibits:",
+      "options": ["Training", "Corruption", "Teamwork", "Innovation"],
+      "answer": "Corruption"
+    },
+    {
+      "id": 133,
+      "question": "Who was the Nigerian President during the 2011 general elections?",
+      "options": ["Umaru Yar’Adua", "Goodluck Jonathan", "Muhammadu Buhari", "Olusegun Obasanjo"],
+      "answer": "Goodluck Jonathan"
+    },
+    {
+      "id": 134,
+      "question": "What is 10% of 1000?",
+      "options": ["80", "90", "100", "110"],
+      "answer": "100"
+    },
+    {
+      "id": 135,
+      "question": "If a civil servant earns ₦50,000 monthly, what is the annual salary?",
+      "options": ["₦500,000", "₦600,000", "₦700,000", "₦800,000"],
+      "answer": "₦600,000"
+    },
+    {
+      "id": 136,
+      "question": "Which Nigerian leader introduced the Economic and Financial Crimes Commission (EFCC)?",
+      "options": ["Olusegun Obasanjo", "Umaru Yar’Adua", "Goodluck Jonathan", "Muhammadu Buhari"],
+      "answer": "Olusegun Obasanjo"
+    },
+    {
+      "id": 137,
+      "question": "The Nigerian Civil Service is responsible for implementing policies of:",
+      "options": ["Judiciary", "Legislature", "Executive", "Media"],
+      "answer": "Executive"
+    },
+    {
+      "id": 138,
+      "question": "What is the antonym of 'efficient'?",
+      "options": ["Effective", "Productive", "Inefficient", "Capable"],
+      "answer": "Inefficient"
+    },
+    {
+      "id": 139,
+      "question": "Complete the series: 1, 3, 9, 27, ?",
+      "options": ["54", "81", "108", "135"],
+      "answer": "81"
+    },
+    {
+      "id": 140,
+      "question": "The Nigerian Civil Service Code promotes:",
+      "options": ["Secrecy", "Integrity", "Nepotism", "Inefficiency"],
+      "answer": "Integrity"
+    },
+    {
+      "id": 141,
+      "question": "Which Nigerian state is known as the 'Sunshine State'?",
+      "options": ["Ondo", "Ekiti", "Osun", "Ogun"],
+      "answer": "Ondo"
+    },
+    {
+      "id": 142,
+      "question": "The Nigerian Civil Service Commission oversees:",
+      "options": ["Elections", "Appointments and promotions", "Legislation", "Judicial reviews"],
+      "answer": "Appointments and promotions"
+    },
+    {
+      "id": 143,
+      "question": "What is the maximum study leave period for civil servants?",
+      "options": ["6 months", "1 year", "2 years", "3 years"],
+      "answer": "2 years"
+    },
+    {
+      "id": 144,
+      "question": "The Nigerian national motto is:",
+      "options": ["Unity and Faith, Peace and Progress", "Strength in Diversity", "Justice and Equality", "Progress and Prosperity"],
+      "answer": "Unity and Faith, Peace and Progress"
+    },
+    {
+      "id": 145,
+      "question": "What is 30% of 300?",
+      "options": ["60", "90", "120", "150"],
+      "answer": "90"
+    },
+    {
+      "id": 146,
+      "question": "The Nigerian Civil Service is guided by the principle of:",
+      "options": ["Federal character", "State dominance", "Party loyalty", "Economic superiority"],
+      "answer": "Federal character"
+    },
+    {
+      "id": 147,
+      "question": "Which Nigerian leader introduced the Independent National Electoral Commission (INEC)?",
+      "options": ["Ibrahim Babangida", "Sani Abacha", "Olusegun Obasanjo", "Umaru Yar’Adua"],
+      "answer": "Ibrahim Babangida"
+    },
+    {
+      "id": 148,
+      "question": "What is the synonym of 'accountable'?",
+      "options": ["Irresponsible", "Responsible", "Careless", "Negligent"],
+      "answer": "Responsible"
+    },
+    {
+      "id": 149,
+      "question": "If a civil servant travels 150 km at 30 km/h, how long will it take?",
+      "options": ["4 hours", "5 hours", "6 hours", "7 hours"],
+      "answer": "5 hours"
+    },
+    {
+      "id": 150,
+      "question": "The Nigerian Civil Service promotes which value to ensure fairness?",
+      "options": ["Nepotism", "Meritocracy", "Favoritism", "Partisanship"],
+      "answer": "Meritocracy"
+    }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "When a witness’s pupils dilate on the stand while maintaining eye contact, a master trial lawyer instantly recognizes this as subconscious signs of:",
+    "options": ["Confidence", "Deception", "Fear of authority", "Memory recall"],
+    "answer": "Deception"
+  },
+  {
+    "id": 2,
+    "question": "The psychological principle that makes a jury 400% more likely to convict when the defendant refuses to testify is known as:",
+    "options": ["Griffin inference", "Doyle effect", "Right to silence illusion", "Adverse inference"],
+    "answer": "Adverse inference"
+  },
+  {
+    "id": 3,
+    "question": "Harvey Specter’s favorite negotiation tactic — demanding the impossible first to make the real demand seem reasonable — is formally called:",
+    "options": ["Door-in-the-face", "Anchoring", "Foot-in-the-door", "Lowballing"],
+    "answer": "Anchoring"
+  },
+  {
+    "id": 4,
+    "question": "In cross-examination, the single most powerful question that triggers the amygdala and forces truth from a lying witness is:",
+    "options": ["Why should we believe you?", "How do you sleep at night?", "Are you lying to me right now?", "You expect this jury to believe that?"],
+    "answer": "Are you lying to me right now?"
+  },
+  {
+    "id": 5,
+    "question": "The ethical rule that Harvey Specter dances on the edge of but never technically violates is:",
+    "options": ["Rule 3.4 Fairness to Opposing Party", "Rule 8.4 Misconduct", "Rule 4.1 Truthfulness in Statements", "Rule 1.6 Confidentiality"],
+    "answer": "Rule 3.4 Fairness to Opposing Party"
+  },
+  {
+    "id": 6,
+    "question": "When a client says 'I don’t remember' 17 times in deposition, a predator lawyer knows this is actually:",
+    "options": ["Cognitive overload", "Selective amnesia", "Deliberate obstruction", "Genuine memory loss"],
+    "answer": "Deliberate obstruction"
+  },
+  {
+    "id": 7,
+    "question": "The psychological phenomenon where a jury forgets exculpatory evidence after hearing repeated accusations is called:",
+    "options": ["Primacy effect", "Repetition bias", "Illusory truth effect", "Confirmation bias"],
+    "answer": "Illusory truth effect"
+  },
+  {
+    "id": 8,
+    "question": "A partner who withholds a smoking-gun document until trial to sandbag the opponent is exploiting:",
+    "options": ["Trial by ambush", "Strategic disclosure", "Discovery abuse", "Zealous advocacy"],
+    "answer": "Trial by ambush"
+  },
+  {
+    "id": 9,
+    "question": "The only question Harvey asks a nervous junior associate to instantly determine if they’re lying:",
+    "options": ["Did you do it?", "Are you sure?", "Look me in the eye and tell me again", "Do you want to keep your job?"],
+    "answer": "Look me in the eye and tell me again"
+  },
+  {
+    "id": 10,
+    "question": "In settlement negotiations, the single word that triggers loss aversion and makes the other side fold is:",
+    "options": ["Trial", "Jury", "Exposure", "Risk"],
+    "answer": "Trial"
+  },
+  {
+    "id": 11,
+    "question": "The Miranda warning exploits which psychological principle to make confessions more likely?",
+    "options": ["Relief from pressure", "Authority obedience", "Illusion of transparency", "False sense of safety"],
+    "answer": "False sense of safety"
+  },
+  {
+    "id": 12,
+    "question": "When a lawyer says 'I’m not saying my client is innocent, I’m saying the government can’t prove it,' he is weaponizing:",
+    "options": ["Presumption of innocence", "Burden of proof", "Reasonable doubt", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": 13,
+    "question": "The cognitive bias that makes judges rule harsher in the afternoon is known as:",
+    "options": ["Decision fatigue", "Hanger effect", "Temporal discounting", "Ego depletion"],
+    "answer": "Decision fatigue"
+  },
+  {
+    "id": 14,
+    "question": "A client who cries in your office but shows no emotion on the stand is exhibiting:",
+    "options": ["Compartmentalization", "Duping delight", "Emotional suppression", "Psychopathy"],
+    "answer": "Duping delight"
+  },
+  {
+    "id": 15,
+    "question": "The single most dangerous phrase a lawyer can say to a jury in closing is:",
+    "options": ["You must acquit", "The truth is obvious", "Imagine if this were your son", "Send a message"],
+    "answer": "Send a message"
+  },
+  {
+    "id": 16,
+    "question": "When Harvey says 'I don’t play the odds, I play the man,' he is practicing:",
+    "options": ["Game theory", "Behavioral prediction", "Opponent profiling", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": 17,
+    "question": "The psychological reason privileged clients confess everything to their lawyers is:",
+    "options": ["Transference", "Catharsis", "Attorney-client privilege", "Guilt alleviation"],
+    "answer": "Attorney-client privilege"
+  },
+  {
+    "id": 18,
+    "question": "A witness who touches their neck while testifying is unconsciously signaling:",
+    "options": ["Confidence", "Stress and deception", "Memory recall", "Dominance"],
+    "answer": "Stress and deception"
+  },
+  {
+    "id": 19,
+    "question": "The ethical line Harvey refuses to cross, even for $10 billion, is:",
+    "options": ["Suborning perjury", "Bribing a judge", "Betraying a client", "Losing"],
+    "answer": "Betraying a client"
+  },
+  {
+    "id": 20,
+    "question": "The most powerful closing argument technique that increases verdict value by 300% is:",
+    "options": ["Reptilian argument", "Priming fear", "Anchoring damages", "Storytelling"],
+    "answer": "Reptilian argument"
+  },
+ {
+ "id": 21,
+ "question": "When an officer disappears from duty for the exact period carved out in PSR 100203, the State does not call it absence. It calls it what?",
+ "options": ["Leave of absence", "Pre-retirement leave", "Study leave", "Annual leave"],
+ "answer": "Annual leave",
+ "trap_reason": "Only authorised absence is permitted. Anything else is desertion."
+ },
+ {
+ "id": 22,
+ "question": "Rule 100102 does not care where you run. It only demands the single address where the Service can hunt you down without warning. What is that address called?",
+ "options": ["Annual leave", "Sick leave", "Leave year", "Leave address"],
+ "answer": "Leave address",
+ "trap_reason": "Even on leave, you are property with a tracking number."
+ },
+ {
+ "id": 23,
+ "question": "To officers who refuse government quarters, the Treasury pays one brutal lump sum at the beginning of the year to buy their silence and obedience. By what euphemism is this ransom recorded?",
+ "options": ["Utilities allowance", "Rent subsidy", "Hazard allowance", "Acting allowance"],
+ "answer": "Rent subsidy",
+ "trap_reason": "Accept it and you have sold your independence for twelve months."
+ },
+ {
+ "id": 24,
+ "question": "PSR 020209 forces every officer to sign Security Form 1 and swear eternal silence under threat of imprisonment. What is the venomous name of that oath?",
+ "options": ["Appointment letter", "Letter of accommodation", "Oath of secrecy", "Internal memo"],
+ "answer": "Oath of secrecy",
+ "trap_reason": "From that moment, you are no longer a citizen. You are a vault."
+ },
+ {
+ "id": 25,
+ "question": "The Service does not grant sick leave out of mercy. It grants it only when a Medical Board or approved Medical Officer says so. What is the real trigger?",
+ "options": ["Doctor’s note from any clinic", "Recommendation from a Medical Board or approved Medical Officer", "Self-certification", "HOD’s approval"],
+ "answer": "Recommendation from a Medical Board or approved Medical Officer",
+ "trap_reason": "Your illness is irrelevant. Only the State’s doctor decides if you are sick."
+ },
+ {
+ "id": 26,
+ "question": "Which leave is so feared that it is withheld until the officer is within two years of retirement — as if the State dreads what a free mind might do with 120 days?",
+ "options": ["Annual leave", "Maternity leave", "Pre-retirement leave", "Casual leave"],
+ "answer": "Pre-retirement leave",
+ "trap_reason": "They keep you chained until you are too old to bite."
+ },
+ {
+ "id": 27,
+ "question": "What allowance is paid not for danger, but as blood money for working in conditions the government created and refuses to fix?",
+ "options": ["Shift duty allowance", "Hazard allowance", "Rural posting allowance", "Transport allowance"],
+ "answer": "Hazard allowance",
+ "trap_reason": "Take the money and you have priced your own life."
+ },
+ {
+ "id": 28,
+ "question": "Under which rule does the Service reserve the absolute right to recall you from annual leave without reason, apology, or compensation?",
+ "options": ["PSR 100208", "PSR 030405", "PSR 100210", "PSR 020601"],
+ "answer": "PSR 100208",
+ "trap_reason": "Your leave is borrowed time. The State can reclaim it at 0300 hrs."
+ },
+ {
+ "id": 29,
+ "question": "Casual leave is capped at how many days per calendar year because the Service believes even 11 days of freedom is dangerous?",
+ "options": ["7 days", "10 days", "12 days", "15 days"],
+ "answer": "10 days",
+ "trap_reason": "More than 10 days and you might start thinking for yourself."
+ },
+ {
+ "id": 30,
+ "question": "Maternity leave is granted for how many weeks because the Service believes a woman’s body belongs to the State first and her child second?",
+ "options": ["6 weeks", "12 weeks", "16 weeks", "20 weeks"],
+ "answer": "12 weeks",
+ "trap_reason": "Exactly 12 weeks. Not a day more. Efficiency over motherhood."
+ },
+ {
+ "id": 31,
+ "question": "Study leave with pay is only granted to officers pursuing courses that serve what?",
+ "options": ["Personal interest", "The needs of the Service", "Foreign degrees", "Part-time programmes"],
+ "answer": "The needs of the Service",
+ "trap_reason": "Your education is not yours. It is an investment the State owns."
+ },
+ {
+ "id": 32,
+ "question": "An officer on study leave without pay who abandons the course faces what?",
+ "options": ["Warning letter", "Dismissal", "Recovery of all salaries paid", "Suspension"],
+ "answer": "Recovery of all salaries paid",
+ "trap_reason": "Betray the State’s investment and it will bleed you dry legally."
+ },
+ {
+ "id": 33,
+ "question": "What is the maximum duration of sick leave on full pay in any 12-month period?",
+ "options": ["3 months", "6 months", "9 months", "12 months"],
+ "answer": "6 months",
+ "trap_reason": "After 6 months, the State decides if you are still worth feeding."
+ },
+ {
+ "id": 34,
+ "question": "Which of these is NOT a condition for granting examination leave?",
+ "options": [" Professional exam", "First attempt only", "Approved course of study", "Officer must be on GL 07 and above"],
+ "answer": "Officer must be on GL 07 and above",
+ "trap_reason": "Even a cleaner can sit ICAN. The Service fears knowledge, not grade."
+ },
+ {
+ "id": 35,
+ "question": "The dreaded interdiction under PSR 030401 is triggered by what?",
+ "options": ["Poor performance", "Serious misconduct under investigation", "Late coming", "Absenteeism"],
+ "answer": "Serious misconduct under investigation",
+ "trap_reason": "Interdiction is not punishment. It is slow execution while they gather rope."
+ },
+ {
+ "id": 36,
+ "question": "During interdiction, an officer is paid what fraction of salary?",
+ "options": ["Full pay", "Half pay", "No pay", "Quarter pay"],
+ "answer": "Half pay",
+ "trap_reason": "Enough to survive. Not enough to fight back."
+ },
+ {
+ "id": 37,
+ "question": "What is the only ground for termination of appointment during probation?",
+ "options": ["Unsatisfactory service", "Misconduct", "Redundancy", "Ill health"],
+ "answer": "Unsatisfactory service",
+ "trap_reason": "They don’t need a reason. Just ‘unsatisfactory’ written by your enemy."
+ },
+ {
+ "id": 38,
+ "question": "An officer who leaks official information after retirement can still be prosecuted under which Act?",
+ "options": ["Criminal Code", "Official Secrets Act", "Public Service Rules", "Penal Code"],
+ "answer": "Official Secrets Act",
+ "trap_reason": "Retirement is not freedom. It is parole."
+ },
+ {
+ "id": 39,
+ "question": "The Federal Civil Service Commission has the exclusive power to do what?",
+ "options": ["Promote GL 01–06 ", "Dismiss GL 14 and above", "Appoint Directors", "Transfer between MDAs"],
+ "answer": "Dismiss GL 14 and above",
+ "trap_reason": "Only the FCSC can legally kill a Director. Everyone else can only wound."
+ },
+ {
+ "id": 40,
+ "question": "What happens to an officer who refuses posting?",
+ "options": ["Query", "Dismissal for abandonment of duty", "Compulsory retirement", "Suspension"],
+ "answer": "Dismissal for abandonment of duty",
+ "trap_reason": "The Service does not negotiate geography."
+ }
+]

@@ -1,0 +1,54 @@
+<!-- templates/history.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attempt History</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+    <div style="max-width: 800px; margin: 50px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <h1 style="text-align: center;">Attempt History for {{ username }}</h1>
+        <p style="text-align: center; color: #333; font-size: 16px; line-height: 1.5;">click on each attempt to view user trial</p>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+            <tr style="background: #007BFF; color: white;">
+                <th style="padding: 10px; border: 1px solid #ddd;">Date</th>
+                <th style="padding: 10px; border: 1px solid #ddd;">Score</th>
+            </tr>
+            {% for attempt in attempts %}
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">
+                    <a href="/monitor_answers/{{ username }}/{{ attempt.id }}" style="color: #007BFF; text-decoration: none;">{{ attempt.date.strftime('%Y-%m-%d %H:%M:%S') }}</a>
+                </td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">{{ attempt.score }}/30</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="2" style="padding: 10px; border: 1px solid #ddd; text-align: center;">No attempts yet</td></tr>
+            {% endfor %}
+        </table>
+        <a href="/" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Dashboard</a>
+        <button onclick="downloadHistory()" style="margin-top: 20px; padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bolder;">Download</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        function downloadHistory() {
+            try {
+                const { jsPDF } = window.jspdf;
+                const doc = new jsPDF();
+                doc.text(`Attempt History for {{ username }}`, 10, 10);
+                let y = 20;
+                document.querySelectorAll('table tr').forEach((row, index) => {
+                    if (index > 0) {
+                        const date = row.cells[0].textContent;
+                        const score = row.cells[1].textContent;
+                        doc.text(`Date: ${date}, Score: ${score}`, 10, y);
+                        y += 10;
+                    }
+                });
+                doc.save('history.pdf');
+            } catch (e) {
+                console.error('Error downloading history:', e);
+            }
+        }
+    </script>
+</body>
+</html>

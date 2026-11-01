@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Dashboard</title>
+</head>
+<body>
+    <h1>Quiz Questions</h1>
+    <ul>
+        {% for q in questions %}
+        <li>{{ q.question }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

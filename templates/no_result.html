@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No Results Yet • JETS CBT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4a00e0;
+      --primary-dark: #3a00b8;
+      --bg: #f4f6f9;
+      --text: #222;
+      --light: #f8f9ff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      background: white;
+      width: 100%;
+      max-width: 480px;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 50px 30px;
+    }
+
+    .icon {
+      font-size: 4.5rem;
+      margin-bottom: 20px;
+      opacity: 0.8;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 16px 36px;
+      margin: 12px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      min-width: 220px;
+      box-shadow: 0 8px 20px rgba(74, 0, 224, 0.25);
+    }
+
+    .btn:hover {
+      background: var(--primary-dark);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(74, 0, 224, 0.35);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--primary);
+      border: 2px solid var(--primary);
+      box-shadow: none;
+    }
+
+    .btn-secondary:hover {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 480px) {
+      .container { padding: 40px 20px; border-radius: 16px; }
+      h1 { font-size: 1.9rem; }
+      p { font-size: 1rem; }
+      .btn { padding: 14px 32px; font-size: 1rem; min-width: 200px; }
+      .icon { font-size: 4rem; }
+    }
+
+    @media (min-width: 768px) {
+      .btn-group {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon" style="font-size: 70px;">📅</div>
+    <h1>Hello, {{ username }}!</h1>
+    <p>You haven't taken the quiz yet.<br>Start now and see how ready you are!</p>
+
+    <div class="btn-group">
+      <form action="/start_quiz" method="POST" style="display:inline;">
+        <input type="hidden" name="username" value="{{ username }}">
+        <button type="submit" class="btn">
+          Start Your First Quiz Now!
+        </button>
+      </form>
+
+      <a href="/" class="btn btn-secondary">
+        Back to Home
+      </a>
+    </div>
+
+    <footer>
+      JETS CBT Platform • Built by <strong>@Cyber_Jem</strong>
+    </footer>
+  </div>
+</body>
+</html>

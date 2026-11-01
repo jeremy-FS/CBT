@@ -1,0 +1,386 @@
+<!-- templates/monitor.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Answer Monitoring</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='jem_ico.ico') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f0f4ff 0%, #e6e6e6 100%);
+            margin: 0;
+            padding: 0;
+            color: #1f2a44;
+            transition: all 0.3s ease;
+        }
+        .fixed-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #ffffff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            padding: 15px 20px;
+        }
+        .nav-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .fixed-nav h1 {
+            text-align: center;
+            color: #1a3c6d;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0 0 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .nav-links a, .nav-links button {
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .nav-links a {
+            background: #007bff;
+            color: white;
+        }
+        .nav-links a:hover {
+            background: #0056b3;
+            transform: translateY(-1px);
+        }
+        .nav-links button {
+            background: #28a745;
+            color: white;
+            border: none;
+        }
+        .nav-links button:hover {
+            background: #218838;
+            transform: translateY(-1px);
+        }
+        .nav-links .dark-mode-btn {
+            background: #6c757d;
+        }
+        .nav-links .dark-mode-btn:hover {
+            background: #5a6268;
+        }
+        .summary-box {
+            background: linear-gradient(135deg, #e9f7ef, #d4edda);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px auto;
+            text-align: center;
+            border: 1px solid #28a745;
+            animation: fadeIn 0.5s ease-in;
+        }
+        .summary-box h2 {
+            margin: 0;
+            color: #28a745;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .summary-box p {
+            margin: 8px 0 0;
+            font-size: 18px;
+            font-weight: 500;
+            color: #1a3c6d;
+        }
+        .container {
+            max-width: 900px;
+            margin: 180px auto 50px; /* Offset for fixed-nav */
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            animation: fadeIn 0.7s ease-in;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 14px;
+            border: 1px solid #e0e0e0;
+            text-align: left;
+            font-size: 14px;
+        }
+        th {
+            background: #007bff;
+            color: white;
+            font-weight: 600;
+            position: sticky;
+            top: 150px; /* Adjust for fixed-nav height */
+            z-index: 10;
+        }
+        td {
+            background: #ffffff;
+        }
+        tr:nth-child(even) td {
+            background: #f8f9fa;
+        }
+        tr:hover td {
+            background: #e9ecef;
+        }
+        td.correct {
+            color: #28a745;
+            font-weight: 500;
+        }
+        td.incorrect {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        td.not-answered {
+            color: #6c757d;
+            font-style: italic;
+        }
+        .no-data {
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+            padding: 20px;
+        }
+        body.dark-mode {
+            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+            color: #e2e8f0;
+        }
+        body.dark-mode .fixed-nav {
+            background: #1a202c;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+        body.dark-mode .fixed-nav h1,
+        body.dark-mode .summary-box p {
+            color: #e2e8f0;
+        }
+        body.dark-mode .container {
+            background: #2d3748;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        body.dark-mode th {
+            background: #2b6cb0;
+        }
+        body.dark-mode td {
+            background: #2d3748;
+            border-color: #4a5568;
+        }
+        body.dark-mode tr:nth-child(even) td {
+            background: #3a3f4a;
+        }
+        body.dark-mode tr:hover td {
+            background: #4a5568;
+        }
+        .footer { text-align: center; padding: 30px; color: #888; font-size: 0.9em; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 768px) {
+            .fixed-nav h1 {
+                font-size: 20px;
+            }
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            .nav-links a, .nav-links button {
+                width: 100%;
+                max-width: 200px;
+                text-align: center;
+                padding: 10px;
+                font-size: 13px;
+            }
+            .summary-box h2 {
+                font-size: 18px;
+            }
+            .summary-box p {
+                font-size: 16px;
+            }
+            .container {
+                margin: 220px 15px 30px;
+                padding: 15px;
+            }
+            table {
+                font-size: 13px;
+            }
+            th, td {
+                padding: 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            .fixed-nav h1 {
+                font-size: 18px;
+            }
+            .container {
+                margin-top: 260px;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-nav">
+        <div class="nav-content">
+            <h1>Answer Monitoring for {{ username | replace('&amp;', '&') }} (Attempt on {{ attempt_date.strftime('%Y-%m-%d %H:%M:%S') if attempt_date else 'Unknown' }})</h1>
+            <div class="nav-links">
+                <a href="/history/{{ username | replace('&amp;', '&') }}">Back</a>
+                <!-- <a href="/">Dashboard</a> -->
+                <button onclick="downloadAnswers()">Download PDF</button>
+                <button onclick="toggleDarkMode()" class="dark-mode-btn">Toggle Dark Mode</button>
+            </div>
+            <div class="summary-box">
+                <h2>Attempt Summary</h2>
+                <p style="font-size: larger; font-weight: bolder;">Score: {{ score }}/{{ total }} ({{ (score / total * 100) | round(1) }}%)</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <table>
+            <tr>
+                <th>Question ID</th>
+                <th>Question</th>
+                <th>User Answer</th>
+                <th>Correct?</th>
+                <th>Correct Answer</th>
+                <th>Timestamp</th>
+            </tr>
+            {% for log in logs %}
+            <tr>
+                <td style="text-align: center;">{{ log.question_id }}</td>
+                <td>{{ log.question | replace('&amp;', '&') }}</td>
+                <td class="{{ 'not-answered' if log.user_answer == 'Not Answered' else '' }}">{{ log.user_answer | replace('&amp;', '&') }}</td>
+                <td class="{{ 'correct' if log.is_correct else 'incorrect' if log.user_answer != 'Not Answered' else 'not-answered' }}" style="text-align: center;">
+                    {{ 'Yes' if log.is_correct else 'No' if log.user_answer != 'Not Answered' else 'N/A' }}
+                </td>
+                <td>{{ log.correct_answer | replace('&amp;', '&') }}</td>
+                <td style="text-align: center;">{{ log.timestamp.strftime('%I:%M %p') if log.timestamp else 'N/A' }}</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="6" class="no-data">No questions available for this attempt</td></tr>
+            {% endfor %}
+        </table>
+        
+    </div>
+    <div class="footer">
+      NHub CBT Platform • Built with discretion by <strong>@Cyber_Jem</strong><br>
+      Privacy-First • Secure • Professional
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+
+    <script>
+        function downloadAnswers() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF('p', 'mm', 'a4');
+            
+            // === HEADER ===
+            doc.setFont('helvetica', 'bold');
+            doc.setFontSize(16);
+            doc.text('JETS CBT - Answer Monitoring Report', 105, 15, { align: 'center' });
+            
+            doc.setFontSize(12);
+            doc.setFont('helvetica', 'normal');
+            doc.text(`Candidate: {{ username | replace('&amp;', '&') }}`, 20, 25);
+            doc.text(`Attempt Date: {{ attempt_date.strftime('%d %B %Y, %I:%M %p') if attempt_date else 'Unknown' }}`, 20, 32);
+            doc.text(`Score: {{ score }} / {{ total }} ({{ percentage }}%)`, 20, 39);
+            doc.text(`Attempt ID: {{ attempt_id }}`, 20, 46);
+
+            // === TABLE DATA ===
+            const tableData = [];
+            document.querySelectorAll('table tr').forEach((row, index) => {
+                if (index === 0) return; // Skip header
+                const cells = row.cells;
+                if (cells.length < 6) return;
+
+                tableData.push([
+                    cells[0].textContent.trim(),
+                    cells[1].textContent.trim(),
+                    cells[2].textContent.trim(),
+                    cells[3].textContent.trim() === 'Yes' ? 'Correct' : 
+                    cells[3].textContent.trim() === 'No' ? 'Incorrect' : 'Not Answered',
+                    cells[4].textContent.trim(),
+                    cells[5].textContent.trim()
+                ]);
+            });
+
+            // === AUTO TABLE (BEAUTIFUL & CLEAN) ===
+            doc.autoTable({
+                head: [['#', 'Question', 'Your Answer', 'Status', 'Correct Answer', 'Time']],
+                body: tableData,
+                startY: 55,
+                theme: 'grid',
+                styles: {
+                    fontSize: 10,
+                    cellPadding: 4,
+                    overflow: 'linebreak',
+                    halign: 'left'
+                },
+                headStyles: {
+                    fillColor: [0, 123, 255],
+                    textColor: [255, 255, 255],
+                    fontStyle: 'bold'
+                },
+                columnStyles: {
+                    0: { cellWidth: 12, halign: 'center' },   // ID
+                    1: { cellWidth: 60 },                     // Question
+                    2: { cellWidth: 35 },                     // User Answer
+                    3: { cellWidth: 25, halign: 'center' },   // Status
+                    4: { cellWidth: 35 },                     // Correct Answer
+                    5: { cellWidth: 20, halign: 'center' }    // Time
+                },
+                alternateRowStyles: { fillColor: [248, 249, 250] },
+                didParseCell: function(data) {
+                    if (data.column.index === 3) { // Status column
+                        if (data.cell.text[0] === 'Correct') {
+                            data.cell.styles.textColor = [40, 167, 69];
+                            data.cell.styles.fontStyle = 'bold';
+                        } else if (data.cell.text[0] === 'Incorrect') {
+                            data.cell.styles.textColor = [220, 53, 69];
+                            data.cell.styles.fontStyle = 'bold';
+                        }
+                    }
+                }
+            });
+
+            // === FOOTER ===
+            const pageCount = doc.internal.getNumberOfPages();
+            for (let i = 1; i <= pageCount; i++) {
+                doc.setPage(i);
+                doc.setFontSize(9);
+                doc.setTextColor(100);
+                doc.text('JETS CBT Platform • Built by @Cyber_Jem • Privacy-First', 105, 290, { align: 'center' });
+                doc.text(`Page ${i} of ${pageCount}`, 185, 290);
+            }
+
+            // === SAVE ===
+            doc.save(`JETS_Answers_{{ username | replace('&amp;', '&') }}_Attempt{{ attempt_id }}.pdf`);
+        }
+
+        // Keep your dark mode toggle (unchanged)
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+        }
+
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.body.classList.add('dark-mode');
+        }
+    </script>
+</body>
+</html>

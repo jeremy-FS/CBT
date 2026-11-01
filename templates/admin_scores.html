@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - N-Hub CyberSeurity Class Jos (JETS)</title>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='jem_ico.ico') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4a00e0;
+      --primary-dark: #3a00b8;
+      --success: #00c851;
+      --danger: #ff4444;
+      --light: #f8f9ff;
+      --dark: #2c2c2c;
+      --gray: #666;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      color: #333;
+    }
+    body.dark-mode {
+      background: #121212;
+      color: #eee;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+      overflow: hidden;
+    }
+    body.dark-mode .container { background: #1e1e1e; }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    h1 { margin: 0; font-size: 2.4em; }
+    .subtitle { opacity: 0.9; font-weight: 400; margin-top: 8px; }
+
+    .content {
+      padding: 40px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .stat-card {
+      background: var(--light);
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    body.dark-mode .stat-card { background: #2a2a2a; }
+    .stat-card:hover { transform: translateY(-5px); }
+    .stat-number { font-size: 2.2em; font-weight: 700; color: var(--primary); }
+    .stat-label { color: var(--gray); font-size: 0.95em; margin-top: 8px; }
+
+    .section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: var(--primary);
+      border-bottom: 3px solid #eee;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    body.dark-mode h2 { border-color: #444; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    body.dark-mode table { background: #2a2a2a; }
+    th {
+      background: var(--primary);
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-weight: 600;
+    }
+    td {
+      padding: 14px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+    body.dark-mode td { border-color: #444; }
+    tr:hover {
+      background: #f5f5f5;
+    }
+    body.dark-mode tr:hover { background: #333; }
+    a { color: var(--primary); text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; }
+
+    .btn {
+      padding: 14px 32px;
+      font-size: 1.1em;
+      font-weight: 600;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s;
+      margin: 10px;
+      display: inline-block;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #8e2de2, #4a00e0);
+      color: white;
+      box-shadow: 0 8px 20px rgba(74,0,224,0.3);
+    }
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 28px rgba(74,0,224,0.4);
+    }
+    .btn-success {
+      background: var(--success);
+      color: white;
+    }
+    .controls {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .me:hover {
+      width: 200px;
+      background-color: var(--primary);
+      /* box-shadow: 0 8px 20px rgba(0,200,81,0.3); */
+      color: var(--primary);
+      width: 200px;
+      border-radius: 4px;
+    }
+    .hidden { display: none; }
+    .content { padding: 40px; }
+    .export-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; margin-bottom: 50px; }
+    .export-card {
+      background: #f8f9ff; border-radius: 16px; padding: 30px; text-align: center;
+      border: 2px solid #e0e0ff; transition: all 0.3s;
+    }
+    .export-card:hover { transform: translateY(-8px); box-shadow: 0 15px 30px rgba(74,0,224,0.2); border-color: #4a00e0; }
+    .export-card h3 { color: #4a00e0; margin: 0 0 15px; font-size: 1.5em; }
+    .export-card p { color: #666; margin: 15px 0; line-height: 1.6; }
+    .btn {
+      padding: 16px 32px; background: linear-gradient(135deg, #8e2de2, #4a00e0);
+      color: white; border: none; border-radius: 50px; font-size: 1.1em; font-weight: 600;
+      cursor: pointer; transition: all 0.3s; box-shadow: 0 8px 20px rgba(74,0,224,0.3);
+    }
+    .btn:hover { transform: translateY(-4px); box-shadow: 0 15px 30px rgba(74,0,224,0.4); }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 20px; margin: 40px 0; }
+    .stat { background: #f0f2ff; padding: 20px; border-radius: 12px; text-align: center; }
+    .stat big { font-size: 2.4em; font-weight: 800; color: #4a00e0; display: block; }
+    .footer { padding-bottom: 0%; text-align: center; padding: 30px; color: #888; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Admin Panel</h1>
+      <p class="subtitle">N-Hub Cyber Security Class Jos - Full Leaderboard & Export</p>
+      <button class="btn btn-primary" onclick="toggleDarkMode()" style="margin-top: 15px;">
+        Toggle Dark Mode
+      </button>
+      <div style="text-align:left; margin-top:30px; background-color: var(--primary); border-radius: 3px; width: 73px; font-weight: 200; font-size: x-large;" class="me">
+        <a href="/admin/logout" style="color:#24cc06; font-size:0.9em;" class="me">Logout</a>
+      </div>
+    </header>
+
+
+    <div class="content">
+      <!-- Stats -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" id="totalCan">—</div>
+          <div class="stat-label">Total Candidates</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="avgFirstScore">—</div>
+          <div class="stat-label">Avg First Attempt Score</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="highestFirst">—</div>
+          <div class="stat-label">Highest First Score</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="failed">—</div>
+          <div class="stat-label">Total Number of Failed Student (<10)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="attempts">—</div>
+          <div class="stat-label">Total Attempts</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="passed">—</div>
+          <div class="stat-label">Total Number of Passed Student (≥11)</div>
+        </div>
+      </div>
+
+      <!-- Export Section -->
+      <div class="section" style="text-align: center;">
+        <h2>Export First Attempt Scores And View Student Leaderboard</h2>
+        <p>Have access to all student <strong>Score Sheet and Ranking</strong> of every participant.</p>
+      </div>
+      <div class="export-grid">
+        <!-- First Attempts Only -->
+        <div class="export-card">
+          <h3>First Attempt Scores</h3>
+          <p>Download <strong>only the first attempt</strong> score for each candidate.<br>
+             Ideal for official ranking and promotion decisions.</p>
+          <button class="btn" onclick="window.location.href='/export_first_attempts_csv'">
+            Download First Attempts Only
+          </button>
+        </div>
+
+        <!-- All Attempts (New Feature) -->
+        <div class="export-card">
+          <h3>All Attempts History</h3>
+          <p>Download <strong>complete attempt history</strong> for every user.<br>
+             Format: <code>username, attempt_1, attempt_2, attempt_3, ...</code></p>
+          <button class="btn" onclick="window.location.href='/export_all_attempts_csv'">
+            Download Full History (All Attempts)
+          </button>
+        </div>
+      </div>
+
+      <!-- Leaderboard -->
+      <div class="section">
+        <h2>Current Leaderboard (Best Scores)</h2>
+        <table id="top10Table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Username</th>
+              <th>Best Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Filled by JS -->
+          </tbody>
+        </table>
+
+        <div class="controls">
+          <button class="btn btn-primary" onclick="toggleFullLeaderboard()">
+            Show Full Leaderboard
+          </button>
+        </div>
+
+        <table id="fullTable" class="hidden">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Username</th>
+              <th>Best Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Filled by JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="footer">
+      N-Hub Cyber Security CBT Platform • Built with discretion by <strong>@Cyber_Jem</strong><br>
+      Privacy-First • Secure • Professional
+    </div>
+  </div>
+
+  <script>
+    async function loadLeaderboard() {
+      try {
+        const res = await fetch('/dashboard_data'); // We'll create this endpoint
+        if (!res.ok) throw new Error("Failed to fetch");
+        const data = await res.json();
+
+        // Update stats
+        // document.getElementById('totalUsers').textContent = data.all.length;
+        const firstScores = data.first_attempts.map(a => a.score);
+        const avg = firstScores.length ? Math.round(firstScores.reduce((a,b)=>a+b)/firstScores.length) : 0;
+        const highest = firstScores.length ? Math.max(...firstScores) : 0;
+        document.getElementById('avgFirstScore').textContent = avg + '/50';
+        document.getElementById('highestFirst').textContent = highest + '/50';
+        
+        fetch('/dashboard_data')
+        .then(response => response.json())
+        .then(data => {
+          console.log(data)
+          // document.getElementById('totalAttempts').textContent = data.first_attempts.length > 0 ? data.first_attempts.reduce((a,b) => a + 1, 0) : 0;
+          document.getElementById('passed').textContent = data.passed; // .length; // wen backend isnt sending the length of list.
+          document.getElementById('failed').textContent = data.failed; // .length;
+          document.getElementById('totalCan').textContent = data.total_candidates; 
+          document.getElementById('attempts').textContent = data.total_attempts;
+        })
+        // Top 10
+        const top10Body = document.querySelector('#top10Table tbody');
+        top10Body.innerHTML = '';
+        data.leaders.forEach((user, i) => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td><strong>${i + 1}</strong></td>
+            <td><a href="/hist/${user.username}">${user.username}</a></td>
+            <td><strong>${user.score}/50</strong></td>
+          `;
+          top10Body.appendChild(row);
+        });
+
+        // Full Leaderboard
+        const fullBody = document.querySelector('#fullTable tbody');
+        fullBody.innerHTML = '';
+        data.all.forEach((user, i) => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${i + 1}</td>
+            <td><a href="/hist/${user.username}">${user.username}</a></td>
+            <td>${user.score}/50</td>
+          `;
+          fullBody.appendChild(row);
+        });
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById('totalUsers').textContent = 'Error';
+      }
+    }
+
+    function toggleFullLeaderboard() {
+      const fullTable = document.getElementById('fullTable');
+      const btn = event.target;
+      fullTable.classList.toggle('hidden');
+      btn.textContent = fullTable.classList.contains('hidden') ? 'Show Full Leaderboard' : 'Hide Full Leaderboard';
+    }
+
+    function downloadFirstAttemptsCSV() {
+      window.location.href = '/export_first_attempts_csv';
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('adminDarkMode', document.body.classList.contains('dark-mode'));
+    }
+
+    // Load on start
+    window.onload = () => {
+      loadLeaderboard();
+      if (localStorage.getItem('adminDarkMode') === 'true') {
+        document.body.classList.add('dark-mode');
+      }
+    };
+  </script>
+</body>
+</html>

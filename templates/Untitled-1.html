@@ -1,0 +1,366 @@
+<!-- templates/quiz.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='jem_ico.ico') }}">
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: #fff; padding: 10px 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 1000;">
+        <div style="display: flex; justify-content: space-between; align-items: center; max-width: 800px; margin: 0 auto;">
+            <div style="font-size: 18px; color: #333;">User: {{ username | safe }}</div>
+            <div id="progressBar" style="width: 50%; background: #ddd; height: 20px; border-radius: 5px;">
+                <div id="progress" style="background: #28a745; height: 100%; border-radius: 5px; width: 0%; transition: width 0.3s;"></div>
+            </div>
+            <div id="timer" style="font-size: 18px; color: #333;">Time Left: <span id="time">3:00</span></div>
+        </div>
+    </div>
+    <div style="max-width: 800px; margin: 80px auto 50px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <h1 style="text-align: center;">Quiz for {{ username | safe }}</h1>
+        <button type="button" onclick="toggleCalculator()" style="padding: 10px 20px; background: #6c757d; color: white; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 20px;">Toggle Calculator</button>
+        <form id="quizForm" action="/submit_quiz" method="POST">
+            <input type="hidden" name="username" value="{{ username | safe }}">
+            <input type="hidden" name="answers" id="answersInput">
+            <div id="questionContainer"></div>
+            <div style="margin-top: 20px; text-align: center;">
+                <button type="button" id="prevBtn" onclick="changePage(-1)" style="padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;" disabled>Previous</button>
+                <button type="button" id="nextBtn" onclick="changePage(1)" style="padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Next</button>
+                <button type="button" id="reviewFlaggedBtn" onclick="reviewFlagged()" style="padding: 10px 20px; background: #ffc107; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 0 10px;">Review Flagged</button>
+                <button type="button" id="viewAnsweredBtn" onclick="viewAnswered()" style="padding: 10px 20px; background: #17a2b8; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 0 10px;">View Answered</button>
+                <button type="submit" id="submitBtn" style="padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; display: none;">Submit Quiz</button>
+            </div>
+        </form>
+    </div>
+    <div id="scorePopup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.3); text-align: center; z-index: 2000;">
+        <h2>Your Score</h2>
+        <p id="scoreText"></p>
+        <button onclick="goToDashboard()" style="padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">OK</button>
+    </div>
+    <div id="calculatorPopup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.3); z-index: 2000;">
+        <h3 style="margin-top: 0;">Calculator</h3>
+        <input type="text" id="calcDisplay" style="width: 100%; padding: 10px; margin-bottom: 10px; font-size: 16px;" readonly>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px;">
+            <button onclick="calcInput('7')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">7</button>
+            <button onclick="calcInput('8')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">8</button>
+            <button onclick="calcInput('9')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">9</button>
+            <button onclick="calcInput('/')" style="padding: 10px; background: #ffc107; color: white; border: none; cursor: pointer;">/</button>
+            <button onclick="calcInput('4')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">4</button>
+            <button onclick="calcInput('5')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">5</button>
+            <button onclick="calcInput('6')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">6</button>
+            <button onclick="calcInput('*')" style="padding: 10px; background: #ffc107; color: white; border: none; cursor: pointer;">*</button>
+            <button onclick="calcInput('1')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">1</button>
+            <button onclick="calcInput('2')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">2</button>
+            <button onclick="calcInput('3')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">3</button>
+            <button onclick="calcInput('-')" style="padding: 10px; background: #ffc107; color: white; border: none; cursor: pointer;">-</button>
+            <button onclick="calcInput('0')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">0</button>
+            <button onclick="calcInput('.')" style="padding: 10px; background: #f8f9fa; border: 1px solid #ddd; cursor: pointer;">.</button>
+            <button onclick="calcClear()" style="padding: 10px; background: #dc3545; color: white; border: none; cursor: pointer;">C</button>
+            <button onclick="calcInput('+')" style="padding: 10px; background: #ffc107; color: white; border: none; cursor: pointer;">+</button>
+            <button onclick="calcEvaluate()" style="padding: 10px; background: #28a745; color: white; border: none; cursor: pointer; grid-column: span 4;">=</button>
+        </div>
+    </div>
+    <script>
+        try {
+            const questions = {{ questions | tojson | safe }};
+            const questionsPerPage = 15;
+            let currentPage = 0;
+            const totalPages = Math.ceil(questions.length / questionsPerPage);
+            const flaggedQuestions = JSON.parse(localStorage.getItem('flagged') || '[]');
+            let answeredQuestions = JSON.parse(localStorage.getItem('quizAnswers') || '{}');
+
+            // Prevent back button from showing quiz
+            history.pushState(null, null, location.href);
+            window.onpopstate = function () {
+                history.go(1);
+            };
+
+            function renderQuestions() {
+                try {
+                    const container = document.getElementById('questionContainer');
+                    container.innerHTML = '';
+                    const start = currentPage * questionsPerPage;
+                    const end = Math.min(start + questionsPerPage, questions.length);
+                    for (let i = start; i < end; i++) {
+                        const q = questions[i];
+                        const isFlagged = flaggedQuestions.includes(q.id);
+                        const div = document.createElement('div');
+                        div.style.marginBottom = '20px';
+                        div.style.background = isFlagged ? '#fff3cd' : 'transparent';
+                        div.style.padding = isFlagged ? '10px' : '0';
+                        div.style.borderRadius = isFlagged ? '5px' : '0';
+                        div.innerHTML = `
+                            <p style="font-weight: bold;">${i + 1}. ${q.question}</p>
+                            ${q.options.map(opt => `
+                                <label style="display: block; margin: 5px 0;">
+                                    <input type="radio" name="${q.id}" value="${opt}" aria-label="Option ${opt}" ${answeredQuestions[q.id] === opt ? 'checked' : ''}>
+                                    ${opt}
+                                </label>
+                            `).join('')}
+                            <button type="button" onclick="flagQuestion(${q.id}, this)" style="padding: 5px 10px; background: ${isFlagged ? '#dc3545' : '#ffc107'}; color: white; border: none; border-radius: 3px; cursor: pointer;">${isFlagged ? 'Unflag' : 'Flag'}</button>
+                        `;
+                        container.appendChild(div);
+                    }
+                    document.getElementById('prevBtn').disabled = currentPage === 0;
+                    document.getElementById('nextBtn').style.display = currentPage === totalPages - 1 ? 'none' : 'inline-block';
+                    document.getElementById('submitBtn').style.display = currentPage === totalPages - 1 ? 'inline-block' : 'none';
+                    updateProgress();
+                    window.scrollTo({ top: document.getElementById('questionContainer').offsetTop - 80, behavior: 'smooth' });
+                } catch (e) {
+                    console.error('Error rendering questions:', e);
+                }
+            }
+
+            function changePage(direction) {
+                try {
+                    saveAnswers();
+                    currentPage += direction;
+                    if (currentPage < 0) currentPage = 0;
+                    if (currentPage >= totalPages) currentPage = totalPages - 1;
+                    renderQuestions();
+                } catch (e) {
+                    console.error('Error changing page:', e);
+                }
+            }
+
+            function saveAnswers() {
+                try {
+                    document.querySelectorAll('input[type="radio"]:checked').forEach(input => {
+                        answeredQuestions[input.name] = input.value;
+                    });
+                    localStorage.setItem('quizAnswers', JSON.stringify(answeredQuestions));
+                    document.getElementById('answersInput').value = JSON.stringify(answeredQuestions);
+                } catch (e) {
+                    console.error('Error saving answers:', e);
+                }
+            }
+
+            function updateProgress() {
+                try {
+                    const answered = Object.keys(answeredQuestions).length;
+                    const totalQuestions = questions.length;
+                    document.getElementById('progress').style.width = `${(answered / totalQuestions) * 100}%`;
+                } catch (e) {
+                    console.error('Error updating progress:', e);
+                }
+            }
+
+            function flagQuestion(id, button) {
+                try {
+                    const index = flaggedQuestions.indexOf(id);
+                    if (index === -1) {
+                        flaggedQuestions.push(id);
+                        button.style.background = '#dc3545';
+                        button.textContent = 'Unflag';
+                        button.parentElement.style.background = '#fff3cd';
+                        button.parentElement.style.padding = '10px';
+                        button.parentElement.style.borderRadius = '5px';
+                    } else {
+                        flaggedQuestions.splice(index, 1);
+                        button.style.background = '#ffc107';
+                        button.textContent = 'Flag';
+                        button.parentElement.style.background = 'transparent';
+                        button.parentElement.style.padding = '0';
+                        button.parentElement.style.borderRadius = '0';
+                    }
+                    localStorage.setItem('flagged', JSON.stringify(flaggedQuestions));
+                } catch (e) {
+                    console.error('Error flagging question:', e);
+                }
+            }
+
+            function reviewFlagged() {
+                try {
+                    if (flaggedQuestions.length === 0) {
+                        alert('No questions flagged.');
+                        return;
+                    }
+                    saveAnswers();
+                    const container = document.getElementById('questionContainer');
+                    container.innerHTML = '<h3 style="text-align: center;">Flagged Questions</h3>';
+                    questions.forEach((q, index) => {
+                        if (flaggedQuestions.includes(q.id)) {
+                            const div = document.createElement('div');
+                            div.style.marginBottom = '20px';
+                            div.style.background = '#fff3cd';
+                            div.style.padding = '10px';
+                            div.style.borderRadius = '5px';
+                            div.innerHTML = `
+                                <p style="font-weight: bold;">${index + 1}. ${q.question}</p>
+                                ${q.options.map(opt => `
+                                    <label style="display: block; margin: 5px 0;">
+                                        <input type="radio" name="${q.id}" value="${opt}" aria-label="Option ${opt}" ${answeredQuestions[q.id] === opt ? 'checked' : ''}>
+                                        ${opt}
+                                    </label>
+                                `).join('')}
+                                <button type="button" onclick="flagQuestion(${q.id}, this)" style="padding: 5px 10px; background: #dc3545; color: white; border: none; border-radius: 3px; cursor: pointer;">Unflag</button>
+                            `;
+                            container.appendChild(div);
+                        }
+                    });
+                    document.getElementById('prevBtn').style.display = 'none';
+                    document.getElementById('nextBtn').style.display = 'none';
+                    document.getElementById('reviewFlaggedBtn').style.display = 'none';
+                    document.getElementById('viewAnsweredBtn').style.display = 'none';
+                    document.getElementById('submitBtn').style.display = 'inline-block';
+                    window.scrollTo({ top: document.getElementById('questionContainer').offsetTop - 80, behavior: 'smooth' });
+                } catch (e) {
+                    console.error('Error reviewing flagged questions:', e);
+                }
+            }
+
+            function viewAnswered() {
+                try {
+                    saveAnswers();
+                    if (Object.keys(answeredQuestions).length === 0) {
+                        alert('No questions answered yet.');
+                        return;
+                    }
+                    fetch('/submit_quiz', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ username: '{{ username | safe }}', answers: answeredQuestions })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        const container = document.getElementById('questionContainer');
+                        container.innerHTML = '<h3 style="text-align: center;">Answered Questions</h3>';
+                        questions.forEach((q, index) => {
+                            if (answeredQuestions[q.id]) {
+                                const isCorrect = q.answer === answeredQuestions[q.id];
+                                const div = document.createElement('div');
+                                div.style.marginBottom = '20px';
+                                div.style.background = isCorrect ? '#d4edda' : '#f8d7da';
+                                div.style.padding = '10px';
+                                div.style.borderRadius = '5px';
+                                div.innerHTML = `
+                                    <p style="font-weight: bold;">${index + 1}. ${q.question}</p>
+                                    <p>Your Answer: ${answeredQuestions[q.id]}</p>
+                                    <p>Correct Answer: ${q.answer}</p>
+                                    <p style="color: ${isCorrect ? '#28a745' : '#dc3545'};">${isCorrect ? 'Correct' : 'Incorrect'}</p>
+                                `;
+                                container.appendChild(div);
+                            }
+                        });
+                        document.getElementById('prevBtn').style.display = 'none';
+                        document.getElementById('nextBtn').style.display = 'none';
+                        document.getElementById('reviewFlaggedBtn').style.display = 'none';
+                        document.getElementById('viewAnsweredBtn').style.display = 'none';
+                        document.getElementById('submitBtn').style.display = 'inline-block';
+                        window.scrollTo({ top: document.getElementById('questionContainer').offsetTop - 80, behavior: 'smooth' });
+                    })
+                    .catch(error => console.error('Error fetching answered questions:', error));
+                } catch (e) {
+                    console.error('Error viewing answered questions:', e);
+                }
+            }
+
+            function toggleCalculator() {
+                try {
+                    const calc = document.getElementById('calculatorPopup');
+                    calc.style.display = calc.style.display === 'none' ? 'block' : 'none';
+                } catch (e) {
+                    console.error('Error toggling calculator:', e);
+                }
+            }
+
+            function calcInput(value) {
+                try {
+                    document.getElementById('calcDisplay').value += value;
+                } catch (e) {
+                    console.error('Error inputting calculator value:', e);
+                }
+            }
+
+            function calcClear() {
+                try {
+                    document.getElementById('calcDisplay').value = '';
+                } catch (e) {
+                    console.error('Error clearing calculator:', e);
+                }
+            }
+
+            function calcEvaluate() {
+                try {
+                    const display = document.getElementById('calcDisplay');
+                    display.value = eval(display.value) || '';
+                } catch (e) {
+                    console.error('Error evaluating calculator:', e);
+                    document.getElementById('calcDisplay').value = 'Error';
+                }
+            }
+
+            function submitQuiz() {
+                try {
+                    saveAnswers();
+                    const formData = new FormData(document.getElementById('quizForm'));
+                    fetch('/submit_quiz', {
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('scoreText').textContent = `${data.percentage}%, ${data.score}/${data.total}`;
+                        document.getElementById('scorePopup').style.display = 'block';
+                        localStorage.removeItem('quizAnswers');
+                        localStorage.removeItem('flagged');
+                        // 5-SECOND DELAY BEFORE REDIRECT
+                        setTimeout(() => {
+                            window.location.href = data.redirect;
+                        }, 500); // 300ms = 0.5 seconds
+
+                    })
+                    .catch(error => console.error('Error submitting quiz:', error));
+                } catch (e) {
+                    console.error('Error submitting quiz:', e);
+                }
+            }
+
+            document.getElementById('quizForm').addEventListener('change', () => {
+                try {
+                    saveAnswers();
+                    updateProgress();
+                } catch (e) {
+                    console.error('Error on form change:', e);
+                }
+            });
+
+            document.getElementById('quizForm').addEventListener('submit', (e) => {
+                e.preventDefault();
+                submitQuiz();
+            });
+
+            function goToDashboard() {
+                window.location.href = '/';
+            }
+
+            let timeLeft = 3 * 60; // 3 minutes
+            const timeDisplay = document.getElementById('time');
+            const timer = setInterval(() => {
+                try {
+                    const minutes = Math.floor(timeLeft / 60);
+                    const seconds = timeLeft % 60;
+                    timeDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                    timeLeft--;
+                    if (timeLeft < 60 && timeLeft % 2 === 0) {  // danger timer for warning from 1 minute
+                        timeDisplay.style.color = '#ff0000';
+                    } else if (timeLeft < 60) { // 300
+                        timeDisplay.style.color = '#333';
+                    }
+                    if (timeLeft < 0) {
+                        clearInterval(timer);
+                        submitQuiz(); // Use same submission logic as manual submit
+                    }
+                } catch (e) {
+                    console.error('Error in timer:', e);
+                    clearInterval(timer);
+                }
+            }, 1000);
+
+            renderQuestions();
+        } catch (e) {
+            console.error('Error initializing quiz:', e);
+        }
+    </script>
+</body>
+</html>

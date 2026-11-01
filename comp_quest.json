@@ -1,0 +1,208 @@
+[
+  {
+    "id": 1,
+    "question": "Which tab in Microsoft Word contains the 'Save', 'Save As', 'Open', and 'Print' commands?",
+    "options": ["Home", "Insert", "File", "View"],
+    "answer": "File"
+  },
+  {
+    "id": 2,
+    "question": "In the Home tab, which group contains Bold, Italic, and Underline buttons?",
+    "options": ["Clipboard", "Font", "Paragraph", "Styles"],
+    "answer": "Font"
+  },
+  {
+    "id": 3,
+    "question": "To change the font size of selected text, you should go to which tab and group?",
+    "options": ["Insert → Font", "Home → Font", "Design → Font", "View → Zoom"],
+    "answer": "Home → Font"
+  },
+  {
+    "id": 4,
+    "question": "To insert a picture from your computer, you go to:",
+    "options": ["Insert → Pictures", "Home → Clipboard", "File → Insert", "Design → Images"],
+    "answer": "Insert → Pictures"
+  },
+  {
+    "id": 5,
+    "question": "Which feature in the Insert tab allows you to add clickable web links?",
+    "options": ["Hyperlink", "Bookmark", "Cross-reference", "Object"],
+    "answer": "Hyperlink"
+  },
+  {
+    "id": 6,
+    "question": "The 'Find and Replace' feature is located in which tab?",
+    "options": ["Home", "Insert", "View", "References"],
+    "answer": "Home"
+  },
+  {
+    "id": 7,
+    "question": "Which Google application is used in-place of Microsoft Word?",
+    "options": ["PowerPoint", "Google Chrome", "Excel Sheets", "Google Docs"],
+    "answer": "Google Docs"
+  },
+  {
+    "id": 8,
+    "question": "Which cloud service is deeply integrated with Microsoft Word for saving files?",
+    "options": ["Google Drive", "Dropbox", "OneDrive", "iCloud"],
+    "answer": "OneDrive"
+  },
+  {
+    "id": 9,
+    "question": "What happens when you click 'Save' for the first time on a new document?",
+    "options": ["It saves automatically", "It opens Save As dialog", "It saves to Desktop", "It closes Word"],
+    "answer": "It opens Save As dialog"
+  },
+  {
+    "id": 10,
+    "question": "To set Microsoft Word as the default app for .docx files, you should:",
+    "options": ["Right-click a .docx file → Open with → Choose another app → Set as default", "Go to Control Panel → Uninstall", "Change in Word Options", "Reinstall Office"],
+    "answer": "Right-click a .docx file → Open with → Choose another app → Set as default"
+  },
+  {
+    "id": 11,
+    "question": "Which file extension is used by default for new Word documents from 2007 onwards?",
+    "options": [".doc", ".docx", ".txt", ".rtf"],
+    "answer": ".docx"
+  },
+  {
+    "id": 12,
+    "question": "What is the shortcut to undo the last action in Word?",
+    "options": ["Ctrl + Z", "Ctrl + Y", "Ctrl + X", "Ctrl + U"],
+    "answer": "Ctrl + Z"
+  },
+  {
+    "id": 13,
+    "question": "Icons on desktop can be arranged in these different methods except:",
+    "options": ["Date modified", "Name", "Arrangement", "Size"],
+    "answer": "Arrangement"
+  },
+  {
+    "id": 14,
+    "question": "To change line spacing to 1.15 (default in modern Word), go to:",
+    "options": ["Home → Paragraph → Line Spacing", "Insert → Spacing", "Layout → Paragraph", "Design → Spacing"],
+    "answer": "Home → Paragraph → Line Spacing"
+  },
+  {
+    "id": 15,
+    "question": "To protect a document with a password, go to:",
+    "options": ["File → Info → Protect Document → Encrypt with Password", "Review → Protect", "Insert → Lock", "Home → Restrict"],
+    "answer": "File → Info → Protect Document → Encrypt with Password"
+  },
+  {
+    "id": 16,
+    "question": "Which ribbon group in Home tab contains 'Bullets' and 'Numbering'?",
+    "options": ["Font", "Paragraph", "Styles", "Editing"],
+    "answer": "Paragraph"
+  },
+  {
+    "id": 17,
+    "question": "To align text to the center, you click the button in:",
+    "options": ["Home → Font group", "Home → Paragraph group", "Insert → Text group", "Layout → Alignment"],
+    "answer": "Home → Paragraph group"
+  },
+  {
+    "id": 18,
+    "question": "What happens when you double-click a Word document on your desktop?",
+    "options": ["It opens in Notepad", "It opens in the default program for .docx", "It deletes the file", "It opens in browser"],
+    "answer": "It opens in the default program for .docx"
+  },
+  {
+    "id": 19,
+    "question": "Which of these is a default app that can be found on the desktop:",
+    "options": ["Recycle Bin", "Microsoft Word", "Chrome", "Media Player"],
+    "answer": "Recycle Bin"
+  },
+  {
+    "id": 20,
+    "question": "On the file manager, where is the best place to save your documents file?",
+    "options": ["Google Docs", "Pictures", "Downloads", "Documents"],
+    "answer": "Documents"
+  },
+  {
+    "id": 21,
+    "question": "The font that is used by default standard for editing your work is ......",
+    "options": ["Timely Font", "Times New Roman", "Calibri (Body)", "Aptos"],
+    "answer": "Times New Roman"
+  },
+  {
+    "id": 22,
+    "question": "Why do we use BOLD on a text in Microsoft Word?",
+    "options": ["To make it good", "To create emphasis", "To make it stylish", "To magnify the whole work"],
+    "answer": "To create emphasis"
+  },
+  {
+    "id": 23,
+    "question": "On which menu do we save our work in Microsoft Word?",
+    "options": ["File menu", "Insert menu", "Home menu", "Document menu"],
+    "answer": "File menu"
+  },
+  {
+    "id": 24,
+    "question": "I want to add list of items on my work in Microsoft Word. Which of these is helpful:",
+    "options": ["Bullets", "Fonts", "Light", "Points"],
+    "answer": "Bullets"
+  },
+  {
+    "id": 25,
+    "question": "Which shortcut is used for printing a document?",
+    "options": ["Ctrl + A", "Ctrl + C", "Ctrl + E", "Ctrl + P"],
+    "answer": "Ctrl + P"
+  },
+  {
+    "id": 26,
+    "question": "When starting a new document what do I click on the file menu?",
+    "options": ["Home", "New", "Blank", "Insert"],
+    "answer": "New"
+  },
+  {
+    "id": 27,
+    "question": "Which tab allows you to insert tables in Microsoft Word?",
+    "options": ["Insert", "Layout", "References", "View"],
+    "answer": "Insert"
+  },
+  {
+    "id": 28,
+    "question": "What is the default font size in Microsoft Word?",
+    "options": ["12", "11", "15", "14"],
+    "answer": "11"
+  },
+  {
+    "id": 29,
+    "question": "Which shortcut is used to copy selected text?",
+    "options": ["Ctrl + V", "Ctrl + C", "Ctrl + X", "Ctrl + A"],
+    "answer": "Ctrl + C"
+  },
+  {
+    "id": 30,
+    "question": "Which tab contains the 'Header and Footer' options?",
+    "options": ["Insert", "Design", "Layout", "References"],
+    "answer": "Insert"
+  },
+  {
+    "id": 31,
+    "question": "Which feature in Word helps check spelling and grammar?",
+    "options": ["Proofing", "Spell Check", "Review → Spelling & Grammar", "AutoCorrect"],
+    "answer": "Review → Spelling & Grammar"
+  },
+
+  
+  {
+    "id": 32,
+    "question": "Which of the following is considered a web browser?",
+    "options": ["Google Chrome", "Yahoo Mail", "Outlook", "Skype"],
+    "answer": "Google Chrome"
+  },
+  {
+    "id": 33,
+    "question": "What does 'URL' stand for in Internet terminology?",
+    "options": ["Universal Resource Locator", "Uniform Resource Locator", "United Routing Link", "User Reference Line"],
+    "answer": "Uniform Resource Locator"
+  },
+  {
+    "id": 34,
+    "question": "Which of these is an example of a search engine?",
+    "options": ["Google", "Facebook", "WhatsApp", "Zoom"],
+    "answer": "Google"
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary purpose of cybersecurity?",
+    "options": [
+      "To prevent all cyber attacks from occurring",
+      "To protect internet-connected systems and data from unauthorized access or harm",
+      "To eliminate the need for passwords",
+      "To ensure all software is open source"
+    ],
+    "answer": "To protect internet-connected systems and data from unauthorized access or harm"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is considered a personal security threat in the digital world?",
+    "options": [
+      "Identity theft",
+      "Firewall misconfiguration",
+      "Router failure",
+      "Network latency"
+    ],
+    "answer": "Identity theft"
+  },
+  {
+    "id": 3,
+    "question": "What is the main reason cybersecurity professionals emphasize the concept of 'defense in depth'?",
+    "options": [
+      "To reduce the cost of security measures",
+      "To ensure no single point of failure compromises the entire system",
+      "To comply with international laws",
+      "To increase network speed"
+    ],
+    "answer": "To ensure no single point of failure compromises the entire system"
+  },
+  {
+    "id": 4,
+    "question": "Which characteristic of data refers to the assurance that information is accurate and trustworthy?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authenticity"
+    ],
+    "answer": "Integrity"
+  },
+  {
+    "id": 5,
+    "question": "What type of attack aims to make a system or network resource unavailable to its intended users?",
+    "options": [
+      "Phishing attack",
+      "Man-in-the-middle attack",
+      "Denial of Service (DoS) attack",
+      "Spoofing attack"
+    ],
+    "answer": "Denial of Service (DoS) attack"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is an example of an internal threat?",
+    "options": [
+      "A hacker from another country",
+      "An employee who accidentally exposes sensitive data",
+      "A competitor scanning the network",
+      "A virus downloaded from an external website"
+    ],
+    "answer": "An employee who accidentally exposes sensitive data"
+  },
+  {
+    "id": 7,
+    "question": "What is the term for a weakness in a system that could be exploited by a threat actor?",
+    "options": [
+      "Threat",
+      "Vulnerability",
+      "Risk",
+      "Exploit"
+    ],
+    "answer": "Vulnerability"
+  },
+  {
+    "id": 8,
+    "question": "Which principle of the CIA triad ensures that data is accessible when needed by authorized users?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "answer": "Availability"
+  },
+  {
+    "id": 9,
+    "question": "What is a 'white hat' hacker?",
+    "options": [
+      "A hacker who breaks into systems illegally",
+      "An ethical hacker who helps organizations find vulnerabilities with permission",
+      "A hacker who focuses on financial gain",
+      "A hacker who causes damage for political reasons"
+    ],
+    "answer": "An ethical hacker who helps organizations find vulnerabilities with permission"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is NOT a common cyber attack motivation?",
+    "options": [
+      "Financial gain",
+      "Political activism (hacktivism)",
+      "System testing",
+      "Espionage"
+    ],
+    "answer": "System testing"
+  },
+  {
+    "id": 11,
+    "question": "What is ransomware?",
+    "options": [
+      "Software that encrypts a user's files and demands payment for decryption",
+      "A type of virus that deletes files randomly",
+      "Malware that steals passwords",
+      "A firewall bypass tool"
+    ],
+    "answer": "Software that encrypts a user's files and demands payment for decryption"
+  },
+  {
+    "id": 12,
+    "question": "What is the primary difference between a virus and a worm?",
+    "options": [
+      "Viruses are more dangerous than worms",
+      "Worms can self-replicate and spread without user action; viruses require a host file",
+      "Viruses only affect Windows systems",
+      "Worms cannot be detected by antivirus software"
+    ],
+    "answer": "Worms can self-replicate and spread without user action; viruses require a host file"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is an example of social engineering?",
+    "options": [
+      "SQL injection",
+      "Phishing emails",
+      "Buffer overflow attack",
+      "Port scanning"
+    ],
+    "answer": "Phishing emails"
+  },
+  {
+    "id": 14,
+    "question": "What is the principle of least privilege?",
+    "options": [
+      "Users should be given the maximum permissions to do their job efficiently",
+      "Users should be given the minimum permissions necessary to perform their job",
+      "All users should have the same level of access",
+      "Only system administrators should have access to data"
+    ],
+    "answer": "Users should be given the minimum permissions necessary to perform their job"
+  },
+  {
+    "id": 15,
+    "question": "What is a zero-day vulnerability?",
+    "options": [
+      "A vulnerability that has been patched recently",
+      "A vulnerability that is unknown to the vendor and has no patch available",
+      "A vulnerability that only affects older operating systems",
+      "A vulnerability that occurs exactly at midnight"
+    ],
+    "answer": "A vulnerability that is unknown to the vendor and has no patch available"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following best describes 'authenticity' in cybersecurity?",
+    "options": [
+      "Ensuring data is available",
+      "Verifying that a user or system is who they claim to be",
+      "Ensuring data is encrypted",
+      "Making backups of data"
+    ],
+    "answer": "Verifying that a user or system is who they claim to be"
+  },
+  {
+    "id": 17,
+    "question": "What is a common consequence of a successful cyber attack on a business?",
+    "options": [
+      "Improved network performance",
+      "Financial loss and reputational damage",
+      "Increased customer trust",
+      "Better security awareness"
+    ],
+    "answer": "Financial loss and reputational damage"
+  },
+  {
+    "id": 18,
+    "question": "What is 'spoofing' in a cybersecurity context?",
+    "options": [
+      "Encrypting data to protect it",
+      "Falsifying a source address or identity to impersonate a legitimate entity",
+      "Deleting system logs",
+      "Installing antivirus software"
+    ],
+    "answer": "Falsifying a source address or identity to impersonate a legitimate entity"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following is a physical security measure?",
+    "options": [
+      "Firewall configuration",
+      "Biometric access controls",
+      "Antivirus updates",
+      "Password policy enforcement"
+    ],
+    "answer": "Biometric access controls"
+  },
+  {
+    "id": 20,
+    "question": "What is the primary goal of cybersecurity risk management?",
+    "options": [
+      "Eliminate all risks completely",
+      "Identify, assess, and prioritize risks to mitigate them to an acceptable level",
+      "Transfer all risks to insurance companies",
+      "Ignore risks that are not financial"
+    ],
+    "answer": "Identify, assess, and prioritize risks to mitigate them to an acceptable level"
+  },
+  {
+    "id": 21,
+    "question": "What type of attack occurs when an attacker intercepts and potentially alters communication between two parties?",
+    "options": [
+      "Denial of Service (DoS)",
+      "Man-in-the-Middle (MITM)",
+      "Replay attack",
+      "Distributed Denial of Service (DDoS)"
+    ],
+    "answer": "Man-in-the-Middle (MITM)"
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is considered a 'best practice' for personal cybersecurity?",
+    "options": [
+      "Using the same password for all accounts",
+      "Sharing passwords with trusted colleagues",
+      "Using multi-factor authentication (MFA) where available",
+      "Disabling firewall on personal devices"
+    ],
+    "answer": "Using multi-factor authentication (MFA) where available"
+  },
+  {
+    "id": 23,
+    "question": "What does the term 'cyber hygiene' refer to?",
+    "options": [
+      "Cleaning computer hardware regularly",
+      "The practices and habits that ensure information and systems are protected",
+      "Removing viruses using disinfectant",
+      "Running antivirus software once per year"
+    ],
+    "answer": "The practices and habits that ensure information and systems are protected"
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is a characteristic of a 'black hat' hacker?",
+    "options": [
+      "They operate with permission",
+      "They have malicious intent and violate laws for personal gain or harm",
+      "They only test systems for the government",
+      "They report all vulnerabilities to vendors for free"
+    ],
+    "answer": "They have malicious intent and violate laws for personal gain or harm"
+  },
+  {
+    "id": 25,
+    "question": "What is the primary defense against social engineering attacks?",
+    "options": [
+      "Strong firewalls",
+      "User awareness and training",
+      "Network segmentation",
+      "Encryption of all data"
+    ],
+    "answer": "User awareness and training"
+  },
+  {
+    "id": 26,
+    "question": "What are the three dimensions of the Cybersecurity Cube?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Data, Privacy, Reliability",
+      "Data, Users, Security",
+      "Network, Host, Application"
+    ],
+    "answer": "Data, Users, Security"
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is considered sensitive information that needs protection?",
+    "options": [
+      "Publicly available company address",
+      "Social Security Number (SSN)",
+      "Weather forecast data",
+      "Public stock prices"
+    ],
+    "answer": "Social Security Number (SSN)"
+  },
+  {
+    "id": 28,
+    "question": "What is the term for the practice of hiding data in another file such as an image or audio file?",
+    "options": [
+      "Encryption",
+      "Hashing",
+      "Steganography",
+      "Tokenization"
+    ],
+    "answer": "Steganography"
+  },
+  {
+    "id": 29,
+    "question": "Which security principle ensures that only authorized persons can access specific data?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authentication"
+    ],
+    "answer": "Confidentiality"
+  },
+  {
+    "id": 30,
+    "question": "What is the difference between authentication and authorization?",
+    "options": [
+      "Authentication is the process of verifying identity; authorization determines what a user can do",
+      "Authentication determines what a user can do; authorization verifies identity",
+      "They are the same thing",
+      "Authorization is used before authentication"
+    ],
+    "answer": "Authentication is the process of verifying identity; authorization determines what a user can do"
+  },
+  {
+    "id": 31,
+    "question": "Which of the following is an example of 'data in motion'?",
+    "options": [
+      "Data stored on a hard drive",
+      "Data being transmitted over a network",
+      "Data stored in the cloud",
+      "Data on a backup tape"
+    ],
+    "answer": "Data being transmitted over a network"
+  },
+  {
+    "id": 32,
+    "question": "What is the primary purpose of encryption?",
+    "options": [
+      "To check data integrity",
+      "To ensure data is available",
+      "To protect data confidentiality by making it unreadable to unauthorized parties",
+      "To speed up data transmission"
+    ],
+    "answer": "To protect data confidentiality by making it unreadable to unauthorized parties"
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is a symmetric encryption algorithm?",
+    "options": [
+      "RSA",
+      "ECC",
+      "AES",
+      "SHA"
+    ],
+    "answer": "AES"
+  },
+  {
+    "id": 34,
+    "question": "What is hashing used for in cybersecurity?",
+    "options": [
+      "Encrypting data",
+      "Protecting data confidentiality",
+      "Verifying data integrity",
+      "Providing authentication"
+    ],
+    "answer": "Verifying data integrity"
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is an example of 'data at rest'?",
+    "options": [
+      "Data being streamed over the internet",
+      "Data stored on a database server",
+      "Data being transmitted over Wi-Fi",
+      "Data being processed in memory"
+    ],
+    "answer": "Data stored on a database server"
+  },
+  {
+    "id": 36,
+    "question": "What is the purpose of a digital signature?",
+    "options": [
+      "To encrypt data",
+      "To verify the authenticity and integrity of a message or document",
+      "To compress data",
+      "To backup data"
+    ],
+    "answer": "To verify the authenticity and integrity of a message or document"
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is NOT a type of authentication factor?",
+    "options": [
+      "Something you know (password)",
+      "Something you have (smart card)",
+      "Something you are (biometrics)",
+      "Something you store (data)"
+    ],
+    "answer": "Something you store (data)"
+  },
+  {
+    "id": 38,
+    "question": "What is non-repudiation in the context of cybersecurity?",
+    "options": [
+      "The ability to deny access to unauthorized users",
+      "The assurance that someone cannot deny the validity of their actions or transactions",
+      "The ability to repudiate a digital certificate",
+      "The process of renewing encryption keys"
+    ],
+    "answer": "The assurance that someone cannot deny the validity of their actions or transactions"
+  },
+  {
+    "id": 39,
+    "question": "Which of the following is a biometric authentication method?",
+    "options": [
+      "Password",
+      "Token",
+      "Fingerprint scanning",
+      "Security question"
+    ],
+    "answer": "Fingerprint scanning"
+  },
+  {
+    "id": 40,
+    "question": "What is the term for a cryptographic key that is used by both the sender and receiver?",
+    "options": [
+      "Public key",
+      "Private key",
+      "Symmetric key",
+      "Session key"
+    ],
+    "answer": "Symmetric key"
+  },
+  {
+    "id": 41,
+    "question": "What is the main advantage of asymmetric (public-key) cryptography?",
+    "options": [
+      "It is faster than symmetric encryption",
+      "It solves the key distribution problem",
+      "It requires less computational power",
+      "It is easier to implement"
+    ],
+    "answer": "It solves the key distribution problem"
+  },
+  {
+    "id": 42,
+    "question": "What is PKI (Public Key Infrastructure)?",
+    "options": [
+      "A framework for managing encryption keys and digital certificates",
+      "A type of firewall",
+      "An antivirus solution",
+      "A network protocol"
+    ],
+    "answer": "A framework for managing encryption keys and digital certificates"
+  },
+  {
+    "id": 43,
+    "question": "What does SSL/TLS provide for data in motion?",
+    "options": [
+      "Only authentication",
+      "Confidentiality and integrity",
+      "Only confidentiality",
+      "Only availability"
+    ],
+    "answer": "Confidentiality and integrity"
+  },
+  {
+    "id": 44,
+    "question": "What is the primary function of a Certificate Authority (CA)?",
+    "options": [
+      "To issue and manage digital certificates",
+      "To encrypt data",
+      "To store passwords",
+      "To monitor network traffic"
+    ],
+    "answer": "To issue and manage digital certificates"
+  },
+  {
+    "id": 45,
+    "question": "Which of the following is considered 'data in use'?",
+    "options": [
+      "Data stored on a backup tape",
+      "Data in a database",
+      "Data that is currently being processed or accessed by a user",
+      "Data transmitted over a network"
+    ],
+    "answer": "Data that is currently being processed or accessed by a user"
+  },
+  {
+    "id": 46,
+    "question": "What is salting in password security?",
+    "options": [
+      "Adding random data to a password before hashing to make it more secure",
+      "Encrypting the password with a symmetric key",
+      "Compressing the password to save space",
+      "Storing the password in plain text"
+    ],
+    "answer": "Adding random data to a password before hashing to make it more secure"
+  },
+  {
+    "id": 47,
+    "question": "Which of the following is a method to protect data confidentiality?",
+    "options": [
+      "Backup",
+      "Encryption",
+      "Disk defragmentation",
+      "System updates"
+    ],
+    "answer": "Encryption"
+  },
+  {
+    "id": 48,
+    "question": "What is a collision in hashing?",
+    "options": [
+      "When two different inputs produce the same hash output",
+      "When two identical inputs produce different hash outputs",
+      "When a hash algorithm is broken",
+      "When encryption and hashing are combined"
+    ],
+    "answer": "When two different inputs produce the same hash output"
+  },
+  {
+    "id": 49,
+    "question": "Which type of encryption uses two mathematically related keys?",
+    "options": [
+      "Symmetric encryption",
+      "Asymmetric encryption",
+      "Hashing",
+      "Stream encryption"
+    ],
+    "answer": "Asymmetric encryption"
+  },
+  {
+    "id": 50,
+    "question": "What is the purpose of a digital certificate?",
+    "options": [
+      "To store passwords securely",
+      "To bind a public key to an identity (person, organization, or device)",
+      "To encrypt all network traffic",
+      "To provide backup and recovery"
+    ],
+    "answer": "To bind a public key to an identity (person, organization, or device)"
+  },
+  {
+    "id": 51,
+    "question": "What is the difference between a threat and a vulnerability?",
+    "options": [
+      "A threat is a weakness; a vulnerability is a potential danger",
+      "A threat is a potential danger to a system; a vulnerability is a weakness that can be exploited",
+      "They are the same thing",
+      "A vulnerability is always easier to fix"
+    ],
+    "answer": "A threat is a potential danger to a system; a vulnerability is a weakness that can be exploited"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is an example of a physical threat?",
+    "options": [
+      "SQL injection",
+      "Phishing",
+      "Natural disaster (fire, flood)",
+      "Man-in-the-middle attack"
+    ],
+    "answer": "Natural disaster (fire, flood)"
+  },
+  {
+    "id": 53,
+    "question": "What is a trojan horse in cybersecurity?",
+    "options": [
+      "A self-replicating worm",
+      "A malicious program disguised as legitimate software",
+      "A type of firewall",
+      "A network scanning tool"
+    ],
+    "answer": "A malicious program disguised as legitimate software"
+  },
+  {
+    "id": 54,
+    "question": "What is the primary purpose of a DDoS (Distributed Denial of Service) attack?",
+    "options": [
+      "To steal sensitive data",
+      "To disrupt availability by overwhelming a target with traffic from multiple sources",
+      "To gain unauthorized access to a system",
+      "To install malware"
+    ],
+    "answer": "To disrupt availability by overwhelming a target with traffic from multiple sources"
+  },
+  {
+    "id": 55,
+    "question": "What type of malware encrypts a user's files and demands payment?",
+    "options": [
+      "Trojan",
+      "Ransomware",
+      "Spyware",
+      "Worm"
+    ],
+    "answer": "Ransomware"
+  },
+  {
+    "id": 56,
+    "question": "Which of the following is a common indicator of a phishing email?",
+    "options": [
+      "Personalized greeting with your full name",
+      "Urgent language and threats of negative consequences",
+      "Valid SSL certificate on the sender's website",
+      "Clear return address with the correct domain"
+    ],
+    "answer": "Urgent language and threats of negative consequences"
+  },
+  {
+    "id": 57,
+    "question": "What is a rootkit?",
+    "options": [
+      "A type of virus that infects boot sectors",
+      "A set of tools used by an attacker to hide their presence and maintain privileged access",
+      "An antivirus program",
+      "A network monitoring tool"
+    ],
+    "answer": "A set of tools used by an attacker to hide their presence and maintain privileged access"
+  },
+  {
+    "id": 58,
+    "question": "What is credential stuffing?",
+    "options": [
+      "Creating new passwords for users",
+      "Using breached username and password pairs from one site to log into other sites",
+      "Encrypting password databases",
+      "Changing passwords every 90 days"
+    ],
+    "answer": "Using breached username and password pairs from one site to log into other sites"
+  },
+  {
+    "id": 59,
+    "question": "What is an insider threat?",
+    "options": [
+      "A threat from an external hacker",
+      "A threat that originates from within an organization (employees, contractors, partners)",
+      "A threat that only affects hardware",
+      "A threat that is automatically mitigated by firewalls"
+    ],
+    "answer": "A threat that originates from within an organization (employees, contractors, partners)"
+  },
+  {
+    "id": 60,
+    "question": "What is a replay attack?",
+    "options": [
+      "An attack where valid data transmission is maliciously repeated or delayed",
+      "An attack where a hacker physically breaks into a data center",
+      "An attack where a system is replayed after an update",
+      "An attack that uses social engineering to get users to repeat actions"
+    ],
+    "answer": "An attack where valid data transmission is maliciously repeated or delayed"
+  },
+  {
+    "id": 61,
+    "question": "What is the term for an attack that targets the human element?",
+    "options": [
+      "Technical attack",
+      "Social engineering",
+      "Brute force attack",
+      "Zero-day attack"
+    ],
+    "answer": "Social engineering"
+  },
+  {
+    "id": 62,
+    "question": "Which of the following is a type of passive attack?",
+    "options": [
+      "Denial of Service",
+      "Network sniffing or eavesdropping",
+      "SQL injection",
+      "Ransomware deployment"
+    ],
+    "answer": "Network sniffing or eavesdropping"
+  },
+  {
+    "id": 63,
+    "question": "What is a brute-force attack?",
+    "options": [
+      "An attack that uses social engineering to trick users",
+      "An attack that tries every possible combination of characters to crack a password or encryption",
+      "An attack that uses precomputed hash tables",
+      "An attack that exploits software vulnerabilities"
+    ],
+    "answer": "An attack that tries every possible combination of characters to crack a password or encryption"
+  },
+  {
+    "id": 64,
+    "question": "What is the primary difference between a virus and a trojan?",
+    "options": [
+      "Viruses self-replicate; trojans require user interaction to spread",
+      "Trojans self-replicate; viruses require user interaction",
+      "They are the same",
+      "Trojans only affect mobile devices"
+    ],
+    "answer": "Viruses self-replicate; trojans require user interaction to spread"
+  },
+  {
+    "id": 65,
+    "question": "What is a logic bomb?",
+    "options": [
+      "A type of physical bomb",
+      "Malicious code that triggers when specific conditions are met",
+      "A security training tool",
+      "A firewall monitoring technique"
+    ],
+    "answer": "Malicious code that triggers when specific conditions are met"
+  },
+  {
+    "id": 66,
+    "question": "What is the purpose of a port scan?",
+    "options": [
+      "To scan for malware on a system",
+      "To discover open ports and services running on a host (reconnaissance)",
+      "To test network speed",
+      "To verify firewall rules"
+    ],
+    "answer": "To discover open ports and services running on a host (reconnaissance)"
+  },
+  {
+    "id": 67,
+    "question": "Which attack involves sending many SYN packets to overwhelm a server?",
+    "options": [
+      "SYN flood",
+      "UDP flood",
+      "Ping of Death",
+      "Smurf attack"
+    ],
+    "answer": "SYN flood"
+  },
+  {
+    "id": 68,
+    "question": "What is DNS spoofing?",
+    "options": [
+      "Redirecting domain name resolution to a malicious IP address",
+      "Encrypting DNS traffic",
+      "Blocking DNS requests",
+      "Creating fake DNS servers"
+    ],
+    "answer": "Redirecting domain name resolution to a malicious IP address"
+  },
+  {
+    "id": 69,
+    "question": "What type of malware collects user activity without their knowledge?",
+    "options": [
+      "Spyware",
+      "Adware",
+      "Ransomware",
+      "Worm"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "id": 70,
+    "question": "What is a watering hole attack?",
+    "options": [
+      "An attack that targets a specific organization by compromising a website that its employees frequently visit",
+      "An attack that floods a network with traffic",
+      "An attack that uses water to damage hardware",
+      "An attack that targets environmental sensors"
+    ],
+    "answer": "An attack that targets a specific organization by compromising a website that its employees frequently visit"
+  },
+  {
+    "id": 71,
+    "question": "What is the main goal of reconnaissance in the attack lifecycle?",
+    "options": [
+      "To deploy malware",
+      "To gather information about the target for planning the attack",
+      "To establish persistence",
+      "To cover tracks"
+    ],
+    "answer": "To gather information about the target for planning the attack"
+  },
+  {
+    "id": 72,
+    "question": "What is the difference between a threat actor and a threat vector?",
+    "options": [
+      "Threat actor is the person or group; threat vector is the method or path used",
+      "They are the same",
+      "Threat vector is the person; threat actor is the method",
+      "Threat actors only operate in cyber space"
+    ],
+    "answer": "Threat actor is the person or group; threat vector is the method or path used"
+  },
+  {
+    "id": 73,
+    "question": "What is an APT (Advanced Persistent Threat)?",
+    "options": [
+      "A simple virus",
+      "A sophisticated, long-term attack often sponsored by nation-states",
+      "A temporary denial of service attack",
+      "A basic phishing campaign"
+    ],
+    "answer": "A sophisticated, long-term attack often sponsored by nation-states"
+  },
+  {
+    "id": 74,
+    "question": "What is a birthday attack in cryptography?",
+    "options": [
+      "An attack that exploits collisions in hash functions",
+      "An attack that occurs on someone's birthday",
+      "An attack that sends birthday invitations with malware",
+      "An attack against social media"
+    ],
+    "answer": "An attack that exploits collisions in hash functions"
+  },
+  {
+    "id": 75,
+    "question": "What is the primary defense against malware?",
+    "options": [
+      "Strong passwords only",
+      "Antivirus/antimalware software, regular updates, and user awareness",
+      "Disabling all network connections",
+      "Using only open source software"
+    ],
+    "answer": "Antivirus/antimalware software, regular updates, and user awareness"
+  },
+  {
+    "id": 76,
+    "question": "What are the three main categories of cybersecurity governance?",
+    "options": [
+      "Technical, Administrative, Physical",
+      "Network, Application, Cloud",
+      "Preventive, Detective, Corrective",
+      "Encryption, Authentication, Authorization"
+    ],
+    "answer": "Technical, Administrative, Physical"
+  },
+  {
+    "id": 77,
+    "question": "What is GRC in cybersecurity?",
+    "options": [
+      "Governance, Risk, and Compliance",
+      "General Response Control",
+      "Global Recovery Command",
+      "Governance, Response, Control"
+    ],
+    "answer": "Governance, Risk, and Compliance"
+  },
+  {
+    "id": 78,
+    "question": "What is the role of a Blue Team in cybersecurity?",
+    "options": [
+      "To conduct penetration testing",
+      "To defend the organization's network and systems (defensive security)",
+      "To develop malware for testing",
+      "To manage public relations after a breach"
+    ],
+    "answer": "To defend the organization's network and systems (defensive security)"
+  },
+  {
+    "id": 79,
+    "question": "What is the role of a Red Team?",
+    "options": [
+      "To patch vulnerabilities",
+      "To simulate attacks and test security defenses (offensive security)",
+      "To write security policies",
+      "To manage user accounts"
+    ],
+    "answer": "To simulate attacks and test security defenses (offensive security)"
+  },
+  {
+    "id": 80,
+    "question": "What is a Purple Team in cybersecurity?",
+    "options": [
+      "A team that only focuses on cloud security",
+      "A collaborative approach combining Red and Blue teams to improve security effectiveness",
+      "A team that handles legal compliance",
+      "A team that only works on government projects"
+    ],
+    "answer": "A collaborative approach combining Red and Blue teams to improve security effectiveness"
+  },
+  {
+    "id": 81,
+    "question": "What does DFIR stand for?",
+    "options": [
+      "Digital Forensics and Incident Response",
+      "Data Firewall and Incident Recovery",
+      "Digital Framework and Intrusion Response",
+      "Data Forensics and Incident Resolution"
+    ],
+    "answer": "Digital Forensics and Incident Response"
+  },
+  {
+    "id": 82,
+    "question": "What is the primary responsibility of a SOC (Security Operations Center) analyst?",
+    "options": [
+      "To manage physical security",
+      "To monitor, detect, and respond to security incidents in real-time",
+      "To write code for applications",
+      "To handle network infrastructure maintenance"
+    ],
+    "answer": "To monitor, detect, and respond to security incidents in real-time"
+  },
+  {
+    "id": 83,
+    "question": "Which of the following is NOT a common cybersecurity certification?",
+    "options": [
+      "CISSP",
+      "CompTIA Security+",
+      "MCSE",
+      "CEH"
+    ],
+    "answer": "MCSE"
+  },
+  {
+    "id": 84,
+    "question": "What is the purpose of a security framework?",
+    "options": [
+      "To guarantee 100% security",
+      "To provide a structured approach to managing security risks and implementing controls",
+      "To increase network speed",
+      "To reduce the number of employees needed"
+    ],
+    "answer": "To provide a structured approach to managing security risks and implementing controls"
+  },
+  {
+    "id": 85,
+    "question": "What is the NIST Cybersecurity Framework?",
+    "options": [
+      "A European cybersecurity standard",
+      "A framework consisting of five functions: Identify, Protect, Detect, Respond, Recover",
+      "A framework that only applies to government agencies",
+      "A hardware security specification"
+    ],
+    "answer": "A framework consisting of five functions: Identify, Protect, Detect, Respond, Recover"
+  },
+  {
+    "id": 86,
+    "question": "What is the purpose of an incident response plan?",
+    "options": [
+      "To prevent all cyber attacks",
+      "To provide a structured approach for detecting, responding to, and recovering from security incidents",
+      "To replace all security controls",
+      "To reduce network costs"
+    ],
+    "answer": "To provide a structured approach for detecting, responding to, and recovering from security incidents"
+  },
+  {
+    "id": 87,
+    "question": "What is the role of a Security Awareness Program?",
+    "options": [
+      "To install firewalls",
+      "To educate employees about security risks and best practices",
+      "To manage encryption keys",
+      "To test network performance"
+    ],
+    "answer": "To educate employees about security risks and best practices"
+  },
+  {
+    "id": 88,
+    "question": "Which of the following is a career path in cybersecurity?",
+    "options": [
+      "Network Administrator",
+      "Security Engineer",
+      "Software Developer",
+      "Database Administrator"
+    ],
+    "answer": "Security Engineer"
+  },
+  {
+    "id": 89,
+    "question": "What is data privacy in the context of cybersecurity?",
+    "options": [
+      "The protection of data from natural disasters",
+      "The protection of personal information from unauthorized access and misuse",
+      "The speed of data transmission",
+      "The backup of data"
+    ],
+    "answer": "The protection of personal information from unauthorized access and misuse"
+  },
+  {
+    "id": 90,
+    "question": "What is GDPR?",
+    "options": [
+      "General Data Protection Regulation — a European law on data protection and privacy",
+      "Global Data Protection Record — a certification",
+      "Government Data Privacy Rule — a US law",
+      "General Digital Protection Regulation — an international treaty"
+    ],
+    "answer": "General Data Protection Regulation — a European law on data protection and privacy"
+  },
+  {
+    "id": 91,
+    "question": "What is the purpose of a Security Operations Center (SOC)?",
+    "options": [
+      "To manage software development",
+      "To centralize and coordinate security monitoring, detection, and response",
+      "To install antivirus on all devices",
+      "To handle user help desk tickets"
+    ],
+    "answer": "To centralize and coordinate security monitoring, detection, and response"
+  },
+  {
+    "id": 92,
+    "question": "Which of the following is a key skill for a cybersecurity professional?",
+    "options": [
+      "Only programming skills",
+      "Only knowledge of networking",
+      "A combination of technical knowledge, analytical thinking, and communication skills",
+      "Only management skills"
+    ],
+    "answer": "A combination of technical knowledge, analytical thinking, and communication skills"
+  },
+  {
+    "id": 93,
+    "question": "What is risk mitigation in cybersecurity?",
+    "options": [
+      "Ignoring all risks",
+      "Transferring all risks to third parties",
+      "Implementing controls to reduce the likelihood or impact of a risk",
+      "Eliminating all risks"
+    ],
+    "answer": "Implementing controls to reduce the likelihood or impact of a risk"
+  },
+  {
+    "id": 94,
+    "question": "What is a vulnerability assessment?",
+    "options": [
+      "A process that exploits vulnerabilities to test security",
+      "A process that identifies, quantifies, and prioritizes vulnerabilities in a system",
+      "A process that installs software updates",
+      "A process that monitors network traffic"
+    ],
+    "answer": "A process that identifies, quantifies, and prioritizes vulnerabilities in a system"
+  },
+  {
+    "id": 95,
+    "question": "What is the difference between a vulnerability assessment and a penetration test?",
+    "options": [
+      "They are the same thing",
+      "A vulnerability assessment identifies vulnerabilities; a penetration test actively exploits them to test defenses",
+      "A penetration test only scans for open ports",
+      "A vulnerability assessment requires physical access"
+    ],
+    "answer": "A vulnerability assessment identifies vulnerabilities; a penetration test actively exploits them to test defenses"
+  },
+  {
+    "id": 96,
+    "question": "Which of the following is a common compliance standard?",
+    "options": [
+      "ISO 27001",
+      "IEEE 802.11",
+      "TCP/IP",
+      "HTML5"
+    ],
+    "answer": "ISO 27001"
+  },
+  {
+    "id": 97,
+    "question": "What is the primary goal of business continuity planning?",
+    "options": [
+      "To prevent all cyber attacks",
+      "To ensure critical business functions can continue during and after a disruption",
+      "To reduce the number of employees",
+      "To increase profits"
+    ],
+    "answer": "To ensure critical business functions can continue during and after a disruption"
+  },
+  {
+    "id": 98,
+    "question": "What is the role of a CISO (Chief Information Security Officer)?",
+    "options": [
+      "To manage the company's marketing strategy",
+      "To oversee the entire cybersecurity program and strategy of an organization",
+      "To install security cameras",
+      "To develop software applications"
+    ],
+    "answer": "To oversee the entire cybersecurity program and strategy of an organization"
+  },
+  {
+    "id": 99,
+    "question": "What is the purpose of a security audit?",
+    "options": [
+      "To install new software",
+      "To systematically evaluate an organization's security posture and compliance",
+      "To hire new employees",
+      "To design new products"
+    ],
+    "answer": "To systematically evaluate an organization's security posture and compliance"
+  },
+  {
+    "id": 100,
+    "question": "Why is continuous learning important in cybersecurity?",
+    "options": [
+      "Because technology and threats are constantly evolving",
+      "Because certification never expires",
+      "Because there is always one security measure that prevents all attacks",
+      "Because cyber attacks have decreased significantly"
+    ],
+    "answer": "Because technology and threats are constantly evolving"
+  }
+]

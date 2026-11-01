@@ -1,0 +1,1503 @@
+[
+   {
+      "id": 1,
+      "question": "____ is the absence of an officer from duty for a period specified in PSR 100203 ?",
+      "options": ["Leave of absence", "Pre-retirement leave", "Study leave", "Annual leave"],
+      "answer": "Annual leave"
+    },
+    {
+      "id": 2,
+      "question": "In Rule  100102 ____ is a place where an officer could be reached during his/her leave period",
+      "options": ["Annual leave", "Sick leave", "Leave year", "Leave address"],
+      "answer": "Leave address"
+    },
+    {
+      "id": 3,
+      "question": "___ shall be paid to staff not occupying government quarters in lump sumat the beginning of the year?",
+      "options": ["Utilities allowance", "Rent subsidy",    "Hazard allowance",  "Acting allowance"],
+      "answer": "Rent subsidy"
+    },
+    {
+      "id": 4,
+      "question": "PSR. 020209, all officers are ensures to sign ____ on security Form 1",
+      "options": ["Appointment letter", "Letter of accommodation",  "Oath of secrecy",   "Internal memo"],
+      "answer": "Oath of secrecy"
+    },
+    {
+      "id": 5,
+      "question": "____is the permanent release of an officer from one scheduled service to another or from one class to another within the same service? (P.S.R. 020501)",
+      "options": ["Transfer",   "Re-arrangement",  "Business trip", "Holiday" ],
+      "answer": "Transfer"
+    },
+    {
+      "id": 6,
+      "question": "According to P.S.R. 030301 ____ is defined as a specific at wrong-doing or improper behaviour which is inimical to the image of the service which can be investigated and proved, it can also lead to termination and retirement?",
+      "options": ["Inefficiency", "Misconduct",     "Offence", "Retirement"],
+      "answer": "Misconduct"
+    },
+    {
+      "id": 7,
+      "question": "All are types of misconduct except",
+      "options": ["Unruly behaviour",  "Foul language", "Murder",    "Negligence"],
+      "answer": "Murder"
+    },
+    {
+      "id": 8,
+      "question": "____ is predetermined amount added to the annual emolument of an officer every calendar year?",
+      "options": ["Annual salary",  "Yearly emolument",  "Increments",   "Increments"],
+      "answer": "Increments"
+    },
+    {
+      "id": 9,
+      "question": "Based on P.S.R. 060205 time holding confirmation examination shall be ?",
+      "options": ["Held once in a year in the last quarter of every year",  "Twice in a year 2nd and 3rd quarter of every year", "Once in a year in the first quarter of every year", "Twice in a year, 1st and 2nd quarter of every year."],
+      "answer": "Held once in a year in the last quarter of every year"
+    },
+    {
+      "id": 10,
+      "question": "The following are the prescribed examination for executive officers (P.S.R 060302)",
+      "options": ["Public Service  Rule and Financial Regulation", "Public Administration and Financial Regulation", "Financial Regulation and Civil Service Regulations",   "Financial Regulations and Code of Conducts"],
+      "answer": "Public Service  Rule and Financial Regulation"
+    },
+    {
+      "id": 11,
+      "question": "TThe following persons except, when travelling by air, and land or sea at government expenses will be eligible for free insurance cover to concerned (P.S.R. 080203)",
+      "options": ["Staff", "Domestic Worker", "Wife and Child", "Child and Staff"],
+      "answer": "Wife and Child"
+    },
+    {
+      "id": 12,
+      "question": "Base on P.S.R. 10024, all except one are types of study leave",
+      "options": ["In-service training",  "Studying leave with pay", "Studying leave without pay", "Studying leave for retirement"],
+      "answer": "Studying leave for retirement"
+    },
+    {
+      "id": 13,
+      "question": "In P.S.R. 130121, the circumstances in which officers can work overtime are as follows except?",
+      "options": ["Rain falls", "Snow covered the road", "Birthday ceremony’s days", "Holidays falls"],
+      "answer": "Holidays falls"
+    },
+    {
+      "id": 14,
+      "question": "In P.S.R. 13021, the circumstance in which officers can work overtime are as follows except?",
+      "options": ["Officers attached to top management /officials", "On special assignment, eg. Conference, Committee", "Period of closing annual account", "Period during annual leave"],
+      "answer": "Period during annual leave"
+    },
+    {
+      "id": 15,
+      "question": "In P.S.R. 160102, One of these is classified in to the  categories of parastatals",
+      "options": ["Security Agencies",      "Medical Practitioners",   "Ministry of justice", "Teaching and non teaching staffs"],
+      "answer": "Security Agencies"
+    },
+    {
+      "id": 16,
+      "question": "According to P.S.R. 160102, A ____ is a government owned organization established by statue to render specified service(s) of the public?",
+      "options": ["Ministries",  "Financial institutions", "Parastatals",  "Delegated legislature"],
+      "answer": "Parastatals"
+    },
+    {
+      "id": 17,
+      "question": "____ is a body or organ which enjoys continuity of existence, essentially covers ministries and extra- ministerial offices.",
+      "options": ["Organization of African Unity (OAU)", "World Health Organization (WHO)", "Civil Service",    "Military"],
+      "answer": "Civil Service"
+    },
+    {
+      "id": 18,
+      "question": "With the provision of P.S.R. 020106 seniority in any department shall be determined by the?",
+      "options": ["Entry date/the assumption of duty certified by authority in appropriate register",  "Date of re-instatement", "Date of re-engagement", "Date of promotion"],
+      "answer": "Entry date/the assumption of duty certified by authority in appropriate register"
+    },
+    {
+      "id": 19,
+      "question": "In P.S.R 020202- Direct appointment to the Federal Public Service may be in the following categories except?",
+      "options": ["As trainee or pupils", "On probation in a pensionable post", "On contract appointment",  "Acting appointment" ],
+      "answer": "On contract appointment"
+    },
+    {
+      "id": 20,
+      "question": "Under which provision of P.S.R. states that no fine shall be imposed on any officer as a punishment for an offence committed in the course of his/her duties?",
+      "options": ["021210", "030309", "030314", "020200"],
+      "answer": "030309"
+    },
+    {
+      "id": 21,
+      "question": "According to P.S.R. 030421- part 1, paragraph A., officer can act as the editor or take part directly or indirectly in the management of or in anyway make financial contribution to the following except?",
+      "options": ["Department or staff magazine", "National Newspaper",   "Professional journal",    "Publication of voluntary organization"],
+      "answer": "National Newspaper"
+    },
+    {
+      "id": 22,
+      "question": "Under which provision of   P.S.R. states that no officer shall undertake any private agency in any matter connected with the exercise of his/her duties",
+      "options": ["020100", "010203", "020101", "030430"],
+      "answer": "010203"
+    },
+    {
+      "id": 23,
+      "question": "P.S.R. 030434 states; in other to improve public service management, and enhance accountability and transparency, no officer shall received",
+      "options": ["Leave allowance", "Any bribe or engaged in corrupt practices",    "Gratification", "Mobilization fees"],
+      "answer": "Any bribe or engaged in corrupt practices"
+    },
+    {
+      "id": 24,
+      "question": "According to P.S.R. 040203- the increment date of an officer appointed or promoted to post in the Federal Public Service shall be _ following at least six months of service on promotion?",
+      "options": ["Date of last promotion", "Date of entry into the service",  "31st December of the year", "1st January of the year"],
+      "answer": "1st January of the year"
+    },
+    {
+      "id": 25,
+      "question": "In P.S.R. 050201- Progress report are to provide one of the following in respect of office on probation or initial contract ____ on which to judge his/her suitability for confirm.",
+      "options": ["Conduct and Capabilities", "Date of retirement", "Administration of Oath of secrecy", "Declaration to the code of conduct bureau"],
+      "answer": "Conduct and Capabilities"
+    },
+    {
+      "id": 26,
+      "question": "Under which provision of P.S.R. States that public officer is not prohibited form holding shares of public and private companies operating in Nigeria or abroad?",
+      "options": ["PSR 030423", "PSR 030425", "PSR 030424",    "PSR 030422"],
+      "answer": "PSR 030424"
+    },
+    {
+      "id": 27,
+      "question": "What is the full meaning of A.P.E.R",
+      "options": ["Annual Pay Emolument of Rent", "Annual Pay Emolument of Report",  "Annual Performance  of Examination  Report", "Annual Performance  evaluation Report"],
+      "answer": "Annual Performance  evaluation Report"
+    },
+    {
+      "id": 28,
+      "question": "Which section according to P.S.R. States when an officer supposed to get an increment on salary?",
+      "options": ["PSR  020407", "PSR 020408", "PSR 020409", "PSR 020410"],
+      "answer": "PSR 020410"
+    },
+    {
+      "id": 29,
+      "question": "Section 020501 of P.S.R. defines",
+      "options": ["Promotion",  "Transfer",  "Dismissal", "Leave"],
+      "answer": "Leave"
+    },
+    {
+      "id": 30,
+      "question": "What sort of promotion is given to an officer who has completed the probation period specified in P. S.R. 020301",
+      "options": ["Senior promotion",  "Normal promotion",  "Notional promotion",   "Abnormal promotion"],
+      "answer": "Notional promotion"
+    },
+    {
+      "id": 31,
+      "question": "Which rule of P.S.R. defined termination",
+      "options": ["020801", "020802", "020803", "020804"],
+      "answer": "020803"
+    },
+    {
+      "id": 32,
+      "question": "According to P.S.R. 020810- compulsory retirement age of all grades in the services are:",
+      "options": ["60 years or 35 years of pensionable services",    "35 years or 60 years of pensionable services",  "15 years of pensionable services", "60 years or 10 years of pensionable services"],
+      "answer": "60 years or 35 years of pensionable services"
+    },
+    {
+      "id": 33,
+      "question": "According to P.S.R. 020903, the main purpose of certificate of service is that it may be used as?",
+      "options": ["Reference when seeking other employment",   "Record keeping",  "For retirement purpose", "For insurance entitlement"],
+      "answer": "Reference when seeking other employment"
+    },
+    {
+      "id": 34,
+      "question": "Which form can be used for certificate of service for level 07 and above according to P.S. R. 020904",
+      "options": ["Gen 60", "Gen 58",   "Gen 62", "Gen 50"],
+      "answer": "Gen 58"
+    },
+    {
+      "id": 35,
+      "question": "When travelling on duty away from duty post, the person engaged shall be entitle to?",
+      "options": ["Pension allowance",  "Duty tour allowance", "Travelling allowance",    "Welfare allowance"],
+      "answer": "Travelling allowance"
+    },
+    {
+      "id": 36,
+      "question": "Which P.S.R. define general efficiency ",
+      "options": ["030101", "030102", "030201", "030202"],
+      "answer": "030201"
+    },
+    {
+      "id": 37,
+      "question": "No female public service shall be entitle to resign her appointment or retire by reason of pregnancy alone, under which section of P.S.R. this can be found",
+      "options": ["P.S.R 030205", "P.S.R 030204",    "P.S.R 030203", "P.S.R 030202"],
+      "answer": "P.S.R 030204"
+    },
+    {
+      "id": 38,
+      "question": "Below are the scandals conduct that constitute misconduct P.S.R 030301 except",
+      "options": ["Drunkenness", "Malingering",  "Sick", "Dishonesty"],
+      "answer": "Sick"
+    },
+    {
+      "id": 39,
+      "question": "P.S.R. 030401 defines ____ as a specific act of very serious wrong-doing and improper behaviour which inimical to the image of the service and which can be investigated and if proven may lead to dismissal",
+      "options": ["Misconduct",  "Gross misconduct",  "Serious misconduct",  "Minor misconduct"],
+      "answer": "Serious misconduct"
+    },
+    {
+      "id": 40,
+      "question": "Which P.S.R. mentioned an act of serious misconduct ",
+      "options": ["030401", "030404", "030402", "030403"],
+      "answer": "030404"
+    },
+    {
+      "id": 41,
+      "question": "According to P.S.R. 030412, which punishment should be award to any officer who absence from duty without leave?",
+      "options": ["Reduction in rank",  "Dismissal",    "Deserter", "Major entry"],
+      "answer": "Dismissal"
+    },
+    {
+      "id": 42,
+      "question": "Any officer who want to seek elective public office shall resign his/her appointment forthwith, under which P.S.R...??",
+      "options": ["030424", "030422", "030423", "030425"],
+      "answer": "030425"
+    },
+    {
+      "id": 43,
+      "question": "A public officer cannot be directors in private companies, he/she can hold shares or be a director in under which P.S.R.",
+      "options": ["030421", "030422", "030423", "030424"],
+      "answer": "030424"
+    },
+    {
+      "id": 44,
+      "question": "Which P.S.R. emphasis on prohibition of bribery and corruption?",
+      "options": ["030434", "030435", "030431", "030433"],
+      "answer": "030435"
+    },
+    {
+      "id": 45,
+      "question": "When is officer supposed to expect increment payment after promotion P.S.R. 040203",
+      "options": ["After a year", "1st January of the year", "Before the year runs out", "Immediately after promotion" ],
+      "answer": "1st January of the year"
+    },
+    {
+      "id": 46,
+      "question": "Increment is a predetermined amount added to the annual emolument of an officer every calendar year which P.S.R. code?",
+      "options": ["040204", "040203", "040202", "040201"],
+      "answer": "040201"
+    },
+    {
+      "id": 47,
+      "question": "Failure to pass confirmation examination after three consecutive attempts is liable to ____ P.S.R. 060203",
+      "options": ["Dismissal",  "Retired",  "Resign",   "Reduction in rank"],
+      "answer": "Resign"
+    },
+    {
+      "id": 48,
+      "question": "All the below are under P.S.R. 070101 except?",
+      "options": ["Health care provider", "Hospital", "Medical officer", "Drugs"],
+      "answer": "Drugs"
+    },
+    {
+      "id": 49,
+      "question": "Below are medical documents to be treated as confidential in P.S.R. 070103 except",
+      "options": ["Medical certificate", "Dental treatment records", "Drug prescription",    "Reports of medical boards"],
+      "answer": "Drug prescription"
+    },
+    {
+      "id": 50,
+      "question": "Which section of P.S.R. describes NHIS?",
+      "options": ["070202", "070203", "070201", "070204"],
+      "answer": "070201"
+    },
+    {
+      "id": 51,
+      "question": "Below are the documents to provide when any officer have been prolonged absence from duty on the ground of illness except:",
+      "options": ["Excuse duty certificate", "Medical bills",  "Light duty certificate", "Medical certificate"],
+      "answer": "Medical bills"
+    },
+    {
+      "id": 52,
+      "question": "The maximum aggregate sick leave which can be allowed an officer who is not hospitalized during any period of twelve months as contain in P.S.R. 070316 is?",
+      "options": ["21 calendar days",   "42 calendar days",   "60 calendar days", "14 calendar days"],
+      "answer": "42 calendar days"
+    },
+    {
+      "id": 53,
+      "question": "Which section of P.S.R. discuss the death while in service?",
+      "options": ["080101", "080201",   "080202", "080203"],
+      "answer": "080201"
+    },
+    {
+      "id": 54,
+      "question": "___ is a formal appeal to estimate authority, that is, to the head of government for special consideration of matter affecting an officer personally. It must be distinguished from a letter of representation addressed to an appropriate senior officer of government in the normal way?",
+      "options": ["Charge sheet", "Report",  "Petition",   "Amendment of law"],
+      "answer": "Petition"
+    },
+    {
+      "id": 55,
+      "question": "An officer’s increment is deferred when the decision as to whether or not if it shall be granted is postponed for a specific period called",
+      "options": ["Deferred increment",  "Public property",  "Pay well job", "Sabotage"],
+      "answer": "Deferred increment"
+    },
+    {
+      "id": 56,
+      "question": "An officer’s increment withheld when it is decided not to grant it and that held shall cease to be eligible thereof until next increment date is called?",
+      "options": ["Deferred increment",  "Withheld increment",    "Penalty imposes", "Accounting"],
+      "answer": "Withheld increment"
+    },
+    {
+      "id": 57,
+      "question": "A staff that ranks as such for the purpose of pension in accordance with the pension reform Act 2004 is called?",
+      "options": ["Officer", "Staff",  "Expatriate officer",   "Account"],
+      "answer": "Expatriate officer"
+    },
+    {
+      "id": 58,
+      "question": "The ground for withholding or deferring increment can be found in P.S.R code?",
+      "options": ["040204", "040420", "040203", "022004"],
+      "answer": "040203"
+    },
+    {
+      "id": 59,
+      "question": "The series of omission or incompetence the cumulative effect of which shows that the officer is not capable of discharging efficiently the duties of the office he holds is called: ?",
+      "options": ["Serious misconduct",  "Misconduct",  "Inefficiency",  "Laxity"],
+      "answer": "Inefficiency"
+    },
+    {
+      "id": 60,
+      "question": "Before proceeding for the removal of an officer for general inefficiency  maybe commenced he/she must have been three occasion committed under?",
+      "options": ["P.S.R. 100203",   "P.S.R. 010202", "P.S.R. 030302", "P.S.R. 020303"],
+      "answer": "P.S.R. 100203"
+    },
+    {
+      "id": 61,
+      "question": "This is to enable officers pay lodging and feeding expenses during official tours approved by the official authority is called",
+      "options": ["Duty tour allowance",   "Tour allowance duty", "Allowance duty tour", "Allowance duty expenses" ],
+      "answer": "Duty tour allowance"
+    },
+    {
+      "id": 62,
+      "question": "A female staff that is pregnant is entitled to 112 working days Maternity leave with full salary is under which P.S.R. code?",
+      "options": ["P.S.R. 200216", "P.S.R. 200316", "P.S.R. 120218",  "P.S.R. 300216"],
+      "answer": "P.S.R. 120218"
+    },
+    {
+      "id": 63,
+      "question": "Officers for whom the President should be informed of medical check-up abroad include:",
+      "options": ["Accountant Generation of the Federation",  "Senate President",  "Secretary to the Government of the Federation", "Head of the Civil Service"],
+      "answer": "Secretary to the Government of the Federation"
+    },
+    {
+      "id": 64,
+      "question": "This is the additional time spent outside the approved time of work called",
+      "options": ["Under time allowance", "Under time gift", "Over time allowance", "Over time gift"],
+      "answer": "Over time allowance"
+    },
+    {
+      "id": 65,
+      "question": "The hotel accommodation allowance for officer newly appointed shall be eligible for hotel accommodation for 28 days in lieu of hotel accommodation in which P.S.R. code?",
+      "options": ["140106", "105130", "130105", "135010"],
+      "answer": "140106"
+    },
+    {
+      "id": 66,
+      "question": "Officers permitted to attend in-service training will have all expenses  connected therewith paid by the government, under which P.S.R. code?",
+      "options": ["120227",    "301120", "120031", "201301"],
+      "answer": "120227"
+    },
+    {
+      "id": 67,
+      "question": "The officer required to give three (3) months notice to retire from service before the effective date if retirement is known as",
+      "options": ["Casual leave", "Sick leave",  "Terminal leave",  "Sport leave"],
+      "answer": "Terminal leave"
+    },
+    {
+      "id": 68,
+      "question": "The absence of an officer on grade level 15 or equivalent and above from duty for the purpose of research either within or outside Nigeria is called?",
+      "options": ["Sick leave",  "Relieved leave", "Sabbatical leave", "Study leave"],
+      "answer": "Sabbatical leave"
+    },
+    {
+      "id": 69,
+      "question": "Study leave is the leave granted to a confirmed serving officer to undertake an approved course of study within or outside the country under which P.S.R. code?",
+      "options": ["228100", "232100", "100223", "310022"],
+      "answer": "232100"
+    },
+    {
+      "id": 70,
+      "question": "The condition under approval of study without pay can be found under which P.S.R. code",
+      "options": ["228100", "100228",   "202288", "101022"],
+      "answer": "100228"
+    },
+    {
+      "id": 71,
+      "question": "Study leave with pay shall be granted to an officer with normal emolument and allowance shall not exceed two year under which P.S.R. code?",
+      "options": ["100226",   "226100", "100622", "610021"],
+      "answer": "100226"
+    },
+    {
+      "id": 72,
+      "question": "The authorized absence of an officer from duty specific period is known as?",
+      "options": ["Tax", "Transfer",  "Leave", "Relocate"],
+      "answer": "Tax"
+    },
+    {
+      "id": 73,
+      "question": "Below are the definition of transfer except (P.S.R. 130133) ?",
+      "options": ["Transfer from station to another during a tour of service", "Transfer from one station to another on return from leave", "Transfer or secondment from the  services of another government in the federation", "Removed from one section to another"],
+      "answer": "Removed from one section to another"
+    },
+    {
+      "id": 74,
+      "question": "A place where an officer could be reached during his/her leave period is called?",
+      "options": ["Market address", "House address", "Leave address",  "Hospital address"],
+      "answer": "Leave address"
+    },
+    {
+      "id": 75,
+      "question": "Any leave due to an officer in a year for the service rendered to government is called",
+      "options": ["Earned leave",  "Account leave", "Tax leave", "Revenue leave"],
+      "answer": "Earned leave"
+    },
+    {
+      "id": 76,
+      "question": "The resumption expired date of duty can be found under which P.S.R. code?",
+      "options": ["105100", "100105",    "501100", "500100"],
+      "answer": "100105"
+    },
+    {
+      "id": 77,
+      "question": "The authorized absence of the an officer from duty for specific period under which P.S.R. code?",
+      "options": ["101100", "100101", "002311", "100201"],
+      "answer": "100101"
+    },
+    {
+      "id": 78,
+      "question": "Below are circumstance in which officers can work overtime P.R.S 130121 except:",
+      "options": ["On special assignment", "Period of budgetary preparation",  "Period of closing of annual account", "When your relieve is not around"],
+      "answer": "Period of budgetary preparation"
+    },
+    {
+      "id": 79,
+      "question": "Form Gen. 60 is a staff record form according to which P.S.R code?",
+      "options": ["020208",   "200208", "208200", "802001"],
+      "answer": "020208"
+    },
+    {
+      "id": 80,
+      "question": "The ways of communication  in civil service is",
+      "options": ["By handing over note", "Movement", "Sender", "Non of the above"],
+      "answer": "By handing over note"
+    },
+    {
+      "id": 81,
+      "question": "The summary of important subject matters attention is called ?",
+      "options": ["Account", "Briefs",  "Data",  "Subject"],
+      "answer": "Briefs"
+    },
+    {
+      "id": 82,
+      "question": "A statement of facts which can be issued to send ideas, findings  and recommendation after investigations of a specific assignment called ?",
+      "options": ["Briefs",  "Report",   "Circular",  "Letter"],
+      "answer": "Report"
+    },
+    {
+      "id": 83,
+      "question": "The two critical areas used in APPEAR forms is called ?",
+      "options": ["Excellent and good",  " Excellent and fair", "Excellent and bad", "Good and bad"],
+      "answer": "Excellent and good"
+    },
+    {
+      "id": 84,
+      "question": "A set of write up that serves as an instrument notes for an officer to comply with them performing his/her official duty is called?",
+      "options": ["Notes for guidance",    "Treasure",  "Contract",  "Register"],
+      "answer": "Notes for guidance"
+    },
+    {
+      "id": 85,
+      "question": "An officer who has passed the compulsory examination for confirmation in the service shall be eligible for promotion under which P.S.R. code?",
+      "options": ["020707", "203001", "34101", "010700"],
+      "answer": "020707"
+    },
+    {
+      "id": 86,
+      "question": "All officers appointed to the foreign service in whatever branch or grade are eligible for service abroad is stated under which P.R.S. code?",
+      "options": ["020707",   "203001", "340101", "020700"],
+      "answer": "020707"
+    },
+    {
+      "id": 87,
+      "question": "Identity of petition includes the following except?",
+      "options": ["Full name", "Staff number", "Signature and address", "Pay slip"],
+      "answer": "Pay slip"
+    },
+    {
+      "id": 88,
+      "question": "Petition can be disqualified, if it contain the below quality according to rule 090208 except ",
+      "options": ["Is illegal or meaningless", "Does not comply with rule 090201", "Must be abusive",  "Deals with a case in which legal action is pending in a court of law"],
+      "answer": "Must be abusive"
+    },
+    {
+      "id": 89,
+      "question": "The absence of an officer from duty for period specified in rule 100203 as may authorized by a superior officer according to rule 100202 is called ?",
+      "options": ["Sick leave", "Maternity leave", "Annual leave",   "Casual leave"],
+      "answer": "Annual leave"
+    },
+    {
+      "id": 90,
+      "question": "When will an officer qualified to take another annual leave after the previous one as contain in the PSR 100203 ?",
+      "options": ["Six months", "A year", "Three months",  "None months"],
+      "answer": "None months"
+    },
+    {
+      "id": 91,
+      "question": "___ is a vacation granted to a new or retiring officer in proportion to the number of days he/she has put into the services PSR 100211 ",
+      "options": ["Annual leave", "Study leave with pay", "Pre-retirement leave", "Proportionate leave"],
+      "answer": "Proportionate leave"
+    },
+    {
+      "id": 92,
+      "question": "____ is the absence of an officer from duty for a short period not exceeding an aggregate of seven (7) Calendar days within a leave year as may be authorized b y a superior officer PSR 100214    ",
+      "options": ["Deferred leave", "Casual leave", "Maternity leave",  "Sabbatical leave"],
+      "answer": "Maternity leave"
+    },
+    {
+      "id": 93,
+      "question": "Types of study leaves as contain in PSR 100224 are as follows except ?",
+      "options": ["In-service training",  "Study leave with pay",  "Out-service training",  "Study leave without pay"],
+      "answer": "Study leave without pay"
+    },
+    {
+      "id": 94,
+      "question": "Below are occasion when officer shall be eligible for appropriate estacode allowance at the prevailing rates PSR 120101     ",
+      "options": ["To undertake special duty abroad", "To discharge official duties during vacation leave abroad", "To undertake annual leave abroad", "To undertake course of instruction abroad"],
+      "answer": "To undertake annual leave abroad"
+    },
+    {
+      "id": 95,
+      "question": "Who give approval to the overseas duty tour by public servants and extacode allowance PSR 120102 ?",
+      "options": ["Accountant General of the Federation", "Auditor general of the Federation",  "Head of the civil service",    "Head of the chief of Army/Police"],
+      "answer": "Head of the chief of Army/Police"
+    },
+    {
+      "id": 96,
+      "question": " ____ is a monetary benefits other than salary granted to an officer for a special purpose PSR  130101?",
+      "options": ["Allowance", "Promotion areas",  "Duty tour allowance",  "Welfare allowance"],
+      "answer": "Allowance"
+    },
+    {
+      "id": 97,
+      "question": "____ is granted enable pay lodging and feeding expenses during official tours duly approved by the official authority PSR 130106 ?",
+      "options": ["Estacode allowance",  "Duty tour allowance", "Kilometer allowance", "Hotel allowance"],
+      "answer": "Duty tour allowance"
+    },
+    {
+      "id": 98,
+      "question": "____ is a course which an officer takes locally in Nigeria but outside his/her station.   ?",
+      "options": ["Orientation course", "Human right course", "Local course", "Promotion course"],
+      "answer": "Local course"
+    },
+    {
+      "id": 99,
+      "question": "Forms of award in PSR 060109 includes the following except?",
+      "options": ["Certificate", "Medals",  "Presidential handshake", "Cash/gift"],
+      "answer": "Presidential handshake"
+    },
+    {
+      "id": 100,
+      "question": "_  is a government owned organized established by statute to render specified services (s) to the public.",
+      "options": ["Parastatal", "Allowance",  "Service", "Award"],
+      "answer": "Parastatal"
+    },
+    {
+      "id": 101,
+      "question": "Correspondence or material graded according to its sensitivity or importance is referred to as ________?",
+      "options": ["Unclassified correspondence", "Classified correspondence", "Civil service rule correspondence", "Managed correspondence"],
+      "answer": "Classified correspondence"
+    },
+    {
+      "id": 102,
+      "question": "The main objective of Nigeria Vision 2020 was:",
+      "options": ["To become one of the largest economies in the world", "Total eradication of crime and fraud", "To be the highest oil-producing nation in the world", "To restore 100% stability in the Energy and Power sector"],
+      "answer": "To become one of the largest economies in the world"
+    },
+    {
+      "id": 103,
+      "question": "Which of the following is not a source of information in the Civil Service?",
+      "options": ["The public service rules", "Circulars and curricular letter", "Government white paper", "Newspapers and blogs"],
+      "answer": "Newspapers and blogs"
+    },
+    {
+      "id": 104,
+      "question": "The military coup of July 25, 1975, which toppled General Yakubu Gowon, took place when he was attending which event?",
+      "options": ["OAU Summit in Kampala", "UN General Assembly in New York", "Assembly of Heads of States of ECOWAS in Monrovia", "The Olympic Games"],
+      "answer": "OAU Summit in Kampala"
+    },
+    {
+      "id": 105,
+      "question": "The main function of the Federal Civil Service Commission is:",
+      "options": ["Recruitment into civil service", "Training of civil servants", "Promotion of civil servants", "Disciplinary control of civil servants"],
+      "answer": "Recruitment into civil service"
+    },
+    {
+      "id": 106,
+      "question": "ECOWAS was established in ____________ and has its administrative headquarters in:",
+      "options": ["1967 Lome", "1975 Lome", "1975 Lagos", "1967 Lagos"],
+      "answer": "1975 Lagos"
+    },
+    {
+      "id": 107,
+      "question": "The first general election in Nigeria was held in:",
+      "options": ["1959", "1960", "1963", "1999"],
+      "answer": "1959"
+    },
+    {
+      "id": 108,
+      "question": "Nigeria practices one of the following systems of government:",
+      "options": ["Confederalism", "Unitarism", "Parliamentarism", "Federalism"],
+      "answer": "Federalism"
+    },
+    {
+      "id": 109,
+      "question": "What is the probability that three customers waiting in a bank will be served in the sequence of their arrival at the bank?",
+      "options": ["1/6", "1/3", "1/2", "2/3"],
+      "answer": "1/6"
+    },
+    {
+      "id": 110,
+      "question": "The probability that Kodjo and Adoga pass an examination are 3/4 and 3/5 respectively. Find the probability that only one of them will pass if the events are independent.",
+      "options": ["3/20", "9/20", "1/2", "4/5"],
+      "answer": "9/20"
+    },
+    {
+      "id": 111,
+      "question": "Which of these is NOT a function of the Federal Civil Service Commission?",
+      "options": ["Recruitment into civil service", "Training of civil servants", "Promotion of civil servants", "Disciplinary control of civil servants"],
+      "answer": "Training of civil servants"
+    },
+    {
+      "id": 112,
+      "question": "The Universal Declaration of Human Rights was adopted by the United Nations in:",
+      "options": ["1945", "1948", "1950", "1960"],
+      "answer": "1948"
+    },
+    {
+      "id": 113,
+      "question": "The Independent National Electoral Commission (INEC) is responsible for:",
+      "options": ["Conducting elections", "Appointing judges", "Managing the economy", "Overseeing foreign affairs"],
+      "answer": "Conducting elections"
+    },
+    {
+      "id": 114,
+      "question": "Nigeria's 66th Independence Anniversary was celebrated in:",
+      "options": ["2023", "2024", "2025", "2026"],
+      "answer": "2026"
+    },
+    {
+      "id": 115,
+      "question": "The Nigerian government is structured as:",
+      "options": ["Presidential", "Parliamentary", "Monarchical", "Confederal"],
+      "answer": "Presidential"
+    },
+    {
+      "id": 116,
+      "question": "The significance of the white color in the Nigerian flag is:",
+      "options": ["Peace and unity", "Agriculture", "Wealth", "Industry"],
+      "answer": "Peace and unity"
+    },
+    {
+      "id": 117,
+      "question": "The National Security and Civil Defence Corps (NSCDC) was established in:",
+      "options": ["1960", "2003", "1999", "1963"],
+      "answer": "2003"
+    },
+    {
+      "id": 118,
+      "question": "The NSCDC Peace and Disaster Management College is located in which state?",
+      "options": ["Lagos", "FCT", "Katsina", "Kaduna"],
+      "answer": "FCT"
+    },
+    {
+      "id": 119,
+      "question": "The Nigerian Security and Civil Defence Corps (NSCDC) was originally known as:",
+      "options": ["Lagos Civil Defence Committee", "Nigerian Blue Army", "Federal Civil Defence Corps", "National Guard"],
+      "answer": "Lagos Civil Defence Committee"
+    },
+    {
+      "id": 120,
+      "question": "The retirement age for civil servants in Nigeria is:",
+      "options": ["55 years", "60 years", "65 years", "70 years"],
+      "answer": "60 years"
+    },
+    {
+      "id": 121,
+      "question": "A husband contributes 7% of his income into a fund and his wife contributes 4% of her income. If the husband earns N5,500 per annum (p.a) and his wife earns N4,000 p.a, find the sum of their contribution to the fund.",
+      "options": ["N1,045", "N605", "N545", "N490"],
+      "answer": "N545"
+    },
+    {
+      "id": 122,
+      "question": "If the children share N10.50K among themselves in the ratio 6:7:8, how much is the largest share?",
+      "options": ["N3.00", "N3.50", "N4.00", "N4.50"],
+      "answer": "N4.00"
+    },
+    {
+      "id": 123,
+      "question": "A car is traveling at an average speed of 80km/h. How long will it take to cover 200km?",
+      "options": ["2 hours", "2.5 hours", "3 hours", "4 hours"],
+      "answer": "2.5 hours"
+    },
+    {
+      "id": 124,
+      "question": "A trader makes a loss of 15% when selling an article. Find the ratio, selling price: cost price.",
+      "options": ["3:20", "3:17", "17:20", "20:23"],
+      "answer": "17:20"
+    },
+    {
+      "id": 125,
+      "question": "The first Executive president was",
+      "options": ["Nnamdi Azikiwe", "Olusegun Obasanjo", "Shehu Shagari", "Goodluck Jonathan"],
+      "answer": "Shehu Shagari"
+    },
+    {
+      "id": 126,
+      "question": "The first colonial governor general of Nigeria was",
+      "options": ["Tulma Goldie", "James Robertson", "Hugh Clifford", "Lord Lugard"],
+      "answer": "Lord Lugard"
+    },
+    {
+      "id": 127,
+      "question": "The highest court in Nigeria is",
+      "options": ["Court of Appeal", "Supreme Court", "Federal High Court", "Magistrate Court"],
+      "answer": "Supreme Court"
+    },
+    {
+      "id": 128,
+      "question": "The National Assembly is made up of how many members in the Senate?",
+      "options": ["106", "109", "111", "114"],
+      "answer": "109"
+    },
+    {
+      "id": 129,
+      "question": "Which Nigerian state has the slogan “Light of the Nation”?",
+      "options": ["Enugu", "Imo", "Anambra", "Abia"],
+      "answer": "Anambra"
+    },
+    {
+      "id": 130,
+      "question": "Nigeria shares a border with how many countries?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": 131,
+      "question": "River Niger and River Benue meet in which state?",
+      "options": ["Kogi", "Niger", "Plateau", "Nasarawa"],
+      "answer": "Kogi"
+    },
+    {
+      "id": 132,
+      "question": "Who heads a Federal Ministry in Nigeria?",
+      "options": ["President", "Permanent Secretary", "Minister", "Director"],
+      "answer": "Permanent Secretary"
+    },
+    {
+      "id": 133,
+      "question": "Civil Service Commission was created in Nigeria by the ___________?",
+      "options": ["Constitution", "Act of Parliament", "Decree", "Ordinance"],
+      "answer": "Constitution"
+    },
+    {
+      "id": 134,
+      "question": "Which of the following expression best describes the relationship between civil service and public service in Nigeria?",
+      "options": ["Civil service is a part of public service", "Public service is a part of civil service", "They are the same", "They are unrelated"],
+      "answer": "Civil service is a part of public service"
+    },
+    {
+      "id": 135,
+      "question": "List any 6 items that can be found in the seniority list of staff nominal Roll",
+      "options": ["Name, Rank, Date of Birth, Qualification, Salary Grade, Date of Confirmation", "Name, Address, Phone Number, Email, Department, Position", "Name, Age, Gender, Marital Status, Religion, Tribe", "Name, ID Number, Photo, Signature, Finger Print, Biometrics"],
+      "answer": "Name, Rank, Date of Birth, Qualification, Salary Grade, Date of Confirmation"
+    },
+    {
+      "id": 136,
+      "question": "Identify the authority responsible for appointment, promotion and discipline of officers in the Service",
+      "options": ["Federal Civil Service Commission", "Head of Service", "Ministry of Labour", "President"],
+      "answer": "Federal Civil Service Commission"
+    },
+    {
+      "id": 137,
+      "question": "The appointment into the Federal Civil Service is made under the authority of the",
+      "options": ["Federal Civil Service Commission", "Ministry of Establishment", "Head of Service", "National Assembly"],
+      "answer": "Federal Civil Service Commission"
+    },
+    {
+      "id": 138,
+      "question": "For Grade levels 07 to 10 – This is through an annual entry competition conducted by",
+      "options": ["Federal Civil Service Commission in conjunction with OHCSF, ASCON and PSIN", "Ministry of Education", "Local Government", "State Civil Service"],
+      "answer": "Federal Civil Service Commission in conjunction with OHCSF, ASCON and PSIN"
+    },
+    {
+      "id": 139,
+      "question": "For Grade levels 12 to 14 – This is by the Federal Civil Service Commission after due advertisement.",
+      "options": ["True", "False", "Only for Doctors", "Only for Lawyers"],
+      "answer": "True"
+    },
+    {
+      "id": 140,
+      "question": "For Grade levels 15 to 17 – The applications for these appointments are to be routed through the Head of Service while the examination/interview and other appointment processes will be handled by the Federal Civil Service Commission.",
+      "options": ["True", "False", "Only for Senior Doctors", "Only for Professors"],
+      "answer": "True"
+    },
+    {
+      "id": 141,
+      "question": "The head of the service has the power to sack a worker",
+      "options": ["True", "False", "Circumstantial", "None of the above"],
+      "answer": "False"
+    },
+    {
+      "id": 142,
+      "question": "Who appoints the Head of Service?",
+      "options": ["Chairman Civil Service Commission", "Ministry of Establishment", "Governor", "Body of Permanent Secretaries"],
+      "answer": "Chairman Civil Service Commission"
+    },
+    {
+      "id": 143,
+      "question": "What Grade Level qualifies an officer for 2 domestic staff?",
+      "options": ["15", "14", "16", "17"],
+      "answer": "16"
+    },
+    {
+      "id": 144,
+      "question": "The 3 leading political parties in the just-held national election in Nigeria are",
+      "options": ["APC, NNPP, LP", "PDP, LP, NNPP", "APGA, PDP, APC", "APC, PDP, LP"],
+      "answer": "APC, PDP, LP"
+    },
+    {
+      "id": 145,
+      "question": "Junior Staff committee composition in the Headquarters",
+      "options": ["Permanent Secretary, Director of Personnel, Accountant General, Chief Labour Officer", "Minister, Permanent Secretary, Director, Head of Department", "Governor, Commissioner, Director, Clerk", "President, Minister, Ambassador, Attache"],
+      "answer": "Permanent Secretary, Director of Personnel, Accountant General, Chief Labour Officer"
+    },
+    {
+      "id": 146,
+      "question": "The retirement age for teachers is",
+      "options": ["55 years", "60 years", "65 years", "70 years"],
+      "answer": "65 years"
+    },
+    {
+      "id": 147,
+      "question": "The first political party in Nigeria was",
+      "options": ["NPC", "NCNC", "AG", "NNDP"],
+      "answer": "NCNC"
+    },
+    {
+      "id": 148,
+      "question": "The current Head of Service of the Federation is",
+      "options": ["Dr. Folasade Yemi-Esan", "Dr. Dahiru Lawal", "Dr. Bashir Usman", "Dr. Folashade Esan"],
+      "answer": "Dr. Folasade Yemi-Esan"
+    },
+    {
+      "id": 149,
+      "question": "The Federal Civil Service Commission is established by",
+      "options": ["Section 153 of the 1999 Constitution", "Section 171", "Section 200", "Section 250"],
+      "answer": "Section 153 of the 1999 Constitution"
+    },
+    {
+      "id": 150,
+      "question": "The functions of the Federal Civil Service Commission include",
+      "options": ["Appointment, promotion and dismissal of officers", "Only recruitment", "Only training", "Only discipline"],
+      "answer": "Appointment, promotion and dismissal of officers"
+    },
+    {
+      "id": 151,
+      "question": "The Public Service Rules were last revised in",
+      "options": ["2008", "2013", "2021", "2025"],
+      "answer": "2021"
+    },
+    {
+      "id": 152,
+      "question": "The contributory pension scheme in Nigeria was introduced by",
+      "options": ["Pension Reform Act 2004", "Pension Reform Act 2014", "Public Service Rules 2021", "Constitution 1999"],
+      "answer": "Pension Reform Act 2004"
+    },
+    {
+      "id": 153,
+      "question": "The minimum qualification for entry into the civil service at GL 15 is",
+      "options": ["First Degree", "Masters Degree", "PhD", "HND"],
+      "answer": "Masters Degree"
+    },
+    {
+      "id": 154,
+      "question": "For doctorate positions at GL 17, the entry requirement is typically",
+      "options": ["PhD with relevant experience", "First Degree", "Masters", "Postgraduate Diploma"],
+      "answer": "PhD with relevant experience"
+    },
+    {
+      "id": 155,
+      "question": "The Head of Service is appointed by",
+      "options": ["The President on the recommendation of the Federal Civil Service Commission", "The National Assembly", "The Minister of Establishment", "The Body of Permanent Secretaries"],
+      "answer": "The President on the recommendation of the Federal Civil Service Commission"
+    },
+    {
+      "id": 156,
+      "question": "The tenure of the Head of Service is",
+      "options": ["Two years, renewable", "Four years, non-renewable", "Five years, renewable", "Until retirement age"],
+      "answer": "Two years, renewable"
+    },
+    {
+      "id": 157,
+      "question": "The Body of Permanent Secretaries is chaired by",
+      "options": ["The Head of Service", "The President", "The Vice President", "The Chief of Staff"],
+      "answer": "The Head of Service"
+    },
+    {
+      "id": 158,
+      "question": "The minimum retirement age for GL 15-17 officers is",
+      "options": ["55 years or 35 years of service", "60 years or 35 years of service", "60 years or 40 years of service", "65 years or 35 years of service"],
+      "answer": "60 years or 35 years of service"
+    },
+    {
+      "id": 159,
+      "question": "The pension scheme for federal civil servants is",
+      "options": ["Defined Benefit Scheme", "Contributory Pension Scheme", "Pay-As-You-Go Scheme", "State Pension Scheme"],
+      "answer": "Contributory Pension Scheme"
+    },
+    {
+      "id": 160,
+      "question": "The National Pension Commission (PenCom) regulates",
+      "options": ["Pension matters in Nigeria", "Taxation", "Budgeting", "Auditing"],
+      "answer": "Pension matters in Nigeria"
+    },
+    {
+      "id": 161,
+      "question": "Under PSR 2021, the recruitment process for GL 15 includes",
+      "options": ["Open competition and interview", "Direct appointment", "Promotion only", "Transfer"],
+      "answer": "Open competition and interview"
+    },
+    {
+      "id": 162,
+      "question": "The disciplinary committee for senior officers (GL 15-17) is headed by",
+      "options": ["The Permanent Secretary", "The Head of Service", "The Minister", "The FCSC Chairman"],
+      "answer": "The Head of Service"
+    },
+    {
+      "id": 163,
+      "question": "The maximum number of domestic staff for GL 17 is",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": 164,
+      "question": "The official language for civil service communication is",
+      "options": ["English", "Pidgin", "Hausa", "Yoruba"],
+      "answer": "English"
+    },
+    {
+      "id": 165,
+      "question": "The code of conduct for public officers is enforced by",
+      "options": ["Code of Conduct Bureau", "EFCC", "ICPC", "Police"],
+      "answer": "Code of Conduct Bureau"
+    },
+    {
+      "id": 166,
+      "question": "The Freedom of Information Act was enacted in",
+      "options": ["2007", "2011", "2015", "2019"],
+      "answer": "2011"
+    },
+    {
+      "id": 167,
+      "question": "The Anti-Corruption and Anti-Money Laundering policies are under",
+      "options": ["EFCC and NFIU", "ICPC and EFCC", "CBN and PenCom", "FCSC and OHCSF"],
+      "answer": "EFCC and NFIU"
+    },
+    {
+      "id": 168,
+      "question": "For promotion to GL 16, the minimum years in GL 15 is",
+      "options": ["3 years", "4 years", "5 years", "6 years"],
+      "answer": "4 years"
+    },
+    {
+      "id": 169,
+      "question": "The Senior Staff Committee for promotion is composed of",
+      "options": ["Permanent Secretaries and Directors", "Ministers and Permanent Secretaries", "Head of Service and FCSC", "President and Ministers"],
+      "answer": "Permanent Secretaries and Directors"
+    },
+    {
+      "id": 170,
+      "question": "The e-Government initiatives for civil service include",
+      "options": ["IPPIS and GIFMIS", "NEEDS and VISION 20:20", "MDGs and SDGs", "All of the above"],
+      "answer": "IPPIS and GIFMIS"
+    },
+    {
+      "id": 171,
+      "question": "The Treasury Single Account (TSA) was introduced to",
+      "options": ["Centralize government revenue", "Increase borrowing", "Decentralize funds", "Privatize assets"],
+      "answer": "Centralize government revenue"
+    },
+    {
+      "id": 172,
+      "question": "The Office of the Accountant General of the Federation (OAGF) is under",
+      "options": ["Ministry of Finance", "Central Bank", "Budget Office", "Auditor General"],
+      "answer": "Ministry of Finance"
+    },
+    {
+      "id": 173,
+      "question": "The Fiscal Responsibility Act 2007 regulates",
+      "options": ["Budget preparation and execution", "Tax collection", "Pension payments", "Procurement"],
+      "answer": "Budget preparation and execution"
+    },
+    {
+      "id": 174,
+      "question": "For doctorate holders, the entry grade level is typically",
+      "options": ["GL 09", "GL 10", "GL 14", "GL 15"],
+      "answer": "GL 10"
+    },
+    {
+      "id": 175,
+      "question": "The Public Procurement Act 2007 ensures",
+      "options": ["Transparency in government contracts", "Private sector dominance", "Manual bidding", "No bidding"],
+      "answer": "Transparency in government contracts"
+    },
+    {
+      "id": 176,
+      "question": "The National Planning Commission is responsible for",
+      "options": ["Economic planning and development", "Defense", "Health", "Education"],
+      "answer": "Economic planning and development"
+    },
+    {
+      "id": 177,
+      "question": "The Sustainable Development Goals (SDGs) number is",
+      "options": ["15", "16", "17", "18"],
+      "answer": "17"
+    },
+    {
+      "id": 178,
+      "question": "Nigeria's ranking in Ease of Doing Business 2020 was",
+      "options": ["131", "146", "160", "180"],
+      "answer": "131"
+    },
+    {
+      "id": 179,
+      "question": "The Central Bank of Nigeria (CBN) Governor is appointed for",
+      "options": ["4 years, renewable once", "5 years, non-renewable", "6 years, renewable", "10 years"],
+      "answer": "5 years, non-renewable"
+    },
+    {
+      "id": 180,
+      "question": "The Monetary Policy Rate (MPR) is set by",
+      "options": ["CBN Monetary Policy Committee", "Federal Ministry of Finance", "National Assembly", "President"],
+      "answer": "CBN Monetary Policy Committee"
+    },
+    {
+      "id": 181,
+      "question": "The Infrastructure Concession Regulatory Commission (ICRC) regulates",
+      "options": ["Public-Private Partnerships", "Taxation", "Pensions", "Education"],
+      "answer": "Public-Private Partnerships"
+    },
+    {
+      "id": 182,
+      "question": "The Debt Management Office (DMO) manages",
+      "options": ["Nigeria's domestic and external debt", "Foreign reserves", "Budget deficits", "All of the above"],
+      "answer": "Nigeria's domestic and external debt"
+    },
+    {
+      "id": 183,
+      "question": "The National Bureau of Statistics (NBS) is under",
+      "options": ["Ministry of Budget and National Planning", "CBN", "Ministry of Finance", "National Assembly"],
+      "answer": "Ministry of Budget and National Planning"
+    },
+    {
+      "id": 184,
+      "question": "The National Insurance Commission (NAICOM) regulates",
+      "options": ["Insurance industry in Nigeria", "Banking", "Pensions", "Securities"],
+      "answer": "Insurance industry in Nigeria"
+    },
+    {
+      "id": 185,
+      "question": "The National Council on Privatisation (NCP) advises on",
+      "options": ["Privatization and commercialization", "Nationalization", "Mergers", "Acquisitions"],
+      "answer": "Privatization and commercialization"
+    },
+    {
+      "id": 186,
+      "question": "The Legal Aid Council of Nigeria (LACoN) provides",
+      "options": ["Free legal services to the indigent", "Paid legal advice", "Court enforcement", "Prosecution"],
+      "answer": "Free legal services to the indigent"
+    },
+    {
+      "id": 187,
+      "question": "The National Agency for the Prohibition of Trafficking in Persons (NAPTIP) combats",
+      "options": ["Human trafficking", "Corruption", "Money laundering", "Terrorism"],
+      "answer": "Human trafficking"
+    },
+    {
+      "id": 188,
+      "question": "The National Boundary Commission (NBC) handles",
+      "options": ["Inter-state boundary disputes", "International borders", "Maritime boundaries", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 189,
+      "question": "The National Council for Arts and Culture (NCAC) promotes",
+      "options": ["Nigerian arts and culture", "Sports", "Science", "Technology"],
+      "answer": "Nigerian arts and culture"
+    },
+    {
+      "id": 190,
+      "question": "The National Emergency Management Agency (NEMA) coordinates",
+      "options": ["Disaster management and relief", "Military operations", "Health emergencies", "Economic crises"],
+      "answer": "Disaster management and relief"
+    },
+    {
+      "id": 191,
+      "question": "The Federal Ministry of Budget and Economic Planning is headed by",
+      "options": ["The Minister of Budget and Economic Planning", "The Finance Minister", "The Head of Service", "The President"],
+      "answer": "The Minister of Budget and Economic Planning"
+    },
+    {
+      "id": 192,
+      "question": "The Economic and Financial Crimes Commission (EFCC) was established in",
+      "options": ["2000", "2002", "2003", "2004"],
+      "answer": "2003"
+    },
+    {
+      "id": 193,
+      "question": "The Independent Corrupt Practices Commission (ICPC) was established in",
+      "options": ["2000", "2002", "2003", "2004"],
+      "answer": "2000"
+    },
+    {
+      "id": 194,
+      "question": "The Bureau of Public Enterprises (BPE) is responsible for",
+      "options": ["Privatization of public enterprises", "Public sector reform", "Both A and B", "None"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 195,
+      "question": "The Nigerian Investment Promotion Commission (NIPC) promotes",
+      "options": ["Foreign investment in Nigeria", "Local investment", "Both", "None"],
+      "answer": "Foreign investment in Nigeria"
+    },
+    {
+      "id": 196,
+      "question": "The Standards Organisation of Nigeria (SON) ensures",
+      "options": ["Product standards and quality", "Food safety", "Drug regulation", "All of the above"],
+      "answer": "Product standards and quality"
+    },
+    {
+      "id": 197,
+      "question": "The Consumer Protection Council (CPC) protects",
+      "options": ["Consumer rights", "Business interests", "Government revenue", "Worker rights"],
+      "answer": "Consumer rights"
+    },
+    {
+      "id": 198,
+      "question": "The Corporate Affairs Commission (CAC) registers",
+      "options": ["Companies and business names", "NGOs only", "Cooperatives", "All of the above"],
+      "answer": "Companies and business names"
+    },
+    {
+      "id": 199,
+      "question": "The Federal Inland Revenue Service (FIRS) collects",
+      "options": ["Federal taxes", "State taxes", "Local taxes", "All taxes"],
+      "answer": "Federal taxes"
+    },
+    {
+      "id": 200,
+      "question": "The National Directorate of Employment (NDE) focuses on",
+      "options": ["Job creation and vocational training", "Unemployment benefits", "Labor disputes", "Wage regulation"],
+      "answer": "Job creation and vocational training"
+    },
+    {
+      "id": 201,
+      "question": "Under the Public Service Rules 2021, the recruitment process for Grade Level 15 involves:",
+      "options": ["Direct appointment by the Head of Service", "Open competition followed by interview", "Automatic promotion from GL 14", "Nomination by the Ministry"],
+      "answer": "Open competition followed by interview"
+    },
+    {
+      "id": 202,
+      "question": "The contributory pension scheme requires employees to contribute a minimum of:",
+      "options": ["5%", "8%", "10%", "12%"],
+      "answer": "8%"
+    },
+    {
+      "id": 203,
+      "question": "For promotion to Grade Level 16, the minimum service years in GL 15 is:",
+      "options": ["2 years", "3 years", "4 years", "5 years"],
+      "answer": "4 years"
+    },
+    {
+      "id": 204,
+      "question": "The Body of Permanent Secretaries is responsible for:",
+      "options": ["Advising on senior appointments", "Conducting recruitments", "Handling junior staff promotions", "Managing pensions"],
+      "answer": "Advising on senior appointments"
+    },
+    {
+      "id": 205,
+      "question": "The Pension Reform Act 2014 mandates that employers contribute:",
+      "options": ["8%", "10%", "12%", "15%"],
+      "answer": "10%"
+    },
+    {
+      "id": 206,
+      "question": "In the seniority list of the Nominal Roll, which item is NOT included?",
+      "options": ["Name and rank", "Date of birth", "Phone number", "Qualification"],
+      "answer": "Phone number"
+    },
+    {
+      "id": 207,
+      "question": "The Federal Civil Service Commission handles disciplinary control for officers up to:",
+      "options": ["GL 10", "GL 12", "GL 14", "All levels"],
+      "answer": "All levels"
+    },
+    {
+      "id": 208,
+      "question": "For Grade Level 17 appointments, applications are routed through:",
+      "options": ["The Ministry", "The Head of Service", "Direct to FCSC", "The President"],
+      "answer": "The Head of Service"
+    },
+    {
+      "id": 209,
+      "question": "The maximum retirement age for GL 15-17 officers is:",
+      "options": ["60 years or 35 years of service", "65 years or 40 years of service", "60 years or 40 years of service", "65 years or 35 years of service"],
+      "answer": "60 years or 35 years of service"
+    },
+    {
+      "id": 210,
+      "question": "The Senior Staff Committee for promotions includes:",
+      "options": ["Permanent Secretaries and Directors", "Junior officers only", "External consultants", "All staff"],
+      "answer": "Permanent Secretaries and Directors"
+    },
+    {
+      "id": 211,
+      "question": "Under PSR 2021, the code of conduct requires officers to avoid:",
+      "options": ["Accepting gifts over N50,000", "Declaring assets annually", "Both A and B", "Neither"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 212,
+      "question": "The e-Government Master Plan in Nigeria aims to improve:",
+      "options": ["Service delivery through ICT", "Paper-based processes", "Manual record keeping", "Offline training"],
+      "answer": "Service delivery through ICT"
+    },
+    {
+      "id": 213,
+      "question": "The Integrated Payroll and Personnel Information System (IPPIS) is managed by:",
+      "options": ["Office of the Accountant General", "CBN", "PenCom", "FCSC"],
+      "answer": "Office of the Accountant General"
+    },
+    {
+      "id": 214,
+      "question": "For doctorate holders, the entry point for academic staff is typically:",
+      "options": ["GL 09", "GL 10", "GL 14", "GL 15"],
+      "answer": "GL 10"
+    },
+    {
+      "id": 215,
+      "question": "The Treasury Single Account (TSA) was fully implemented in:",
+      "options": ["2012", "2015", "2018", "2021"],
+      "answer": "2015"
+    },
+    {
+      "id": 216,
+      "question": "The Fiscal Responsibility Act 2007 limits government borrowing to:",
+      "options": ["3% of GDP", "5% of GDP", "40% of revenue", "50% of revenue"],
+      "answer": "40% of revenue"
+    },
+    {
+      "id": 217,
+      "question": "The National Planning Commission was established under:",
+      "options": ["Vision 20:2020", "Transformation Agenda", "NEEDS", "All of the above"],
+      "answer": "Vision 20:2020"
+    },
+    {
+      "id": 218,
+      "question": "Nigeria's commitment to SDGs includes achieving them by:",
+      "options": ["2030", "2025", "2040", "2050"],
+      "answer": "2030"
+    },
+    {
+      "id": 219,
+      "question": "The Central Bank of Nigeria's Monetary Policy Rate as of 2024 is approximately:",
+      "options": ["18.75%", "22.5%", "25%", "15%"],
+      "answer": "18.75%"
+    },
+    {
+      "id": 220,
+      "question": "The Infrastructure Concession Regulatory Commission (ICRC) was established in:",
+      "options": ["2005", "2010", "2015", "2020"],
+      "answer": "2005"
+    },
+    {
+      "id": 221,
+      "question": "The Debt Management Office (DMO) was created in:",
+      "options": ["2000", "2003", "2007", "2010"],
+      "answer": "2003"
+    },
+    {
+      "id": 222,
+      "question": "The National Bureau of Statistics (NBS) reports GDP growth for 2023 as:",
+      "options": ["2.5%", "3.1%", "4.2%", "1.8%"],
+      "answer": "2.5%"
+    },
+    {
+      "id": 223,
+      "question": "The National Insurance Commission (NAICOM) licenses:",
+      "options": ["Insurance companies", "Banks", "Pension funds", "Microfinance institutions"],
+      "answer": "Insurance companies"
+    },
+    {
+      "id": 224,
+      "question": "The National Council on Privatisation (NCP) is chaired by:",
+      "options": ["Vice President", "Finance Minister", "Head of Service", "BPE Director"],
+      "answer": "Vice President"
+    },
+    {
+      "id": 225,
+      "question": "The Legal Aid Council of Nigeria provides services to:",
+      "options": ["Indigent persons", "Corporate clients", "Government officials", "Foreigners only"],
+      "answer": "Indigent persons"
+    },
+    {
+      "id": 226,
+      "question": "NAPTIP was established under the Trafficking in Persons Act:",
+      "options": ["2003", "2015", "2019", "2021"],
+      "answer": "2003"
+    },
+    {
+      "id": 227,
+      "question": "The National Boundary Commission resolves disputes involving:",
+      "options": ["Inter-state boundaries", "International borders", "Both A and B", "Neither"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 228,
+      "question": "The National Council for Arts and Culture organizes:",
+      "options": ["National Festival of Arts and Culture", "Sports events", "Science fairs", "Trade expos"],
+      "answer": "National Festival of Arts and Culture"
+    },
+    {
+      "id": 229,
+      "question": "NEMA's mandate includes coordinating responses to:",
+      "options": ["Natural disasters", "Economic crises", "Political unrest", "Health pandemics"],
+      "answer": "Natural disasters"
+    },
+    {
+      "id": 230,
+      "question": "The Ministry of Budget and Economic Planning coordinates:",
+      "options": ["Medium-Term Expenditure Framework", "Annual Budget", "Both A and B", "Neither"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 231,
+      "question": "EFCC was established to combat:",
+      "options": ["Economic and financial crimes", "Political corruption only", "Human trafficking", "Drug trafficking"],
+      "answer": "Economic and financial crimes"
+    },
+    {
+      "id": 232,
+      "question": "ICPC focuses on:",
+      "options": ["Corrupt practices in public service", "Private sector fraud", "Environmental crimes", "Cybercrimes"],
+      "answer": "Corrupt practices in public service"
+    },
+    {
+      "id": 233,
+      "question": "The Bureau of Public Enterprises (BPE) implements:",
+      "options": ["Privatization programs", "Nationalization", "Subsidies", "Tariffs"],
+      "answer": "Privatization programs"
+    },
+    {
+      "id": 234,
+      "question": "NIPC was established by Act in:",
+      "options": ["1995", "2004", "2010", "2015"],
+      "answer": "1995"
+    },
+    {
+      "id": 235,
+      "question": "SON's primary role is to standardize:",
+      "options": ["Industrial products", "Agricultural produce", "Services", "All of the above"],
+      "answer": "Industrial products"
+    },
+    {
+      "id": 236,
+      "question": "The Consumer Protection Council handles complaints on:",
+      "options": ["Product safety and unfair trade", "Labor disputes", "Tax evasion", "Immigration"],
+      "answer": "Product safety and unfair trade"
+    },
+    {
+      "id": 237,
+      "question": "CAC was established under the Companies and Allied Matters Act:",
+      "options": ["1990", "2004", "2020", "2011"],
+      "answer": "1990"
+    },
+    {
+      "id": 238,
+      "question": "FIRS was created from the:",
+      "options": ["Federal Board of Inland Revenue", "State Tax Authority", "Local Government Revenue", "CBN"],
+      "answer": "Federal Board of Inland Revenue"
+    },
+    {
+      "id": 239,
+      "question": "NDE was established in:",
+      "options": ["1986", "1990", "1995", "2000"],
+      "answer": "1986"
+    },
+    {
+      "id": 240,
+      "question": "The minimum qualification for GL 17 is typically:",
+      "options": ["PhD with 10 years experience", "Masters with 15 years", "First Degree with 20 years", "HND with 12 years"],
+      "answer": "PhD with 10 years experience"
+    },
+    {
+      "id": 241,
+      "question": "The Public Procurement Act 2007 requires competitive bidding for contracts above:",
+      "options": ["N50 million", "N100 million", "N200 million", "N500 million"],
+      "answer": "N50 million"
+    },
+    {
+      "id": 242,
+      "question": "The National Planning Ministry was renamed in 2011 to:",
+      "options": ["Ministry of Budget and National Planning", "Ministry of Finance", "Ministry of Economy", "Ministry of Development"],
+      "answer": "Ministry of Budget and National Planning"
+    },
+    {
+      "id": 243,
+      "question": "Nigeria's Human Development Index (HDI) rank in 2023 was:",
+      "options": ["150", "158", "163", "170"],
+      "answer": "163"
+    },
+    {
+      "id": 244,
+      "question": "The CBN's Cash Reserve Ratio (CRR) as of 2024 is:",
+      "options": ["27.5%", "32.5%", "45%", "50%"],
+      "answer": "45%"
+    },
+    {
+      "id": 245,
+      "question": "The ICRC Act 2005 promotes PPPs in sectors like:",
+      "options": ["Infrastructure", "Education", "Health", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 246,
+      "question": "DMO's role includes debt sustainability analysis for:",
+      "options": ["Federal and state governments", "Private sector only", "International donors", "NGOs"],
+      "answer": "Federal and state governments"
+    },
+    {
+      "id": 247,
+      "question": "NBS conducts the census every:",
+      "options": ["5 years", "10 years", "15 years", "20 years"],
+      "answer": "10 years"
+    },
+    {
+      "id": 248,
+      "question": "NAICOM's minimum capital for insurance companies is N:",
+      "options": ["500 million", "1 billion", "2 billion", "5 billion"],
+      "answer": "2 billion"
+    },
+    {
+      "id": 249,
+      "question": "NCP approves privatization transactions above N:",
+      "options": ["50 million", "100 million", "500 million", "1 billion"],
+      "answer": "500 million"
+    },
+    {
+      "id": 250,
+      "question": "LACoN was established under Decree:",
+      "options": ["No. 3 of 1975", "No. 39 of 1979", "No. 1 of 1985", "No. 48 of 1991"],
+      "answer": "No. 39 of 1979"
+    }
+  
+]

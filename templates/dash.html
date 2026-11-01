@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CBT Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='jem_ico.ico') }}">
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+    <div style="max-width: 800px; margin: 50px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <h1 style="text-align: center;">N-Hub CyberSeurity Class Jos (JETS)</h1>
+        <p style="text-align: center; color: #333; font-size: 16px; line-height: 1.5;">
+            Prepare for the Nigeria Civil Service Promotion Exams (Grades 15–17) with our practice test. Answer 50 random questions on Public Service Rules, current affairs, and reasoning skills. Enter your username to start and compete for a spot on the leaderboard! Click a username to view attempt history.
+        </p>
+        {% if error %}
+        <p style="color: #ff0000; text-align: center;">{{ error }}</p>
+        {% endif %}
+        <form action="/start_quiz" method="POST" style="text-align: center; margin: 20px 0;">
+            <button onclick="toggleDarkMode()" style="margin-top: 20px; font-weight: bolder; padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Change Theme</button>
+            <label for="username" style="font-size: 18px;">Enter Username:</label>
+            <input type="text" id="username" name="username" required style="padding: 8px; margin: 0 10px; border: 1px solid #ddd; border-radius: 4px; width: 200px;">
+            <button type="submit" style="padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Take Quiz</button>
+        </form>
+        <h2 style="text-align: center; margin-top: 40px;">Leaderboard (Top 10)</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+            <tr style="background: #007BFF; color: white;">
+                <th style="padding: 10px; border: 1px solid #ddd;">Rank</th>
+                <th style="padding: 10px; border: 1px solid #ddd;">Username</th>
+                <th style="padding: 10px; border: 1px solid #ddd;">Score</th>
+            </tr>
+            {% for leader in leaders %}
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">{{ loop.index }}</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">
+                    <a href="/history/{{ leader.username }}" style="color: #007BFF; text-decoration: none;">{{ leader.username }}</a>
+                </td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">{{ leader.score }}/30</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="3" style="padding: 10px; border: 1px solid #ddd; text-align: center;">No scores yet</td></tr>
+            {% endfor %}
+        </table>
+        <h2 style="text-align: center; margin-top: 40px;">All Participant which should be view on button click </h2>
+        <button onclick="ViewAll()" style="margin-top: 20px; font-weight: bolder; padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Show All</button>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+            <tr style="background: #007BFF; color: white;">
+                <th style="padding: 10px; border: 1px solid #ddd;">Rank</th>
+                <th style="padding: 10px; border: 1px solid #ddd;">Username</th>
+                <th style="padding: 10px; border: 1px solid #ddd;">Score</th>
+            </tr>
+            {% for al in all %}
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">{{ loop.index }}</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">
+                    <a href="/history/{{ al.username }}" style="color: #007BFF; text-decoration: none;">{{ al.username }}</a>
+                </td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">{{ al.score }}/30</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="3" style="padding: 10px; border: 1px solid #ddd; text-align: center;">No scores yet</td></tr>
+            {% endfor %}
+        </table>
+        
+    </div>
+    <script>
+        function toggleDarkMode() {
+            try {
+                document.body.classList.toggle('dark-mode');
+                const container = document.querySelector('div');
+                const table = document.querySelector('table');
+                if (document.body.classList.contains('dark-mode')) {
+                    document.body.style.background = '#333';
+                    document.body.style.color = '#fff';
+                    container.style.background = '#444';
+                    container.style.color = '#fff';
+                    table.style.borderColor = '#555';
+                } else {
+                    document.body.style.background = '#f4f4f4';
+                    document.body.style.color = '#000';
+                    container.style.background = 'white';
+                    container.style.color = '#333';
+                    table.style.borderColor = '#ddd';
+                }
+                localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+            } catch (e) {
+                console.error('Dark mode toggle failed:', e);
+            }
+        }
+        if (localStorage.getItem('darkMode') === 'true') {
+            toggleDarkMode();
+        }
+    </script>
+</body>
+</html>

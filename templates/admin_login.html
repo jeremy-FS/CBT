@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login - JETS CBT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { 
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .login-box {
+      background: #ffffff;
+      padding: 48px 40px;
+      border-radius: 20px;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .login-box:hover { transform: translateY(-5px); }
+
+    .logo { 
+      font-size: 4rem; 
+      margin-bottom: 8px; 
+      background: linear-gradient(135deg, #4a00e0, #8e2de2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    h1 { 
+      color: #2d3748; 
+      font-size: 1.75rem; 
+      font-weight: 700; 
+      margin-bottom: 8px; 
+    }
+    p { 
+      color: #718096; 
+      font-size: 0.95rem; 
+      margin-bottom: 32px; 
+    }
+
+    /* Input Field Group */
+    .input-group {
+      position: relative;
+      margin-bottom: 24px;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 16px 20px 16px 48px;
+      font-size: 1rem;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      outline: none;
+      transition: all 0.3s ease;
+      background: #f8fafc;
+    }
+    .input-group input:focus {
+      border-color: #4a00e0;
+      background: #ffffff;
+      box-shadow: 0 0 0 4px rgba(74, 0, 224, 0.15);
+    }
+    .input-group .icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #a0aec0;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+    .input-group input:focus + .icon {
+      color: #4a00e0;
+    }
+
+    /* Button */
+    .login-btn {
+      width: 100%;
+      padding: 16px;
+      margin-top: 12px;
+      background: linear-gradient(135deg, #4a00e0, #8e2de2);
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .login-btn::before {
+      content: '';
+      position: absolute;
+      top: 0; left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.7s;
+    }
+    .login-btn:hover::before {
+      left: 100%;
+    }
+    .login-btn:hover {
+      background: linear-gradient(135deg, #3a00c0, #7c1fd1);
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(74, 0, 224, 0.4);
+    }
+    .login-btn:active {
+      transform: translateY(-1px);
+    }
+
+    /* Alerts */
+    .alert {
+      padding: 14px 18px;
+      margin: 20px 0;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+    .alert.fade-out {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    .success { background: #d1fae5; color: #065f46; border: 1px solid #a7f3d0; }
+    .error   { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+    .info    { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+
+    small { 
+      display: block; 
+      margin-top: 32px; 
+      color: #94a3b8; 
+      font-size: 0.8rem; 
+    }
+    .logo { font-size: 3em; margin-bottom: 10px; color: #4a00e0; }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <div class="icon" style="font-size: 70px;">🔒</div>
+    <h1 style="font-weight: bolder; font-size: x-large;">JETS Admin Login</h1>
+    <p style="margin-bottom: 14px;">Secure Access to Examination Dashboard</p>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert {{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <form method="POST">
+      <div class="input-group">
+        <input type="text" name="username" placeholder="Username" required autofocus>
+        <span class="icon">🙍‍</span>
+      </div>
+
+      <div class="input-group">
+        <input type="password" name="password" placeholder="Password" required>
+        <span class="icon">🔑</span>
+      </div>
+
+      <button type="submit" class="login-btn">
+        Login to Admin Panel
+      </button>
+    </form>
+
+    <small>© 2025 N-Hub CyberSeurity Class Jos • Built by @Cyber_Jem</small>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const alerts = document.querySelectorAll('.alert');
+      alerts.forEach(alert => {
+        setTimeout(() => {
+          alert.classList.add('fade-out');
+          setTimeout(() => alert.remove(), 600);
+        }, 1000);
+      });
+    });
+    // close page should be handled from back-end for security reasons
+    // deleteing local storage on client session to end it
+  </script>
+</body>
+</html>

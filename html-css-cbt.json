@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "question": "Which CSS property controls the space between lines of text?",
+    "options": [
+      "`line-height`",
+      "`text-spacing`",
+      "`line-spacing`",
+      "`height-between`"
+    ],
+    "answer": "`line-height`"
+  },
+  {
+    "id": 2,
+    "question": "Which element is used to add JavaScript to an HTML document?",
+    "options": [
+      "`<javascript>`",
+      "`<script>`",
+      "`<js>`",
+      "`<code-script>`"
+    ],
+    "answer": "`<script>`"
+  },
+  {
+    "id": 3,
+    "question": "Which element creates a line break?",
+    "options": [
+      "`<break>`",
+      "`<lb>`",
+      "`<br>`",
+      "`<newline>`"
+    ],
+    "answer": "`<br>`"
+  },
+  {
+    "id": 4,
+    "question": "Which CSS property changes the size of text?",
+    "options": [
+      "`text-size`",
+      "`font-size`",
+      "`size`",
+      "`font-scale`"
+    ],
+    "answer": "`font-size`"
+  },
+  {
+    "id": 5,
+    "question": "What is the main purpose of HTML?",
+    "options": [
+      "To style a webpage",
+      "To structure the content of a webpage",
+      "To manage databases",
+      "To create animations only"
+    ],
+    "answer": "To structure the content of a webpage"
+  },
+  {
+    "id": 6,
+    "question": "Which element is the root element of an HTML document?",
+    "options": [
+      "`<body>`",
+      "`<head>`",
+      "`<html>`",
+      "`<main>`"
+    ],
+    "answer": "`<html>`"
+  },
+  {
+    "id": 7,
+    "question": "In Flexbox, which property sets the main-axis direction?",
+    "options": [
+      "`flex-direction`",
+      "`main-direction`",
+      "`flex-axis`",
+      "`direction-flex`"
+    ],
+    "answer": "`flex-direction`"
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of a CSS media query?",
+    "options": [
+      "To add audio to a page",
+      "To apply styles based on conditions such as screen size",
+      "To validate HTML",
+      "To create database queries"
+    ],
+    "answer": "To apply styles based on conditions such as screen size"
+  },
+  {
+    "id": 9,
+    "question": "Study the code below. What kind of form control does it create?\n\n[html code]\n<label for=\"username\">Username:</label>\n<input id=\"username\" type=\"text\">",
+    "options": [
+      "A multi-line text area",
+      "A single-line text input",
+      "A password input",
+      "A drop-down list"
+    ],
+    "answer": "A single-line text input"
+  },
+  {
+    "id": 10,
+    "question": "What does HTML validation help identify?",
+    "options": [
+      "Incorrect or non-standard markup",
+      "Slow internet connections",
+      "Image color problems",
+      "Server passwords"
+    ],
+    "answer": "Incorrect or non-standard markup"
+  },
+  {
+    "id": 11,
+    "question": "Which HTML element is used to embed another webpage or document?",
+    "options": [
+      "`<embed-page>`",
+      "`<iframe>`",
+      "`<frame-page>`",
+      "`<window>`"
+    ],
+    "answer": "`<iframe>`"
+  },
+  {
+    "id": 12,
+    "question": "Which element creates the largest heading?",
+    "options": [
+      "`<h6>`",
+      "`<heading1>`",
+      "`<h1>`",
+      "`<head>`"
+    ],
+    "answer": "`<h1>`"
+  },
+  {
+    "id": 13,
+    "question": "Study the code below. What does `display: flex` do to the `<nav>` element?\n\n[css code]\nnav {\n  display: flex;\n}",
+    "options": [
+      "It makes the navigation invisible",
+      "It makes the navigation a flex container",
+      "It turns the navigation into a grid",
+      "It changes the navigation into an image"
+    ],
+    "answer": "It makes the navigation a flex container"
+  },
+  {
+    "id": 14,
+    "question": "Which symbol begins a CSS class selector?",
+    "options": [
+      "`.`",
+      "`#`",
+      "`:`",
+      "`$`"
+    ],
+    "answer": "`.`"
+  },
+  {
+    "id": 15,
+    "question": "Which element contains metadata and the page title?",
+    "options": [
+      "`<header>`",
+      "`<head>`",
+      "`<meta>`",
+      "`<info>`"
+    ],
+    "answer": "`<head>`"
+  },
+  {
+    "id": 16,
+    "question": "Which element creates an unordered list?",
+    "options": [
+      "`<ol>`",
+      "`<ul>`",
+      "`<list>`",
+      "`<li>`"
+    ],
+    "answer": "`<ul>`"
+  },
+  {
+    "id": 17,
+    "question": "Study the code below. Which property changes the paragraph to use the Arial font?\n\n[css code]\np {\n  font-family: Arial, sans-serif;\n}",
+    "options": [
+      "`font-family`",
+      "`typeface`",
+      "`text-family`",
+      "`font-style-family`"
+    ],
+    "answer": "`font-family`"
+  },
+  {
+    "id": 18,
+    "question": "Which property sets the width of an element\u2019s content area?",
+    "options": [
+      "`element-width`",
+      "`content-width`",
+      "`width`",
+      "`size-width`"
+    ],
+    "answer": "`width`"
+  },
+  {
+    "id": 19,
+    "question": "Study the code below. Which attribute tells the browser where to find the image file?\n\n[html code]\n&lt;img src=\"logo.png\" alt=\"Company logo\"&gt;",
+    "options": [
+      "`alt`",
+      "`src`",
+      "`image`",
+      "`file`"
+    ],
+    "answer": "`src`"
+  },
+  {
+    "id": 20,
+    "question": "Which HTML element contains internal CSS?",
+    "options": [
+      "`<css>`",
+      "`<style>`",
+      "`<design>`",
+      "`<stylesheet>`"
+    ],
+    "answer": "`<style>`"
+  },
+  {
+    "id": 21,
+    "question": "Which CSS layout system is designed for rows and columns?",
+    "options": [
+      "Float layout",
+      "Grid layout",
+      "Text layout",
+      "Inline layout"
+    ],
+    "answer": "Grid layout"
+  },
+  {
+    "id": 22,
+    "question": "Which element represents a self-contained piece of content, such as a blog post?",
+    "options": [
+      "`<article>`",
+      "`<post>`",
+      "`<content-piece>`",
+      "`<entry>`"
+    ],
+    "answer": "`<article>`"
+  },
+  {
+    "id": 23,
+    "question": "Study the code below. What does the `transform` declaration do?\n\n[css code]\n.card {\n  transform: translateX(20px);\n}",
+    "options": [
+      "It moves the card horizontally by 20 pixels",
+      "It changes the card\u2019s text color",
+      "It adds 20 pixels of padding",
+      "It rotates the card by 20 degrees"
+    ],
+    "answer": "It changes the card\u2019s text color"
+  },
+  {
+    "id": 24,
+    "question": "Study the code below. Which statement best describes the effect of `position: relative`?\n\n[css code]\n.badge {\n  position: relative;\n  top: 5px;\n}",
+    "options": [
+      "The element is removed from normal document flow",
+      "The element stays fixed to the viewport",
+      "The element remains in normal flow and is shifted from its original position",
+      "The element is always placed at the bottom of the page"
+    ],
+    "answer": "The element remains in normal flow and is shifted from its original position"
+  },
+  {
+    "id": 25,
+    "question": "Which element groups the header content of a table?",
+    "options": [
+      "`<table-head>`",
+      "`<thead>`",
+      "`<thgroup>`",
+      "`<header>`"
+    ],
+    "answer": "`<thead>`"
+  },
+  {
+    "id": 26,
+    "question": "Which CSS property aligns inline text horizontally?",
+    "options": [
+      "`align-text`",
+      "`text-align`",
+      "`horizontal-align`",
+      "`font-align`"
+    ],
+    "answer": "`text-align`"
+  },
+  {
+    "id": 27,
+    "question": "Which element defines a table data cell?",
+    "options": [
+      "`<data>`",
+      "`<cell>`",
+      "`<td>`",
+      "`<tr>`"
+    ],
+    "answer": "`<td>`"
+  },
+  {
+    "id": 28,
+    "question": "Which property defines the columns in a CSS Grid?",
+    "options": [
+      "`grid-columns`",
+      "`grid-template-columns`",
+      "`columns-grid`",
+      "`template-columns`"
+    ],
+    "answer": "`grid-template-columns`"
+  },
+  {
+    "id": 29,
+    "question": "Study the code below. Which element contains the visible page content?\n\n[html code]\n<body>\n  <h1>Welcome</h1>\n  <p>This text appears on the webpage.</p>\n</body>",
+    "options": [
+      "`<body>`",
+      "`<content>`",
+      "`<head>`",
+      "`<section>`"
+    ],
+    "answer": "`<body>`"
+  },
+  {
+    "id": 30,
+    "question": "Which transform function changes an element\u2019s size?",
+    "options": [
+      "`resize()`",
+      "`scale()`",
+      "`size()`",
+      "`zoom-element()`"
+    ],
+    "answer": "`scale()`"
+  },
+  {
+    "id": 31,
+    "question": "Which transform function moves an element horizontally or vertically?",
+    "options": [
+      "`translate()`",
+      "`move()`",
+      "`position()`",
+      "`shift()`"
+    ],
+    "answer": "`translate()`"
+  },
+  {
+    "id": 32,
+    "question": "Which CSS property controls how bold text appears?",
+    "options": [
+      "`font-weight`",
+      "`text-bold`",
+      "`font-boldness`",
+      "`weight-style`"
+    ],
+    "answer": "`font-weight`"
+  },
+  {
+    "id": 33,
+    "question": "Which pseudo-class targets an element when it receives focus?",
+    "options": [
+      "`:selected`",
+      "`:focus`",
+      "`:active-focus`",
+      "`:input`"
+    ],
+    "answer": "`:focus`"
+  },
+  {
+    "id": 34,
+    "question": "Study the code below. Why is `<nav>` more meaningful than a generic `<div>` in this example?\n\n[html code]\n<nav>\n  <a href=\"/home\">Home</a>\n  <a href=\"/about\">About</a>\n</nav>",
+    "options": [
+      "It automatically styles the links",
+      "It identifies the content as site navigation",
+      "It makes the links open in a new tab",
+      "It prevents the links from being clicked"
+    ],
+    "answer": "It identifies the content as site navigation"
+  },
+  {
+    "id": 35,
+    "question": "Which attribute applies inline CSS to an HTML element?",
+    "options": [
+      "`css`",
+      "`styles`",
+      "`style`",
+      "`design`"
+    ],
+    "answer": "`style`"
+  },
+  {
+    "id": 36,
+    "question": "Which element defines a table header cell?",
+    "options": [
+      "`<thead-cell>`",
+      "`<th>`",
+      "`<header-cell>`",
+      "`<td header>`"
+    ],
+    "answer": "`<th>`"
+  },
+  {
+    "id": 37,
+    "question": "Which `position` value keeps an element attached to the viewport while scrolling?",
+    "options": [
+      "`absolute`",
+      "`fixed`",
+      "`sticky`",
+      "`viewport`"
+    ],
+    "answer": "`fixed`"
+  },
+  {
+    "id": 38,
+    "question": "What does the `lang` attribute on the `<html>` element specify?",
+    "options": [
+      "The programming language used",
+      "The document\u2019s natural language",
+      "The browser language",
+      "The language of CSS styles"
+    ],
+    "answer": "The document\u2019s natural language"
+  },
+  {
+    "id": 39,
+    "question": "Which property rounds the corners of an element?",
+    "options": [
+      "`corner-radius`",
+      "`border-radius`",
+      "`round-border`",
+      "`edge-radius`"
+    ],
+    "answer": "`border-radius`"
+  },
+  {
+    "id": 40,
+    "question": "Which attribute displays built-in playback controls for audio or video?",
+    "options": [
+      "`buttons`",
+      "`controls`",
+      "`player`",
+      "`playback`"
+    ],
+    "answer": "`controls`"
+  },
+  {
+    "id": 41,
+    "question": "Which property changes an element\u2019s positioning method?",
+    "options": [
+      "`place`",
+      "`position`",
+      "`location`",
+      "`layout-position`"
+    ],
+    "answer": "`position`"
+  },
+  {
+    "id": 42,
+    "question": "Study the code below. What is the purpose of the first line?\n\n[html code]\n<!DOCTYPE html>\n<html>\n  <head><title>My Page</title></head>\n  <body><p>Hello!</p></body>\n</html>",
+    "options": [
+      "It creates the page title",
+      "It declares that the document uses HTML5",
+      "It displays the text \u201cHello!\u201d",
+      "It links an external stylesheet"
+    ],
+    "answer": "It declares that the document uses HTML5"
+  },
+  {
+    "id": 43,
+    "question": "Which property adds a border around an element?",
+    "options": [
+      "`outline-border`",
+      "`border`",
+      "`box-border`",
+      "`edge`"
+    ],
+    "answer": "`border`"
+  },
+  {
+    "id": 44,
+    "question": "Study the code below. Which property changes the paragraph\u2019s text to blue?\n\n[css code]\np {\n  color: blue;\n}",
+    "options": [
+      "`font-color`",
+      "`text-color`",
+      "`color`",
+      "`background-color`"
+    ],
+    "answer": "`color`"
+  },
+  {
+    "id": 45,
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Trainer Marking Language",
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "HyperText Markdown Language"
+    ],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "id": 46,
+    "question": "What is the main purpose of CSS?",
+    "options": [
+      "To structure webpage content",
+      "To style and lay out webpage content",
+      "To store webpage data",
+      "To create HTML elements"
+    ],
+    "answer": "To style and lay out webpage content"
+  },
+  {
+    "id": 47,
+    "question": "Study the code below. Which property creates 20 pixels of space inside the box?\n\n[css code]\n.box {\n  padding: 20px;\n}",
+    "options": [
+      "`margin`",
+      "`padding`",
+      "`inner-space`",
+      "`content-gap`"
+    ],
+    "answer": "`padding`"
+  },
+  {
+    "id": 48,
+    "question": "Study the code below. Which element associates the text \u201cEmail\u201d with the input?\n\n[html code]\n<label for=\"email\">Email</label>\n<input id=\"email\" type=\"email\">",
+    "options": [
+      "`<caption>`",
+      "`<label>`",
+      "`<legend-text>`",
+      "`<name>`"
+    ],
+    "answer": "`<label>`"
+  },
+  {
+    "id": 49,
+    "question": "Which element is commonly used for tangential or supplementary content?",
+    "options": [
+      "`<aside>`",
+      "`<extra>`",
+      "`<side-content>`",
+      "`<secondary>`"
+    ],
+    "answer": "`<aside>`"
+  },
+  {
+    "id": 50,
+    "question": "Which property specifies the name of the `@keyframes` animation?",
+    "options": [
+      "`animation-name`",
+      "`keyframes-name`",
+      "`motion-name`",
+      "`animation-key`"
+    ],
+    "answer": "`animation-name`"
+  },
+  {
+    "id": 51,
+    "question": "Which element groups related content within a page?",
+    "options": [
+      "`<group>`",
+      "`<section>`",
+      "`<area>`",
+      "`<content-group>`"
+    ],
+    "answer": "`<section>`"
+  },
+  {
+    "id": 52,
+    "question": "Which element creates a multi-line text field?",
+    "options": [
+      "`<multiline>`",
+      "`<textarea>`",
+      "`<input type=\"longtext\">`",
+      "`<text-area-field>`"
+    ],
+    "answer": "`<textarea>`"
+  },
+  {
+    "id": 53,
+    "question": "Which pseudo-class targets the first child of its parent?",
+    "options": [
+      "`:first`",
+      "`:first-child`",
+      "`:child-one`",
+      "`:initial-child`"
+    ],
+    "answer": "`:first-child`"
+  },
+  {
+    "id": 54,
+    "question": "Study the code below. Which property controls whether `.front` appears above `.back`?\n\n[css code]\n.front {\n  position: relative;\n  z-index: 2;\n}\n\n.back {\n  position: relative;\n  z-index: 1;\n}",
+    "options": [
+      "`stack`",
+      "`z-index`",
+      "`layer-order`",
+      "`depth`"
+    ],
+    "answer": "`z-index`"
+  },
+  {
+    "id": 55,
+    "question": "Which element is used to create a paragraph?",
+    "options": [
+      "`<para>`",
+      "`<p>`",
+      "`<text>`",
+      "`<paragraph>`"
+    ],
+    "answer": "`<p>`"
+  },
+  {
+    "id": 56,
+    "question": "Which input type is designed for email addresses?",
+    "options": [
+      "`mail`",
+      "`email`",
+      "`address`",
+      "`text-email`"
+    ],
+    "answer": "`email`"
+  },
+  {
+    "id": 57,
+    "question": "Which pseudo-class applies styles when the pointer is over an element?",
+    "options": [
+      "`:point`",
+      "`:hover`",
+      "`:mouse`",
+      "`:over`"
+    ],
+    "answer": "`:hover`"
+  },
+  {
+    "id": 58,
+    "question": "Which Flexbox property aligns items along the cross axis?",
+    "options": [
+      "`cross-align`",
+      "`align-items`",
+      "`justify-items`",
+      "`flex-align`"
+    ],
+    "answer": "`align-items`"
+  },
+  {
+    "id": 59,
+    "question": "Study the code below. Which element embeds the audio content?\n\n[html code]\n<audio controls>\n  <source src=\"podcast.mp3\" type=\"audio/mpeg\">\n</audio>",
+    "options": [
+      "`<sound>`",
+      "`<audio>`",
+      "`<music>`",
+      "`<voice>`"
+    ],
+    "answer": "`<audio>`"
+  },
+  {
+    "id": 60,
+    "question": "Which property adds space between flex or grid items?",
+    "options": [
+      "`spacing`",
+      "`gap`",
+      "`item-distance`",
+      "`layout-gap`"
+    ],
+    "answer": "`gap`"
+  },
+  {
+    "id": 61,
+    "question": "Which element defines the title shown in the browser tab?",
+    "options": [
+      "`<heading>`",
+      "`<caption>`",
+      "`<title>`",
+      "`<tab-title>`"
+    ],
+    "answer": "`<title>`"
+  },
+  {
+    "id": 62,
+    "question": "Study the code below. Which element creates the table row?\n\n[html code]\n<table>\n  <tr>\n    <td>HTML</td>\n    <td>Structure</td>\n  </tr>\n</table>",
+    "options": [
+      "`<td>`",
+      "`<tr>`",
+      "`<table>`",
+      "`<row>`"
+    ],
+    "answer": "`<tr>`"
+  },
+  {
+    "id": 63,
+    "question": "Which transform function rotates an element?",
+    "options": [
+      "`turn()`",
+      "`rotate()`",
+      "`spin()`",
+      "`angle()`"
+    ],
+    "answer": "`rotate()`"
+  },
+  {
+    "id": 64,
+    "question": "Which attribute opens a link in a new browsing context?",
+    "options": [
+      "`new=\"true\"`",
+      "`target=\"_blank\"`",
+      "`window=\"new\"`",
+      "`open=\"new\"`"
+    ],
+    "answer": "`target=\"_blank\"`"
+  },
+  {
+    "id": 65,
+    "question": "What is the purpose of the `alt` attribute on an image?",
+    "options": [
+      "To change image colors",
+      "To provide alternative text",
+      "To set the image location",
+      "To animate the image"
+    ],
+    "answer": "To provide alternative text"
+  },
+  {
+    "id": 66,
+    "question": "Study the code below. Which part defines the stages of the animation?\n\n[css code]\n@keyframes fadeIn {\n  from { opacity: 0; }\n  to { opacity: 1; }\n}",
+    "options": [
+      "`@animation`",
+      "`fadeIn`",
+      "`@keyframes`",
+      "`opacity`"
+    ],
+    "answer": "`@keyframes`"
+  },
+  {
+    "id": 67,
+    "question": "Which property sets the height of an element\u2019s content area?",
+    "options": [
+      "`height`",
+      "`element-height`",
+      "`content-height`",
+      "`size-height`"
+    ],
+    "answer": "`height`"
+  },
+  {
+    "id": 68,
+    "question": "Which property controls how many times an animation repeats?",
+    "options": [
+      "`animation-repeat`",
+      "`animation-count`",
+      "`animation-iteration-count`",
+      "`repeat-animation`"
+    ],
+    "answer": "`animation-iteration-count`"
+  },
+  {
+    "id": 69,
+    "question": "Which property controls whether an element is block, inline, flex, or another display type?",
+    "options": [
+      "`position`",
+      "`display`",
+      "`layout`",
+      "`visibility`"
+    ],
+    "answer": "`display`"
+  },
+  {
+    "id": 70,
+    "question": "What does CSS stand for?",
+    "options": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Styling System",
+      "Colorful Style Syntax"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "id": 71,
+    "question": "Study the code below. Which property makes the animation last 2 seconds for one cycle?\n\n[css code]\n.box {\n  animation-name: slide;\n  animation-duration: 2s;\n}",
+    "options": [
+      "`animation-speed`",
+      "`animation-duration`",
+      "`animation-time`",
+      "`cycle-length`"
+    ],
+    "answer": "`animation-duration`"
+  },
+  {
+    "id": 72,
+    "question": "Which input type hides the characters entered by a user?",
+    "options": [
+      "`private`",
+      "`hidden-text`",
+      "`password`",
+      "`secure`"
+    ],
+    "answer": "`password`"
+  },
+  {
+    "id": 73,
+    "question": "Which semantic element typically contains navigation links?",
+    "options": [
+      "`<links>`",
+      "`<navigation>`",
+      "`<nav>`",
+      "`<menu-links>`"
+    ],
+    "answer": "`<nav>`"
+  },
+  {
+    "id": 74,
+    "question": "Which element embeds video content?",
+    "options": [
+      "`<movie>`",
+      "`<media-video>`",
+      "`<video>`",
+      "`<film>`"
+    ],
+    "answer": "`<video>`"
+  },
+  {
+    "id": 75,
+    "question": "Study the code below. Which text will act as the clickable hyperlink?\n\n[html code]\n<a href=\"https://example.com\">Visit Example</a>",
+    "options": [
+      "`href=\"https://example.com\"`",
+      "`Visit Example`",
+      "`<a>`",
+      "`https://example.com`"
+    ],
+    "answer": "`Visit Example`"
+  },
+  {
+    "id": 76,
+    "question": "Which element creates a clickable button?",
+    "options": [
+      "`<click>`",
+      "`<button>`",
+      "`<press>`",
+      "`<input type=\"click\">`"
+    ],
+    "answer": "`<button>`"
+  },
+  {
+    "id": 77,
+    "question": "Study the code below. Which element inserts the image into the webpage?\n\n[html code]\n&lt;img src=\"photo.jpg\" alt=\"A mountain landscape\"&gt;",
+    "options": [
+      "`<picture>`",
+      "`<image>`",
+      "`<img>`",
+      "`<src>`"
+    ],
+    "answer": "`<img>`"
+  },
+  {
+    "id": 78,
+    "question": "Study the code below. Which property centers the flex items along the horizontal main axis?\n\n[css code]\n.container {\n  display: flex;\n  justify-content: center;\n}",
+    "options": [
+      "`align-items`",
+      "`justify-content`",
+      "`text-align`",
+      "`horizontal-content`"
+    ],
+    "answer": "`justify-content`"
+  },
+  {
+    "id": 79,
+    "question": "Study the code below. What is its purpose?\n\n[html code]\n<head>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>",
+    "options": [
+      "It adds JavaScript to the page",
+      "It displays `styles.css` as text",
+      "It links an external CSS file to the HTML document",
+      "It creates a heading named `styles.css`"
+    ],
+    "answer": "It links an external CSS file to the HTML document"
+  },
+  {
+    "id": 80,
+    "question": "Study the code below. What happens if the user submits the form without entering an email address?\n\n[html code]\n<form>\n  <input type=\"email\" required>\n  <button type=\"submit\">Send</button>\n</form>",
+    "options": [
+      "The form is submitted with an empty value",
+      "The input changes into a password field",
+      "The browser asks the user to complete the field",
+      "The button is automatically hidden"
+    ],
+    "answer": "The browser asks the user to complete the field"
+  },
+  {
+    "id": 81,
+    "question": "Which element creates an ordered list?",
+    "options": [
+      "`<ol>`",
+      "`<ul>`",
+      "`<order>`",
+      "`<list type=\"number\">`"
+    ],
+    "answer": "`<ol>`"
+  },
+  {
+    "id": 82,
+    "question": "Which CSS property adds a line under text?",
+    "options": [
+      "`text-decoration`",
+      "`font-line`",
+      "`underline`",
+      "`text-border`"
+    ],
+    "answer": "`text-decoration`"
+  },
+  {
+    "id": 83,
+    "question": "Which element defines an option inside a drop-down list?",
+    "options": [
+      "`<choice>`",
+      "`<item>`",
+      "`<option>`",
+      "`<select-item>`"
+    ],
+    "answer": "`<option>`"
+  },
+  {
+    "id": 84,
+    "question": "Which CSS property controls the transparency of an element?",
+    "options": [
+      "`transparency`",
+      "`opacity`",
+      "`alpha`",
+      "`visibility-level`"
+    ],
+    "answer": "`opacity`"
+  },
+  {
+    "id": 85,
+    "question": "Which element represents an item in a list?",
+    "options": [
+      "`<item>`",
+      "`<li>`",
+      "`<list-item>`",
+      "`<point>`"
+    ],
+    "answer": "`<li>`"
+  },
+  {
+    "id": 86,
+    "question": "Which semantic element represents the main content of a page?",
+    "options": [
+      "`<content>`",
+      "`<main>`",
+      "`<primary>`",
+      "`<body-main>`"
+    ],
+    "answer": "`<main>`"
+  },
+  {
+    "id": 87,
+    "question": "Which element typically contains introductory content or navigation for a page or section?",
+    "options": [
+      "`<header>`",
+      "`<top>`",
+      "`<intro>`",
+      "`<banner>`"
+    ],
+    "answer": "`<header>`"
+  },
+  {
+    "id": 88,
+    "question": "Which attribute specifies the destination of a hyperlink?",
+    "options": [
+      "`src`",
+      "`link`",
+      "`href`",
+      "`target`"
+    ],
+    "answer": "`href`"
+  },
+  {
+    "id": 89,
+    "question": "Study the code below. Which selector targets the element with the ID `menu`?\n\n[html code]\n<nav id=\"menu\">Main menu</nav>\n\n[css code]\n/* Choose the correct selector. */",
+    "options": [
+      "`.menu`",
+      "`#menu`",
+      "`@menu`",
+      "`*menu`"
+    ],
+    "answer": "`#menu`"
+  },
+  {
+    "id": 90,
+    "question": "Which CSS property controls how overflowing content is handled?",
+    "options": [
+      "`content-flow`",
+      "`overflow`",
+      "`overlap`",
+      "`content-display`"
+    ],
+    "answer": "`overflow`"
+  },
+  {
+    "id": 91,
+    "question": "Study the code below. What will happen when the button\u2019s background color changes?\n\n[css code]\nbutton {\n  background-color: blue;\n  transition: background-color 0.5s;\n}\n\nbutton:hover {\n  background-color: green;\n}",
+    "options": [
+      "The background color changes smoothly over 0.5 seconds",
+      "The button becomes permanently invisible",
+      "The text changes color over 5 seconds",
+      "The button moves 0.5 pixels"
+    ],
+    "answer": "The background color changes smoothly over 0.5 seconds"
+  },
+  {
+    "id": 92,
+    "question": "Which pseudo-element inserts generated content before an element\u2019s content?",
+    "options": [
+      "`::first`",
+      "`::before`",
+      "`::prepend`",
+      "`::start`"
+    ],
+    "answer": "`::before`"
+  },
+  {
+    "id": 93,
+    "question": "Which element is used to create a form?",
+    "options": [
+      "`<input>`",
+      "`<form>`",
+      "`<fieldset-form>`",
+      "`<user-form>`"
+    ],
+    "answer": "`<form>`"
+  },
+  {
+    "id": 94,
+    "question": "Which element typically contains information such as copyright or contact details?",
+    "options": [
+      "`<bottom>`",
+      "`<footer>`",
+      "`<end>`",
+      "`<copyright>`"
+    ],
+    "answer": "`<footer>`"
+  },
+  {
+    "id": 95,
+    "question": "Which CSS property changes the background color?",
+    "options": [
+      "`color-background`",
+      "`background-color`",
+      "`bg-color`",
+      "`background-style`"
+    ],
+    "answer": "`background-color`"
+  },
+  {
+    "id": 96,
+    "question": "Which HTML element is used to display a drawing surface controlled by JavaScript?",
+    "options": [
+      "`<draw>`",
+      "`<canvas>`",
+      "`<graphics>`",
+      "`<paint>`"
+    ],
+    "answer": "`<canvas>`"
+  },
+  {
+    "id": 97,
+    "question": "Which `position` value removes an element from normal flow and positions it relative to a containing block?",
+    "options": [
+      "`absolute`",
+      "`relative`",
+      "`static`",
+      "`flow-free`"
+    ],
+    "answer": "`absolute`"
+  },
+  {
+    "id": 98,
+    "question": "Which element creates a drop-down list?",
+    "options": [
+      "`<dropdown>`",
+      "`<select>`",
+      "`<option-list>`",
+      "`<choice>`"
+    ],
+    "answer": "`<select>`"
+  },
+  {
+    "id": 99,
+    "question": "What does the universal selector `*` select?",
+    "options": [
+      "Only paragraphs",
+      "Only IDs",
+      "All elements",
+      "The first element"
+    ],
+    "answer": "All elements"
+  },
+  {
+    "id": 100,
+    "question": "Which property controls the space outside an element\u2019s border?",
+    "options": [
+      "`padding`",
+      "`margin`",
+      "`outer-space`",
+      "`border-gap`"
+    ],
+    "answer": "`margin`"
+  }
+]

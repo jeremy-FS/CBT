@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Results • {{ username }}</title>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='jem_ico.ico') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4a00e0;
+      --primary-dark: #3a00b8;
+      --success: #28a745;
+      --warning: #ffc107;
+      --light: #f8f9ff;
+      --gray: #6c757d;
+      --border: #e0e0ff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f0f2f5, #e4e8ff);
+      color: #333;
+      line-height: 1.6;
+      padding: 16px;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+    }
+
+    header {
+      background: linear-gradient(135deg, #4a00e0, #8e2de2);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    header p { font-size: 1.1rem; opacity: 0.95; }
+
+    .btn-group {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    .btn {
+      padding: 14px 28px;
+      border: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-primary {
+      background: white;
+      color: var(--primary);
+    }
+    .btn-secondary {
+      background: rgba(255,255,255,0.2);
+      color: white;
+      border: 2px solid rgba(255,255,255,0.3);
+    }
+    .btn:hover { transform: translateY(-4px); box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+
+    /* Stats Grid */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 30px 20px;
+      background: var(--light);
+    }
+    .stat-card {
+      background: white;
+      padding: 24px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+    }
+    .stat-value {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .stat-label {
+      color: #666;
+      font-size: 1.1rem;
+      margin-top: 8px;
+      font-weight: 500;
+    }
+
+    /* Attempt History Section */
+    .history-section {
+      padding: 30px 20px;
+    }
+    .history-title {
+      text-align: center;
+      color: var(--primary);
+      font-size: 1.8rem;
+      margin-bottom: 24px;
+      font-weight: 700;
+    }
+
+    /* Desktop Table */
+    .attempts-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 1rem;
+    }
+    .attempts-table th {
+      background: var(--primary);
+      color: white;
+      padding: 16px;
+      text-align: center;
+      font-weight: 600;
+    }
+    .attempts-table td {
+      padding: 16px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+    .attempts-table tr:hover {
+      background: #f8f8ff;
+    }
+    .attempts-table a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .attempts-table a:hover {
+      text-decoration: underline;
+    }
+
+    /* Mobile Cards (Hidden on Large Screens) */
+    .attempt-card {
+      display: none;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+    .card-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px dashed #eee;
+    }
+    .card-row:last-child { border-bottom: none; }
+    .card-label {
+      font-weight: 600;
+      color: #555;
+    }
+    .card-value {
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .card-actions {
+      margin-top: 12px;
+      text-align: center;
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.8rem; }
+      .stats { grid-template-columns: 1fr 1fr; padding: 20px; }
+      .stat-value { font-size: 2.4rem; }
+      .attempts-table { display: none; }
+      .attempt-card { display: block; }
+      .history-title { font-size: 1.6rem; }
+    }
+
+    @media (max-width: 480px) {
+      body { padding: 8px; }
+      .stats { grid-template-columns: 1fr; }
+      header { padding: 30px 16px; }
+      .btn { padding: 12px 20px; font-size: 0.95rem; }
+      .btn-group { flex-direction: column; align-items: center; }
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #888;
+      font-size: 0.95rem;
+      background: #f8f9ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Welcome Back, {{ username }}!</h1>
+      <p>Your Personal Performance Dashboard</p>
+      <div class="btn-group">
+        <form action="/start_quiz" method="POST" style="display:inline;">
+          <input type="hidden" name="username" value="{{ username }}">
+          <button type="submit" class="btn btn-primary">Take Quiz</button>
+        </form>
+        <a href="/" class="btn btn-secondary">Back to Home</a>
+      </div>
+    </header>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-value">{{ first_score }}/50</div>
+        <div class="stat-label">First Score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">{{ best_score }}/50</div>
+        <div class="stat-label">Best Score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">{{ total_attempts }}</div>
+        <div class="stat-label">Total Attempts</div>
+      </div>
+    </div>
+
+    <!-- Attempt History -->
+    <div class="history-section">
+      <h2 class="history-title">Your Attempt History</h2>
+
+      <!-- Desktop Table -->
+      <table class="attempts-table">
+        <thead>
+          <tr>
+            <th>Date & Time</th>
+            <th>Score</th>
+            <th>Percentage</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for attempt in attempts %}
+          <tr>
+            <td>{{ attempt.date.strftime('%d %b %Y • %I:%M %p') }}</td>
+            <td><strong>{{ attempt.score }}/50</strong></td>
+            <td>{{ '%.1f' % ((attempt.score / 50) * 100) }}%</td>
+            <td>
+              {% if ((attempt.score / 50) * 100) >= 50 %}
+                <span style="color:var(--success); font-weight:600;">Passed</span>
+              {% else %}
+                <span style="color:#ff4444; font-weight:600;">Failed</span>
+              {% endif %}
+            </td>
+            <td>
+              <a href="/monitor_answers/{{ username }}/{{ attempt.id }}">View Answers</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <!-- Mobile Cards -->
+      {% for attempt in attempts %}
+      <div class="attempt-card">
+        <div class="card-row">
+          <span class="card-label">Date & Time</span>
+          <span class="card-value">{{ attempt.date.strftime('%d %b %Y • %I:%M %p') }}</span>
+        </div>
+        <div class="card-row">
+          <span class="card-label">Score</span>
+          <span class="card-value">{{ attempt.score }}/50</span>
+        </div>
+        <div class="card-row">
+          <span class="card-label">Percentage</span>
+          <span class="card-value">{{ '%.1f' % ((attempt.score / 50) * 100) }}%</span>
+        </div>
+        <div class="card-row">
+          <span class="card-label">Status</span>
+          <span class="card-value">
+            {{ 'Passed' if ((attempt.score / 50) * 100) >= 50 else 'Failed' }}
+          </span>
+        </div>
+        <div class="card-actions">
+          <a href="/monitor_answers/{{ username }}/{{ attempt.id }}" style="color:var(--primary); font-weight:600;">
+            View Detailed Answers
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Repeat Buttons at Bottom -->
+    <div style="text-align:center; padding:30px 20px; background:#f8f9ff;">
+      <div class="btn-group">
+        <form action="/start_quiz" method="POST" style="display:inline;">
+          <input type="hidden" name="username" value="{{ username }}">
+          <button type="submit" class="btn btn-primary" style="background-color: #3a00b8; color: #e0e0ff;">Take Quiz</button>
+        </form>
+        <a href="/" class="btn btn-secondary" style="background-color: #8e2de2;">Back to Home</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      NHub CBT Platform • Built with excellence by <strong>@Cyber_Jem</strong><br>
+      Privacy-First • Secure • Professional • Made in Nigeria
+    </div>
+  </div>
+</body>
+</html>

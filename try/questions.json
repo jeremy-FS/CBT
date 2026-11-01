@@ -1,0 +1,17 @@
+[
+    {
+      "question": "What is the value of 1 &#8358; ₦ (Naira)?",
+      "answer": "Varies",
+      "options": ["A", "B", "C", "D"]
+    },
+    {
+      "question": "The order is 1st, 2nd, 3rd.",
+      "answer": "Correct",
+      "options": ["True", "False"]
+    },
+    {
+      "question": "What's the meaning of Umaru Yar’Adua 'symbole'?",
+      "answer": "Symbol",
+      "options": ["A", "B"]
+    }
+  ]
